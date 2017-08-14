@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/134/trunk/isgl3d/actions
+END
+Isgl3dActionRepeat.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/130/trunk/isgl3d/actions/Isgl3dActionRepeat.m
+END
+Isgl3dActionTween.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/130/trunk/isgl3d/actions/Isgl3dActionTween.m
+END
+Isgl3dActionScale.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/130/trunk/isgl3d/actions/Isgl3dActionScale.h
+END
+Isgl3dActionInterval.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/130/trunk/isgl3d/actions/Isgl3dActionInterval.m
+END
+Isgl3dActionScale.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/128/trunk/isgl3d/actions/Isgl3dActionScale.m
+END
+Isgl3dActionParallel.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/130/trunk/isgl3d/actions/Isgl3dActionParallel.h
+END
+Isgl3dActionParallel.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/130/trunk/isgl3d/actions/Isgl3dActionParallel.m
+END
+Isgl3dActionFixedDuration.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/126/trunk/isgl3d/actions/Isgl3dActionFixedDuration.h
+END
+Isgl3dActionFixedDuration.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/126/trunk/isgl3d/actions/Isgl3dActionFixedDuration.m
+END
+Isgl3dActionManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/126/trunk/isgl3d/actions/Isgl3dActionManager.h
+END
+Isgl3dActionManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/126/trunk/isgl3d/actions/Isgl3dActionManager.m
+END
+Isgl3dActionInstant.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/126/trunk/isgl3d/actions/Isgl3dActionInstant.h
+END
+Isgl3dActionAlpha.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/130/trunk/isgl3d/actions/Isgl3dActionAlpha.h
+END
+Isgl3dActionInstant.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/126/trunk/isgl3d/actions/Isgl3dActionInstant.m
+END
+Isgl3dActionCallFunc.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/130/trunk/isgl3d/actions/Isgl3dActionCallFunc.h
+END
+Isgl3dActionAlpha.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/128/trunk/isgl3d/actions/Isgl3dActionAlpha.m
+END
+Isgl3dActionCallFunc.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/128/trunk/isgl3d/actions/Isgl3dActionCallFunc.m
+END
+Isgl3dActionDelay.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/130/trunk/isgl3d/actions/Isgl3dActionDelay.h
+END
+Isgl3dActionRotate.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/130/trunk/isgl3d/actions/Isgl3dActionRotate.h
+END
+Isgl3dActionDelay.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/128/trunk/isgl3d/actions/Isgl3dActionDelay.m
+END
+Isgl3dActionRotate.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/128/trunk/isgl3d/actions/Isgl3dActionRotate.m
+END
+Isgl3dActionMove.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/134/trunk/isgl3d/actions/Isgl3dActionMove.h
+END
+Isgl3dActionSequence.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/130/trunk/isgl3d/actions/Isgl3dActionSequence.h
+END
+Isgl3dActionMove.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/128/trunk/isgl3d/actions/Isgl3dActionMove.m
+END
+Isgl3dActionSequence.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/130/trunk/isgl3d/actions/Isgl3dActionSequence.m
+END
+Isgl3dActionEase.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/130/trunk/isgl3d/actions/Isgl3dActionEase.h
+END
+Isgl3dAction.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/130/trunk/isgl3d/actions/Isgl3dAction.h
+END
+Isgl3dActionRepeat.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/130/trunk/isgl3d/actions/Isgl3dActionRepeat.h
+END
+Isgl3dActionTween.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/130/trunk/isgl3d/actions/Isgl3dActionTween.h
+END
+Isgl3dActionEase.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/130/trunk/isgl3d/actions/Isgl3dActionEase.m
+END
+Isgl3dActionInterval.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/130/trunk/isgl3d/actions/Isgl3dActionInterval.h
+END
+Isgl3dAction.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/130/trunk/isgl3d/actions/Isgl3dAction.m
+END

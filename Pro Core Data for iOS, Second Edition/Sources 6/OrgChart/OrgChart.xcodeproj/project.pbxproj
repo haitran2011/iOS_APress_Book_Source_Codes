@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C78AC53E13E4CBF500EFA872 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78AC53D13E4CBF500EFA872 /* UIKit.framework */; };
+		C78AC54013E4CBF500EFA872 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78AC53F13E4CBF500EFA872 /* Foundation.framework */; };
+		C78AC54213E4CBF500EFA872 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78AC54113E4CBF500EFA872 /* CoreGraphics.framework */; };
+		C78AC54813E4CBF500EFA872 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C78AC54613E4CBF500EFA872 /* InfoPlist.strings */; };
+		C78AC54A13E4CBF500EFA872 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C78AC54913E4CBF500EFA872 /* main.m */; };
+		C78AC54E13E4CBF500EFA872 /* OrgChartAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C78AC54D13E4CBF500EFA872 /* OrgChartAppDelegate.m */; };
+		C78AC55113E4CBF500EFA872 /* OrgChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C78AC55013E4CBF500EFA872 /* OrgChartViewController.m */; };
+		C78AC55413E4CBF500EFA872 /* OrgChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C78AC55213E4CBF500EFA872 /* OrgChartViewController.xib */; };
+		C78AC55B13E4CD9200EFA872 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78AC55A13E4CD9200EFA872 /* CoreData.framework */; };
+		C78AC55E13E4CFB400EFA872 /* OrgChart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C78AC55C13E4CFB400EFA872 /* OrgChart.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C78AC53913E4CBF500EFA872 /* OrgChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrgChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78AC53D13E4CBF500EFA872 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C78AC53F13E4CBF500EFA872 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C78AC54113E4CBF500EFA872 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C78AC54513E4CBF500EFA872 /* OrgChart-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OrgChart-Info.plist"; sourceTree = "<group>"; };
+		C78AC54713E4CBF500EFA872 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C78AC54913E4CBF500EFA872 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C78AC54B13E4CBF500EFA872 /* OrgChart-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OrgChart-Prefix.pch"; sourceTree = "<group>"; };
+		C78AC54C13E4CBF500EFA872 /* OrgChartAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrgChartAppDelegate.h; sourceTree = "<group>"; };
+		C78AC54D13E4CBF500EFA872 /* OrgChartAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrgChartAppDelegate.m; sourceTree = "<group>"; };
+		C78AC54F13E4CBF500EFA872 /* OrgChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrgChartViewController.h; sourceTree = "<group>"; };
+		C78AC55013E4CBF500EFA872 /* OrgChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrgChartViewController.m; sourceTree = "<group>"; };
+		C78AC55313E4CBF500EFA872 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OrgChartViewController.xib; sourceTree = "<group>"; };
+		C78AC55A13E4CD9200EFA872 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C78AC55D13E4CFB400EFA872 /* OrgChart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OrgChart.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C78AC53613E4CBF500EFA872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78AC55B13E4CD9200EFA872 /* CoreData.framework in Frameworks */,
+				C78AC53E13E4CBF500EFA872 /* UIKit.framework in Frameworks */,
+				C78AC54013E4CBF500EFA872 /* Foundation.framework in Frameworks */,
+				C78AC54213E4CBF500EFA872 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C78AC52E13E4CBF500EFA872 = {
+			isa = PBXGroup;
+			children = (
+				C78AC55A13E4CD9200EFA872 /* CoreData.framework */,
+				C78AC54313E4CBF500EFA872 /* OrgChart */,
+				C78AC53C13E4CBF500EFA872 /* Frameworks */,
+				C78AC53A13E4CBF500EFA872 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C78AC53A13E4CBF500EFA872 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C78AC53913E4CBF500EFA872 /* OrgChart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C78AC53C13E4CBF500EFA872 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C78AC53D13E4CBF500EFA872 /* UIKit.framework */,
+				C78AC53F13E4CBF500EFA872 /* Foundation.framework */,
+				C78AC54113E4CBF500EFA872 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C78AC54313E4CBF500EFA872 /* OrgChart */ = {
+			isa = PBXGroup;
+			children = (
+				C78AC54C13E4CBF500EFA872 /* OrgChartAppDelegate.h */,
+				C78AC54D13E4CBF500EFA872 /* OrgChartAppDelegate.m */,
+				C78AC54F13E4CBF500EFA872 /* OrgChartViewController.h */,
+				C78AC55013E4CBF500EFA872 /* OrgChartViewController.m */,
+				C78AC55213E4CBF500EFA872 /* OrgChartViewController.xib */,
+				C78AC55C13E4CFB400EFA872 /* OrgChart.xcdatamodeld */,
+				C78AC54413E4CBF500EFA872 /* Supporting Files */,
+			);
+			path = OrgChart;
+			sourceTree = "<group>";
+		};
+		C78AC54413E4CBF500EFA872 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C78AC54513E4CBF500EFA872 /* OrgChart-Info.plist */,
+				C78AC54613E4CBF500EFA872 /* InfoPlist.strings */,
+				C78AC54913E4CBF500EFA872 /* main.m */,
+				C78AC54B13E4CBF500EFA872 /* OrgChart-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C78AC53813E4CBF500EFA872 /* OrgChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C78AC55713E4CBF500EFA872 /* Build configuration list for PBXNativeTarget "OrgChart" */;
+			buildPhases = (
+				C78AC53513E4CBF500EFA872 /* Sources */,
+				C78AC53613E4CBF500EFA872 /* Frameworks */,
+				C78AC53713E4CBF500EFA872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrgChart;
+			productName = OrgChart;
+			productReference = C78AC53913E4CBF500EFA872 /* OrgChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C78AC53013E4CBF500EFA872 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Grailbox;
+			};
+			buildConfigurationList = C78AC53313E4CBF500EFA872 /* Build configuration list for PBXProject "OrgChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C78AC52E13E4CBF500EFA872;
+			productRefGroup = C78AC53A13E4CBF500EFA872 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C78AC53813E4CBF500EFA872 /* OrgChart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C78AC53713E4CBF500EFA872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78AC54813E4CBF500EFA872 /* InfoPlist.strings in Resources */,
+				C78AC55413E4CBF500EFA872 /* OrgChartViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C78AC53513E4CBF500EFA872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78AC54A13E4CBF500EFA872 /* main.m in Sources */,
+				C78AC54E13E4CBF500EFA872 /* OrgChartAppDelegate.m in Sources */,
+				C78AC55113E4CBF500EFA872 /* OrgChartViewController.m in Sources */,
+				C78AC55E13E4CFB400EFA872 /* OrgChart.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C78AC54613E4CBF500EFA872 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C78AC54713E4CBF500EFA872 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C78AC55213E4CBF500EFA872 /* OrgChartViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C78AC55313E4CBF500EFA872 /* en */,
+			);
+			name = OrgChartViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C78AC55513E4CBF500EFA872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C78AC55613E4CBF500EFA872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C78AC55813E4CBF500EFA872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OrgChart/OrgChart-Prefix.pch";
+				INFOPLIST_FILE = "OrgChart/OrgChart-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C78AC55913E4CBF500EFA872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OrgChart/OrgChart-Prefix.pch";
+				INFOPLIST_FILE = "OrgChart/OrgChart-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C78AC53313E4CBF500EFA872 /* Build configuration list for PBXProject "OrgChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78AC55513E4CBF500EFA872 /* Debug */,
+				C78AC55613E4CBF500EFA872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C78AC55713E4CBF500EFA872 /* Build configuration list for PBXNativeTarget "OrgChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78AC55813E4CBF500EFA872 /* Debug */,
+				C78AC55913E4CBF500EFA872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C78AC55C13E4CFB400EFA872 /* OrgChart.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C78AC55D13E4CFB400EFA872 /* OrgChart.xcdatamodel */,
+			);
+			currentVersion = C78AC55D13E4CFB400EFA872 /* OrgChart.xcdatamodel */;
+			path = OrgChart.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C78AC53013E4CBF500EFA872 /* Project object */;
+}

@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* WebsitesAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1232}}";
+			sepNavSelRange = "{165, 0}";
+			sepNavVisRange = "{660, 1313}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Websites */ = {
+		activeExec = 0;
+		executables = (
+			C7B91F19121628AE00D026F9 /* Websites */,
+		);
+	};
+	28042007108E984D000629CD /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1102, 745}}";
+			sepNavSelRange = "{344, 0}";
+			sepNavVisRange = "{0, 434}";
+		};
+	};
+	28042008108E984D000629CD /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1336, 3872}}";
+			sepNavSelRange = "{4746, 0}";
+			sepNavVisRange = "{4622, 183}";
+		};
+	};
+	28042009108E984D000629CD /* DetailViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1102, 745}}";
+			sepNavSelRange = "{650, 0}";
+			sepNavVisRange = "{0, 676}";
+		};
+	};
+	2804200A108E984D000629CD /* DetailViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1510, 2464}}";
+			sepNavSelRange = "{1911, 0}";
+			sepNavVisRange = "{3002, 859}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = C7B91F19121628AE00D026F9 /* Websites */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Websites */;
+		codeSenseManager = C7B91F2D121628BD00D026F9 /* Code sense */;
+		executables = (
+			C7B91F19121628AE00D026F9 /* Websites */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 322640329;
+			PBXWorkspaceStateSaveDate = 322640329;
+		};
+		perUserProjectItems = {
+			C70B7981133B1BA800506B61 /* PBXTextBookmark */ = C70B7981133B1BA800506B61 /* PBXTextBookmark */;
+			C70B7989133B1C8300506B61 /* PBXTextBookmark */ = C70B7989133B1C8300506B61 /* PBXTextBookmark */;
+			C70B798A133B1C8300506B61 /* PBXTextBookmark */ = C70B798A133B1C8300506B61 /* PBXTextBookmark */;
+			C70B798B133B1C8300506B61 /* PBXTextBookmark */ = C70B798B133B1C8300506B61 /* PBXTextBookmark */;
+			C70B798C133B1C8300506B61 /* PBXTextBookmark */ = C70B798C133B1C8300506B61 /* PBXTextBookmark */;
+			C70B798F133B1C8800506B61 /* PBXTextBookmark */ = C70B798F133B1C8800506B61 /* PBXTextBookmark */;
+			C7B91F6712164F9B00D026F9 /* PBXTextBookmark */ = C7B91F6712164F9B00D026F9 /* PBXTextBookmark */;
+		};
+		sourceControlManager = C7B91F2C121628BD00D026F9 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	C70B7981133B1BA800506B61 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28042007108E984D000629CD /* RootViewController.h */;
+		name = "RootViewController.h: 17";
+		rLen = 0;
+		rLoc = 344;
+		rType = 0;
+		vrLen = 434;
+		vrLoc = 0;
+	};
+	C70B7989133B1C8300506B61 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28042008108E984D000629CD /* RootViewController.m */;
+		name = "RootViewController.m: 187";
+		rLen = 0;
+		rLoc = 4746;
+		rType = 0;
+		vrLen = 1089;
+		vrLoc = 696;
+	};
+	C70B798A133B1C8300506B61 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* WebsitesAppDelegate.m */;
+		name = "WebsitesAppDelegate.m: 10";
+		rLen = 0;
+		rLoc = 165;
+		rType = 0;
+		vrLen = 1313;
+		vrLoc = 660;
+	};
+	C70B798B133B1C8300506B61 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28042009108E984D000629CD /* DetailViewController.h */;
+		name = "DetailViewController.h: 27";
+		rLen = 0;
+		rLoc = 650;
+		rType = 0;
+		vrLen = 676;
+		vrLoc = 0;
+	};
+	C70B798C133B1C8300506B61 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2804200A108E984D000629CD /* DetailViewController.m */;
+		name = "DetailViewController.m: 32";
+		rLen = 0;
+		rLoc = 772;
+		rType = 0;
+		vrLen = 1389;
+		vrLoc = 333;
+	};
+	C70B798F133B1C8800506B61 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2804200A108E984D000629CD /* DetailViewController.m */;
+		name = "DetailViewController.m: 68";
+		rLen = 0;
+		rLoc = 1911;
+		rType = 0;
+		vrLen = 859;
+		vrLoc = 3002;
+	};
+	C7B91F19121628AE00D026F9 /* Websites */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Websites;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	C7B91F2C121628BD00D026F9 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	C7B91F2D121628BD00D026F9 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C7B91F6712164F9B00D026F9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C7B91F6812164F9B00D026F9 /* UIWebView.h */;
+		name = "UIWebView.h: 33";
+		rLen = 45;
+		rLoc = 785;
+		rType = 0;
+		vrLen = 1361;
+		vrLoc = 0;
+	};
+	C7B91F6812164F9B00D026F9 /* UIWebView.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIWebView.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWebView.h;
+		sourceTree = "<absolute>";
+	};
+}

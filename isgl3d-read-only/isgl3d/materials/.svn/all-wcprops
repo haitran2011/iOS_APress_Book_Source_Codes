@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/123/trunk/isgl3d/materials
+END
+Isgl3dMaterial.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/123/trunk/isgl3d/materials/Isgl3dMaterial.m
+END
+Isgl3dTextureMaterial.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/123/trunk/isgl3d/materials/Isgl3dTextureMaterial.m
+END
+Isgl3dShaderMaterial.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/123/trunk/isgl3d/materials/Isgl3dShaderMaterial.h
+END
+Isgl3dAnimatedTextureMaterial.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/123/trunk/isgl3d/materials/Isgl3dAnimatedTextureMaterial.m
+END
+Isgl3dShaderMaterial.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/123/trunk/isgl3d/materials/Isgl3dShaderMaterial.m
+END
+Isgl3dColorMaterial.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/58/trunk/isgl3d/materials/Isgl3dColorMaterial.h
+END
+Isgl3dMaterial.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/123/trunk/isgl3d/materials/Isgl3dMaterial.h
+END
+Isgl3dTextureMaterial.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/123/trunk/isgl3d/materials/Isgl3dTextureMaterial.h
+END
+Isgl3dAnimatedTextureMaterial.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/58/trunk/isgl3d/materials/Isgl3dAnimatedTextureMaterial.h
+END
+Isgl3dColorMaterial.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/123/trunk/isgl3d/materials/Isgl3dColorMaterial.m
+END

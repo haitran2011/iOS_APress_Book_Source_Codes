@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/124/trunk/isgl3d/renderers/v1.1
+END
+Isgl3dGLRenderer1.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/121/trunk/isgl3d/renderers/v1.1/Isgl3dGLRenderer1.h
+END
+Isgl3dGLRenderer1State.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/30/trunk/isgl3d/renderers/v1.1/Isgl3dGLRenderer1State.h
+END
+Isgl3dGLRenderer1.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/124/trunk/isgl3d/renderers/v1.1/Isgl3dGLRenderer1.m
+END
+Isgl3dGLRenderer1State.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/42/trunk/isgl3d/renderers/v1.1/Isgl3dGLRenderer1State.m
+END

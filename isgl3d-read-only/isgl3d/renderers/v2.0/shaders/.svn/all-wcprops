@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/134/trunk/isgl3d/renderers/v2.0/shaders
+END
+Isgl3dCaptureShader.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/123/trunk/isgl3d/renderers/v2.0/shaders/Isgl3dCaptureShader.h
+END
+Isgl3dParticleShader.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/123/trunk/isgl3d/renderers/v2.0/shaders/Isgl3dParticleShader.h
+END
+Isgl3dGLProgram.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/123/trunk/isgl3d/renderers/v2.0/shaders/Isgl3dGLProgram.h
+END
+Isgl3dParticleShader.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/124/trunk/isgl3d/renderers/v2.0/shaders/Isgl3dParticleShader.m
+END
+Isgl3dGLProgram.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/122/trunk/isgl3d/renderers/v2.0/shaders/Isgl3dGLProgram.m
+END
+Isgl3dCaptureShader.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/121/trunk/isgl3d/renderers/v2.0/shaders/Isgl3dCaptureShader.m
+END
+Isgl3dCustomShader.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/124/trunk/isgl3d/renderers/v2.0/shaders/Isgl3dCustomShader.h
+END
+Isgl3dGenericShader.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/123/trunk/isgl3d/renderers/v2.0/shaders/Isgl3dGenericShader.h
+END
+Isgl3dInternalShader.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/123/trunk/isgl3d/renderers/v2.0/shaders/Isgl3dInternalShader.h
+END
+Isgl3dCustomShader.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/124/trunk/isgl3d/renderers/v2.0/shaders/Isgl3dCustomShader.m
+END
+Isgl3dShader.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/134/trunk/isgl3d/renderers/v2.0/shaders/Isgl3dShader.h
+END
+Isgl3dShaderState.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/30/trunk/isgl3d/renderers/v2.0/shaders/Isgl3dShaderState.h
+END
+Isgl3dGenericShader.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/124/trunk/isgl3d/renderers/v2.0/shaders/Isgl3dGenericShader.m
+END
+Isgl3dInternalShader.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/123/trunk/isgl3d/renderers/v2.0/shaders/Isgl3dInternalShader.m
+END
+Isgl3dShadowMapShader.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/123/trunk/isgl3d/renderers/v2.0/shaders/Isgl3dShadowMapShader.h
+END
+Isgl3dShader.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/134/trunk/isgl3d/renderers/v2.0/shaders/Isgl3dShader.m
+END
+Isgl3dShaderState.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/42/trunk/isgl3d/renderers/v2.0/shaders/Isgl3dShaderState.m
+END
+Isgl3dShadowMapShader.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/121/trunk/isgl3d/renderers/v2.0/shaders/Isgl3dShadowMapShader.m
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/58/trunk/isgl3dbullet
+END
+Isgl3dMotionState.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/6/trunk/isgl3dbullet/Isgl3dMotionState.h
+END
+Isgl3dMotionState.mm
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/6/trunk/isgl3dbullet/Isgl3dMotionState.mm
+END
+Isgl3dPhysicsWorld.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/58/trunk/isgl3dbullet/Isgl3dPhysicsWorld.h
+END
+Isgl3dPhysicsWorld.mm
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/58/trunk/isgl3dbullet/Isgl3dPhysicsWorld.mm
+END
+Isgl3dPhysicsObject3D.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/58/trunk/isgl3dbullet/Isgl3dPhysicsObject3D.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/6/trunk/isgl3dbullet/README
+END
+Isgl3dPhysicsObject3D.mm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/58/trunk/isgl3dbullet/Isgl3dPhysicsObject3D.mm
+END

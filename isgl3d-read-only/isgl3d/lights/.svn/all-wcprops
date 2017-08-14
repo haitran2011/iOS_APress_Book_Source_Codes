@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/140/trunk/isgl3d/lights
+END
+Isgl3dShadowCastingLight.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/140/trunk/isgl3d/lights/Isgl3dShadowCastingLight.h
+END
+Isgl3dLight.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/88/trunk/isgl3d/lights/Isgl3dLight.h
+END
+Isgl3dShadowCastingLight.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/123/trunk/isgl3d/lights/Isgl3dShadowCastingLight.m
+END
+Isgl3dLight.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/58/trunk/isgl3d/lights/Isgl3dLight.m
+END

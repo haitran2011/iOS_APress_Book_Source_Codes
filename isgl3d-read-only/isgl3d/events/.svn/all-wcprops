@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/129/trunk/isgl3d/events
+END
+Isgl3dEvent3DListener.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/42/trunk/isgl3d/events/Isgl3dEvent3DListener.m
+END
+Isgl3dEventType.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/5/trunk/isgl3d/events/Isgl3dEventType.h
+END
+Isgl3dEvent3DDispatcher.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/42/trunk/isgl3d/events/Isgl3dEvent3DDispatcher.m
+END
+Isgl3dTouchScreen.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/120/trunk/isgl3d/events/Isgl3dTouchScreen.m
+END
+Isgl3dObject3DGrabber.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/55/trunk/isgl3d/events/Isgl3dObject3DGrabber.m
+END
+Isgl3dTouchScreenResponder.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/42/trunk/isgl3d/events/Isgl3dTouchScreenResponder.h
+END
+Isgl3dEvent3DHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/120/trunk/isgl3d/events/Isgl3dEvent3DHandler.h
+END
+Isgl3dEvent3D.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/5/trunk/isgl3d/events/Isgl3dEvent3D.h
+END
+Isgl3dGestureManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/120/trunk/isgl3d/events/Isgl3dGestureManager.h
+END
+Isgl3dTouchedObject3D.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/120/trunk/isgl3d/events/Isgl3dTouchedObject3D.h
+END
+Isgl3dAccelerometer.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/55/trunk/isgl3d/events/Isgl3dAccelerometer.h
+END
+Isgl3dEvent3DHandler.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/120/trunk/isgl3d/events/Isgl3dEvent3DHandler.m
+END
+Isgl3dEvent3D.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/42/trunk/isgl3d/events/Isgl3dEvent3D.m
+END
+Isgl3dEvent3DListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/5/trunk/isgl3d/events/Isgl3dEvent3DListener.h
+END
+Isgl3dGestureManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/129/trunk/isgl3d/events/Isgl3dGestureManager.m
+END
+Isgl3dTouchedObject3D.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/120/trunk/isgl3d/events/Isgl3dTouchedObject3D.m
+END
+Isgl3dAccelerometer.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/55/trunk/isgl3d/events/Isgl3dAccelerometer.m
+END
+Isgl3dEvent3DDispatcher.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/5/trunk/isgl3d/events/Isgl3dEvent3DDispatcher.h
+END
+Isgl3dTouchScreen.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/42/trunk/isgl3d/events/Isgl3dTouchScreen.h
+END
+Isgl3dObject3DGrabber.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/55/trunk/isgl3d/events/Isgl3dObject3DGrabber.h
+END

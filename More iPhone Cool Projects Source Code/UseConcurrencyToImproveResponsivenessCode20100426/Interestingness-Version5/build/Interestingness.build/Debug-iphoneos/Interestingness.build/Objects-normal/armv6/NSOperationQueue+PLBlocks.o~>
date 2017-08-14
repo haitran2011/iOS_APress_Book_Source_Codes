@@ -1,0 +1,20 @@
+/Users/danton/Apress/Interestingness-Version5/Classes/NSOperationQueue+PLBlocks.m: In function '-[NSOperationQueue(PLBlocks) pl_addOperationWithBlock:]':
+/Users/danton/Apress/Interestingness-Version5/Classes/NSOperationQueue+PLBlocks.m:24: error: 'PLBlockOperation' undeclared (first use in this function)
+/Users/danton/Apress/Interestingness-Version5/Classes/NSOperationQueue+PLBlocks.m:24: error: (Each undeclared identifier is reported only once
+/Users/danton/Apress/Interestingness-Version5/Classes/NSOperationQueue+PLBlocks.m:24: error: for each function it appears in.)
+/Users/danton/Apress/Interestingness-Version5/Classes/NSOperationQueue+PLBlocks.m: At top level:
+/Users/danton/Apress/Interestingness-Version5/Classes/NSOperationQueue+PLBlocks.m:37: warning: cannot find interface declaration for 'PLBlockOperation'
+/Users/danton/Apress/Interestingness-Version5/Classes/NSOperationQueue+PLBlocks.m: In function '+[PLBlockOperation blockOperationWithBlock:]':
+/Users/danton/Apress/Interestingness-Version5/Classes/NSOperationQueue+PLBlocks.m:38: warning: 'PLBlockOperation' may not respond to '+alloc'
+/Users/danton/Apress/Interestingness-Version5/Classes/NSOperationQueue+PLBlocks.m:38: warning: (Messages without a matching method signature
+/Users/danton/Apress/Interestingness-Version5/Classes/NSOperationQueue+PLBlocks.m:38: warning: will be assumed to return 'id' and accept
+/Users/danton/Apress/Interestingness-Version5/Classes/NSOperationQueue+PLBlocks.m:38: warning: '...' as arguments.)
+/Users/danton/Apress/Interestingness-Version5/Classes/NSOperationQueue+PLBlocks.m:38: warning: no '-initWithBlock:' method found
+/Users/danton/Apress/Interestingness-Version5/Classes/NSOperationQueue+PLBlocks.m: In function '-[PLBlockOperation initWithBlock:]':
+/Users/danton/Apress/Interestingness-Version5/Classes/NSOperationQueue+PLBlocks.m:43: error: no super class declared in @interface for 'PLBlockOperation'
+/Users/danton/Apress/Interestingness-Version5/Classes/NSOperationQueue+PLBlocks.m:47: error: '_block' undeclared (first use in this function)
+/Users/danton/Apress/Interestingness-Version5/Classes/NSOperationQueue+PLBlocks.m: In function '-[PLBlockOperation main]':
+/Users/danton/Apress/Interestingness-Version5/Classes/NSOperationQueue+PLBlocks.m:54: warning: implicit declaration of function '_block'
+/Users/danton/Apress/Interestingness-Version5/Classes/NSOperationQueue+PLBlocks.m: In function '-[PLBlockOperation dealloc]':
+/Users/danton/Apress/Interestingness-Version5/Classes/NSOperationQueue+PLBlocks.m:58: error: '_block' undeclared (first use in this function)
+/Users/danton/Apress/Interestingness-Version5/Classes/NSOperationQueue+PLBlocks.m:59: error: no super class declared in @interface for 'PLBlockOperation'

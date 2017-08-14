@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/102/trunk/isgl3d/particles
+END
+Isgl3dGLParticle.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/78/trunk/isgl3d/particles/Isgl3dGLParticle.h
+END
+Isgl3dParticleSystem.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/58/trunk/isgl3d/particles/Isgl3dParticleSystem.h
+END
+Isgl3dGLParticle.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/78/trunk/isgl3d/particles/Isgl3dGLParticle.m
+END
+Isgl3dParticleSystem.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/78/trunk/isgl3d/particles/Isgl3dParticleSystem.m
+END

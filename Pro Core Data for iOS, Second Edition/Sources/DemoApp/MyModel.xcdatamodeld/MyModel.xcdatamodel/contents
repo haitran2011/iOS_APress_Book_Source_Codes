@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="851" systemVersion="11C26" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="MyData">
+        <attribute name="myAttribute" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="MyData" positionX="160" positionY="192" width="128" height="60"/>
+    </elements>
+</model>

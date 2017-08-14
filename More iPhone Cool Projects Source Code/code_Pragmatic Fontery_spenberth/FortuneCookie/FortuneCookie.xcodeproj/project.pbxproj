@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* FortuneCookieAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FortuneCookieAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2514C27210084DB100A42282 /* APRenderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2514C26E10084DB100A42282 /* APRenderController.m */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28FD14FE0DC6FC130079059D /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FD14FD0DC6FC130079059D /* EAGLView.m */; };
+		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
+		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
+		A5B2C107111F21A0001AB0E1 /* APFontMap.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B2C106111F21A0001AB0E1 /* APFontMap.m */; };
+		A5B2C115111F2B58001AB0E1 /* APGlyph.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B2C114111F2B58001AB0E1 /* APGlyph.m */; };
+		A5B2C158111F3657001AB0E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B2C157111F3657001AB0E1 /* CoreGraphics.framework */; };
+		A5B2C19E111F9217001AB0E1 /* APChar.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B2C19D111F9217001AB0E1 /* APChar.m */; };
+		A5B2C1A9111F93FA001AB0E1 /* APText.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B2C1A8111F93FA001AB0E1 /* APText.m */; };
+		A5B2CBCB11233E87001AB0E1 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5B2CBCA11233E87001AB0E1 /* Entitlements.plist */; };
+		A5B2CC501123468A001AB0E1 /* APSound.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B2CC4F1123468A001AB0E1 /* APSound.m */; };
+		A5B2CC5A112348A2001AB0E1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B2CC59112348A2001AB0E1 /* AudioToolbox.framework */; };
+		A5BE0CBF11361C42006306FD /* crunch.caf in Resources */ = {isa = PBXBuildFile; fileRef = A5BE0CBE11361C42006306FD /* crunch.caf */; };
+		A5BE0CC211361C57006306FD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A5BE0CC011361C57006306FD /* Default.png */; };
+		A5BE0CC311361C57006306FD /* icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5BE0CC111361C57006306FD /* icon.jpg */; };
+		A5BE0CC511361C68006306FD /* cookie.png in Resources */ = {isa = PBXBuildFile; fileRef = A5BE0CC411361C68006306FD /* cookie.png */; };
+		A5BE0CD411361C88006306FD /* font0.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5BE0CC611361C88006306FD /* font0.plist */; };
+		A5BE0CD511361C88006306FD /* font0.png in Resources */ = {isa = PBXBuildFile; fileRef = A5BE0CC711361C88006306FD /* font0.png */; };
+		A5BE0CD611361C88006306FD /* font1.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5BE0CC811361C88006306FD /* font1.plist */; };
+		A5BE0CD711361C88006306FD /* font1.png in Resources */ = {isa = PBXBuildFile; fileRef = A5BE0CC911361C88006306FD /* font1.png */; };
+		A5BE0CD811361C88006306FD /* font2.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5BE0CCA11361C88006306FD /* font2.plist */; };
+		A5BE0CD911361C88006306FD /* font2.png in Resources */ = {isa = PBXBuildFile; fileRef = A5BE0CCB11361C88006306FD /* font2.png */; };
+		A5BE0CDA11361C88006306FD /* font3.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5BE0CCC11361C88006306FD /* font3.plist */; };
+		A5BE0CDB11361C88006306FD /* font3.png in Resources */ = {isa = PBXBuildFile; fileRef = A5BE0CCD11361C88006306FD /* font3.png */; };
+		A5BE0CDC11361C88006306FD /* font4.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5BE0CCE11361C88006306FD /* font4.plist */; };
+		A5BE0CDD11361C88006306FD /* font4.png in Resources */ = {isa = PBXBuildFile; fileRef = A5BE0CCF11361C88006306FD /* font4.png */; };
+		A5BE0CDE11361C88006306FD /* font5.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5BE0CD011361C88006306FD /* font5.plist */; };
+		A5BE0CDF11361C88006306FD /* font5.png in Resources */ = {isa = PBXBuildFile; fileRef = A5BE0CD111361C88006306FD /* font5.png */; };
+		A5BE0CE011361C88006306FD /* font6.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5BE0CD211361C88006306FD /* font6.plist */; };
+		A5BE0CE111361C88006306FD /* font6.png in Resources */ = {isa = PBXBuildFile; fileRef = A5BE0CD311361C88006306FD /* font6.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* FortuneCookieAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FortuneCookieAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* FortuneCookieAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FortuneCookieAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* FortuneCookie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FortuneCookie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2514C26D10084DB100A42282 /* APRenderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APRenderController.h; sourceTree = "<group>"; };
+		2514C26E10084DB100A42282 /* APRenderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APRenderController.m; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28FD14FC0DC6FC130079059D /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		28FD14FD0DC6FC130079059D /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		28FD14FF0DC6FC520079059D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* FortuneCookie_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FortuneCookie_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* FortuneCookie-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FortuneCookie-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A5B2C105111F21A0001AB0E1 /* APFontMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APFontMap.h; sourceTree = "<group>"; };
+		A5B2C106111F21A0001AB0E1 /* APFontMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APFontMap.m; sourceTree = "<group>"; };
+		A5B2C113111F2B58001AB0E1 /* APGlyph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APGlyph.h; sourceTree = "<group>"; };
+		A5B2C114111F2B58001AB0E1 /* APGlyph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APGlyph.m; sourceTree = "<group>"; };
+		A5B2C157111F3657001AB0E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A5B2C19C111F9217001AB0E1 /* APChar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APChar.h; sourceTree = "<group>"; };
+		A5B2C19D111F9217001AB0E1 /* APChar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APChar.m; sourceTree = "<group>"; };
+		A5B2C1A7111F93FA001AB0E1 /* APText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APText.h; sourceTree = "<group>"; };
+		A5B2C1A8111F93FA001AB0E1 /* APText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APText.m; sourceTree = "<group>"; };
+		A5B2CA8C112319C2001AB0E1 /* APFortunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APFortunes.h; sourceTree = "<group>"; };
+		A5B2CBCA11233E87001AB0E1 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		A5B2CC4E1123468A001AB0E1 /* APSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APSound.h; sourceTree = "<group>"; };
+		A5B2CC4F1123468A001AB0E1 /* APSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APSound.m; sourceTree = "<group>"; };
+		A5B2CC59112348A2001AB0E1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A5BE0CBE11361C42006306FD /* crunch.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = crunch.caf; path = media/sounds/crunch.caf; sourceTree = "<group>"; };
+		A5BE0CC011361C57006306FD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = media/app/Default.png; sourceTree = "<group>"; };
+		A5BE0CC111361C57006306FD /* icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = icon.jpg; path = media/app/icon.jpg; sourceTree = "<group>"; };
+		A5BE0CC411361C68006306FD /* cookie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cookie.png; path = media/app/cookie.png; sourceTree = "<group>"; };
+		A5BE0CC611361C88006306FD /* font0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = font0.plist; path = media/fonts/font0.plist; sourceTree = "<group>"; };
+		A5BE0CC711361C88006306FD /* font0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = font0.png; path = media/fonts/font0.png; sourceTree = "<group>"; };
+		A5BE0CC811361C88006306FD /* font1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = font1.plist; path = media/fonts/font1.plist; sourceTree = "<group>"; };
+		A5BE0CC911361C88006306FD /* font1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = font1.png; path = media/fonts/font1.png; sourceTree = "<group>"; };
+		A5BE0CCA11361C88006306FD /* font2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = font2.plist; path = media/fonts/font2.plist; sourceTree = "<group>"; };
+		A5BE0CCB11361C88006306FD /* font2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = font2.png; path = media/fonts/font2.png; sourceTree = "<group>"; };
+		A5BE0CCC11361C88006306FD /* font3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = font3.plist; path = media/fonts/font3.plist; sourceTree = "<group>"; };
+		A5BE0CCD11361C88006306FD /* font3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = font3.png; path = media/fonts/font3.png; sourceTree = "<group>"; };
+		A5BE0CCE11361C88006306FD /* font4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = font4.plist; path = media/fonts/font4.plist; sourceTree = "<group>"; };
+		A5BE0CCF11361C88006306FD /* font4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = font4.png; path = media/fonts/font4.png; sourceTree = "<group>"; };
+		A5BE0CD011361C88006306FD /* font5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = font5.plist; path = media/fonts/font5.plist; sourceTree = "<group>"; };
+		A5BE0CD111361C88006306FD /* font5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = font5.png; path = media/fonts/font5.png; sourceTree = "<group>"; };
+		A5BE0CD211361C88006306FD /* font6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = font6.plist; path = media/fonts/font6.plist; sourceTree = "<group>"; };
+		A5BE0CD311361C88006306FD /* font6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = font6.png; path = media/fonts/font6.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */,
+				28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */,
+				A5B2C158111F3657001AB0E1 /* CoreGraphics.framework in Frameworks */,
+				A5B2CC5A112348A2001AB0E1 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A5B2CC801125A472001AB0E1 /* Fontery */,
+				28FD14FC0DC6FC130079059D /* EAGLView.h */,
+				28FD14FD0DC6FC130079059D /* EAGLView.m */,
+				1D3623240D0F684500981E51 /* FortuneCookieAppDelegate.h */,
+				1D3623250D0F684500981E51 /* FortuneCookieAppDelegate.m */,
+				A5B2CC4E1123468A001AB0E1 /* APSound.h */,
+				A5B2CC4F1123468A001AB0E1 /* APSound.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* FortuneCookie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				A5B2CBCA11233E87001AB0E1 /* Entitlements.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* FortuneCookie_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A5B2CC831125A4AA001AB0E1 /* Sounds */,
+				A5B2CC821125A49D001AB0E1 /* Images */,
+				A5B2CC811125A48E001AB0E1 /* Fonts */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* FortuneCookie-Info.plist */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28FD15070DC6FC5B0079059D /* QuartzCore.framework */,
+				28FD14FF0DC6FC520079059D /* OpenGLES.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				A5B2C157111F3657001AB0E1 /* CoreGraphics.framework */,
+				A5B2CC59112348A2001AB0E1 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5B2CC801125A472001AB0E1 /* Fontery */ = {
+			isa = PBXGroup;
+			children = (
+				2514C26D10084DB100A42282 /* APRenderController.h */,
+				2514C26E10084DB100A42282 /* APRenderController.m */,
+				A5B2C105111F21A0001AB0E1 /* APFontMap.h */,
+				A5B2C106111F21A0001AB0E1 /* APFontMap.m */,
+				A5B2C113111F2B58001AB0E1 /* APGlyph.h */,
+				A5B2C114111F2B58001AB0E1 /* APGlyph.m */,
+				A5B2C19C111F9217001AB0E1 /* APChar.h */,
+				A5B2C19D111F9217001AB0E1 /* APChar.m */,
+				A5B2C1A7111F93FA001AB0E1 /* APText.h */,
+				A5B2C1A8111F93FA001AB0E1 /* APText.m */,
+				A5B2CA8C112319C2001AB0E1 /* APFortunes.h */,
+			);
+			name = Fontery;
+			sourceTree = "<group>";
+		};
+		A5B2CC811125A48E001AB0E1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE0CC611361C88006306FD /* font0.plist */,
+				A5BE0CC711361C88006306FD /* font0.png */,
+				A5BE0CC811361C88006306FD /* font1.plist */,
+				A5BE0CC911361C88006306FD /* font1.png */,
+				A5BE0CCA11361C88006306FD /* font2.plist */,
+				A5BE0CCB11361C88006306FD /* font2.png */,
+				A5BE0CCC11361C88006306FD /* font3.plist */,
+				A5BE0CCD11361C88006306FD /* font3.png */,
+				A5BE0CCE11361C88006306FD /* font4.plist */,
+				A5BE0CCF11361C88006306FD /* font4.png */,
+				A5BE0CD011361C88006306FD /* font5.plist */,
+				A5BE0CD111361C88006306FD /* font5.png */,
+				A5BE0CD211361C88006306FD /* font6.plist */,
+				A5BE0CD311361C88006306FD /* font6.png */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		A5B2CC821125A49D001AB0E1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE0CC411361C68006306FD /* cookie.png */,
+				A5BE0CC011361C57006306FD /* Default.png */,
+				A5BE0CC111361C57006306FD /* icon.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		A5B2CC831125A4AA001AB0E1 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE0CBE11361C42006306FD /* crunch.caf */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* FortuneCookie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FortuneCookie" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FortuneCookie;
+			productName = FortuneCookie;
+			productReference = 1D6058910D05DD3D006BFB54 /* FortuneCookie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "North Highland Partners, Inc.";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FortuneCookie" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* FortuneCookie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				A5B2CBCB11233E87001AB0E1 /* Entitlements.plist in Resources */,
+				A5BE0CBF11361C42006306FD /* crunch.caf in Resources */,
+				A5BE0CC211361C57006306FD /* Default.png in Resources */,
+				A5BE0CC311361C57006306FD /* icon.jpg in Resources */,
+				A5BE0CC511361C68006306FD /* cookie.png in Resources */,
+				A5BE0CD411361C88006306FD /* font0.plist in Resources */,
+				A5BE0CD511361C88006306FD /* font0.png in Resources */,
+				A5BE0CD611361C88006306FD /* font1.plist in Resources */,
+				A5BE0CD711361C88006306FD /* font1.png in Resources */,
+				A5BE0CD811361C88006306FD /* font2.plist in Resources */,
+				A5BE0CD911361C88006306FD /* font2.png in Resources */,
+				A5BE0CDA11361C88006306FD /* font3.plist in Resources */,
+				A5BE0CDB11361C88006306FD /* font3.png in Resources */,
+				A5BE0CDC11361C88006306FD /* font4.plist in Resources */,
+				A5BE0CDD11361C88006306FD /* font4.png in Resources */,
+				A5BE0CDE11361C88006306FD /* font5.plist in Resources */,
+				A5BE0CDF11361C88006306FD /* font5.png in Resources */,
+				A5BE0CE011361C88006306FD /* font6.plist in Resources */,
+				A5BE0CE111361C88006306FD /* font6.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* FortuneCookieAppDelegate.m in Sources */,
+				28FD14FE0DC6FC130079059D /* EAGLView.m in Sources */,
+				2514C27210084DB100A42282 /* APRenderController.m in Sources */,
+				A5B2C107111F21A0001AB0E1 /* APFontMap.m in Sources */,
+				A5B2C115111F2B58001AB0E1 /* APGlyph.m in Sources */,
+				A5B2C19E111F9217001AB0E1 /* APChar.m in Sources */,
+				A5B2C1A9111F93FA001AB0E1 /* APText.m in Sources */,
+				A5B2CC501123468A001AB0E1 /* APSound.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Scott Penberthy";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FortuneCookie_Prefix.pch;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "FortuneCookie-Info.plist";
+				PRODUCT_NAME = FortuneCookie;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E997A504-6713-4F93-8366-F8C4E0D5DDA0";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FortuneCookie_Prefix.pch;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "FortuneCookie-Info.plist";
+				PRODUCT_NAME = FortuneCookie;
+			};
+			name = Release;
+		};
+		A5B2CBBA11233DD8001AB0E1 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Scott Penberthy";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E997A504-6713-4F93-8366-F8C4E0D5DDA0";
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Distribution;
+		};
+		A5B2CBBB11233DD8001AB0E1 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FortuneCookie_Prefix.pch;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "FortuneCookie-Info.plist";
+				PRODUCT_NAME = FortuneCookie;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Scott Penberthy";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E997A504-6713-4F93-8366-F8C4E0D5DDA0";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FortuneCookie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				A5B2CBBB11233DD8001AB0E1 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FortuneCookie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				A5B2CBBA11233DD8001AB0E1 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

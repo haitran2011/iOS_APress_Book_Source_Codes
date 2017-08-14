@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C00608713EDB2B200C2EBD3 /* players.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C00608313EDB2B200C2EBD3 /* players.png */; };
+		4C00608813EDB2B200C2EBD3 /* players@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C00608413EDB2B200C2EBD3 /* players@2x.png */; };
+		4C00608913EDB2B200C2EBD3 /* teams.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C00608513EDB2B200C2EBD3 /* teams.png */; };
+		4C00608A13EDB2B200C2EBD3 /* teams@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C00608613EDB2B200C2EBD3 /* teams@2x.png */; };
+		4C00609713EDB70F00C2EBD3 /* AllPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00609513EDB70F00C2EBD3 /* AllPlayerViewController.m */; };
+		4C6698EE13E4E70F00700036 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6698ED13E4E70F00700036 /* UIKit.framework */; };
+		4C6698F013E4E70F00700036 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6698EF13E4E70F00700036 /* Foundation.framework */; };
+		4C6698F213E4E70F00700036 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6698F113E4E70F00700036 /* CoreGraphics.framework */; };
+		4C6698F413E4E70F00700036 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6698F313E4E70F00700036 /* CoreData.framework */; };
+		4C6698FA13E4E70F00700036 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C6698F813E4E70F00700036 /* InfoPlist.strings */; };
+		4C6698FC13E4E70F00700036 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6698FB13E4E70F00700036 /* main.m */; };
+		4C66990013E4E70F00700036 /* League_ManagerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6698FF13E4E70F00700036 /* League_ManagerAppDelegate.m */; };
+		4C66990313E4E70F00700036 /* League_Manager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C66990113E4E70F00700036 /* League_Manager.xcdatamodeld */; };
+		4C66990613E4E70F00700036 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C66990513E4E70F00700036 /* MasterViewController.m */; };
+		4C66990C13E4E70F00700036 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C66990A13E4E70F00700036 /* MasterViewController.xib */; };
+		4C66992213E4F47900700036 /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C66992013E4F47900700036 /* TeamViewController.m */; };
+		4C66992313E4F47900700036 /* TeamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C66992113E4F47900700036 /* TeamViewController.xib */; };
+		4C66992C13E57D7300700036 /* PlayerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C66992A13E57D7300700036 /* PlayerListViewController.m */; };
+		4C66992D13E57D7300700036 /* PlayerListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C66992B13E57D7300700036 /* PlayerListViewController.xib */; };
+		4C66993113E57FBF00700036 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C66992F13E57FBF00700036 /* PlayerViewController.m */; };
+		4C66993213E57FBF00700036 /* PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C66993013E57FBF00700036 /* PlayerViewController.xib */; };
+		4C66993913E585B800700036 /* CustomStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C66993813E585B800700036 /* CustomStore.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C00608313EDB2B200C2EBD3 /* players.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = players.png; sourceTree = "<group>"; };
+		4C00608413EDB2B200C2EBD3 /* players@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "players@2x.png"; sourceTree = "<group>"; };
+		4C00608513EDB2B200C2EBD3 /* teams.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teams.png; sourceTree = "<group>"; };
+		4C00608613EDB2B200C2EBD3 /* teams@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "teams@2x.png"; sourceTree = "<group>"; };
+		4C00609413EDB70F00C2EBD3 /* AllPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllPlayerViewController.h; sourceTree = "<group>"; };
+		4C00609513EDB70F00C2EBD3 /* AllPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllPlayerViewController.m; sourceTree = "<group>"; };
+		4C6698E913E4E70F00700036 /* League Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "League Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6698ED13E4E70F00700036 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C6698EF13E4E70F00700036 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C6698F113E4E70F00700036 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C6698F313E4E70F00700036 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4C6698F713E4E70F00700036 /* League Manager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "League Manager-Info.plist"; sourceTree = "<group>"; };
+		4C6698F913E4E70F00700036 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C6698FB13E4E70F00700036 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C6698FD13E4E70F00700036 /* League Manager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "League Manager-Prefix.pch"; sourceTree = "<group>"; };
+		4C6698FE13E4E70F00700036 /* League_ManagerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = League_ManagerAppDelegate.h; sourceTree = "<group>"; };
+		4C6698FF13E4E70F00700036 /* League_ManagerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = League_ManagerAppDelegate.m; sourceTree = "<group>"; };
+		4C66990213E4E70F00700036 /* League_Manager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = League_Manager.xcdatamodel; sourceTree = "<group>"; };
+		4C66990413E4E70F00700036 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		4C66990513E4E70F00700036 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		4C66990B13E4E70F00700036 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		4C66991F13E4F47900700036 /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
+		4C66992013E4F47900700036 /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
+		4C66992113E4F47900700036 /* TeamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamViewController.xib; sourceTree = "<group>"; };
+		4C66992913E57D7300700036 /* PlayerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerListViewController.h; sourceTree = "<group>"; };
+		4C66992A13E57D7300700036 /* PlayerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerListViewController.m; sourceTree = "<group>"; };
+		4C66992B13E57D7300700036 /* PlayerListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerListViewController.xib; sourceTree = "<group>"; };
+		4C66992E13E57FBF00700036 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		4C66992F13E57FBF00700036 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		4C66993013E57FBF00700036 /* PlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerViewController.xib; sourceTree = "<group>"; };
+		4C66993713E585B800700036 /* CustomStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomStore.h; sourceTree = "<group>"; };
+		4C66993813E585B800700036 /* CustomStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomStore.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C6698E613E4E70F00700036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6698EE13E4E70F00700036 /* UIKit.framework in Frameworks */,
+				4C6698F013E4E70F00700036 /* Foundation.framework in Frameworks */,
+				4C6698F213E4E70F00700036 /* CoreGraphics.framework in Frameworks */,
+				4C6698F413E4E70F00700036 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C00608113EDB29800C2EBD3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4C00608313EDB2B200C2EBD3 /* players.png */,
+				4C00608413EDB2B200C2EBD3 /* players@2x.png */,
+				4C00608513EDB2B200C2EBD3 /* teams.png */,
+				4C00608613EDB2B200C2EBD3 /* teams@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4C6698DE13E4E70F00700036 = {
+			isa = PBXGroup;
+			children = (
+				4C6698F513E4E70F00700036 /* League Manager */,
+				4C6698EC13E4E70F00700036 /* Frameworks */,
+				4C6698EA13E4E70F00700036 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C6698EA13E4E70F00700036 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C6698E913E4E70F00700036 /* League Manager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C6698EC13E4E70F00700036 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C6698ED13E4E70F00700036 /* UIKit.framework */,
+				4C6698EF13E4E70F00700036 /* Foundation.framework */,
+				4C6698F113E4E70F00700036 /* CoreGraphics.framework */,
+				4C6698F313E4E70F00700036 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C6698F513E4E70F00700036 /* League Manager */ = {
+			isa = PBXGroup;
+			children = (
+				4C00608113EDB29800C2EBD3 /* Images */,
+				4C6698FE13E4E70F00700036 /* League_ManagerAppDelegate.h */,
+				4C6698FF13E4E70F00700036 /* League_ManagerAppDelegate.m */,
+				4C66990413E4E70F00700036 /* MasterViewController.h */,
+				4C66990513E4E70F00700036 /* MasterViewController.m */,
+				4C66991F13E4F47900700036 /* TeamViewController.h */,
+				4C66992013E4F47900700036 /* TeamViewController.m */,
+				4C66992113E4F47900700036 /* TeamViewController.xib */,
+				4C66990A13E4E70F00700036 /* MasterViewController.xib */,
+				4C66990113E4E70F00700036 /* League_Manager.xcdatamodeld */,
+				4C6698F613E4E70F00700036 /* Supporting Files */,
+				4C66992913E57D7300700036 /* PlayerListViewController.h */,
+				4C66992A13E57D7300700036 /* PlayerListViewController.m */,
+				4C66992B13E57D7300700036 /* PlayerListViewController.xib */,
+				4C66992E13E57FBF00700036 /* PlayerViewController.h */,
+				4C66992F13E57FBF00700036 /* PlayerViewController.m */,
+				4C66993013E57FBF00700036 /* PlayerViewController.xib */,
+				4C66993713E585B800700036 /* CustomStore.h */,
+				4C66993813E585B800700036 /* CustomStore.m */,
+				4C00609413EDB70F00C2EBD3 /* AllPlayerViewController.h */,
+				4C00609513EDB70F00C2EBD3 /* AllPlayerViewController.m */,
+			);
+			path = "League Manager";
+			sourceTree = "<group>";
+		};
+		4C6698F613E4E70F00700036 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C6698F713E4E70F00700036 /* League Manager-Info.plist */,
+				4C6698F813E4E70F00700036 /* InfoPlist.strings */,
+				4C6698FB13E4E70F00700036 /* main.m */,
+				4C6698FD13E4E70F00700036 /* League Manager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C6698E813E4E70F00700036 /* League Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C66991213E4E71000700036 /* Build configuration list for PBXNativeTarget "League Manager" */;
+			buildPhases = (
+				4C6698E513E4E70F00700036 /* Sources */,
+				4C6698E613E4E70F00700036 /* Frameworks */,
+				4C6698E713E4E70F00700036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "League Manager";
+			productName = "League Manager";
+			productReference = 4C6698E913E4E70F00700036 /* League Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C6698E013E4E70F00700036 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Majorspot, Inc.";
+			};
+			buildConfigurationList = 4C6698E313E4E70F00700036 /* Build configuration list for PBXProject "League Manager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C6698DE13E4E70F00700036;
+			productRefGroup = 4C6698EA13E4E70F00700036 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C6698E813E4E70F00700036 /* League Manager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C6698E713E4E70F00700036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6698FA13E4E70F00700036 /* InfoPlist.strings in Resources */,
+				4C66990C13E4E70F00700036 /* MasterViewController.xib in Resources */,
+				4C66992313E4F47900700036 /* TeamViewController.xib in Resources */,
+				4C66992D13E57D7300700036 /* PlayerListViewController.xib in Resources */,
+				4C66993213E57FBF00700036 /* PlayerViewController.xib in Resources */,
+				4C00608713EDB2B200C2EBD3 /* players.png in Resources */,
+				4C00608813EDB2B200C2EBD3 /* players@2x.png in Resources */,
+				4C00608913EDB2B200C2EBD3 /* teams.png in Resources */,
+				4C00608A13EDB2B200C2EBD3 /* teams@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C6698E513E4E70F00700036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6698FC13E4E70F00700036 /* main.m in Sources */,
+				4C66990013E4E70F00700036 /* League_ManagerAppDelegate.m in Sources */,
+				4C66990313E4E70F00700036 /* League_Manager.xcdatamodeld in Sources */,
+				4C66990613E4E70F00700036 /* MasterViewController.m in Sources */,
+				4C66992213E4F47900700036 /* TeamViewController.m in Sources */,
+				4C66992C13E57D7300700036 /* PlayerListViewController.m in Sources */,
+				4C66993113E57FBF00700036 /* PlayerViewController.m in Sources */,
+				4C66993913E585B800700036 /* CustomStore.m in Sources */,
+				4C00609713EDB70F00C2EBD3 /* AllPlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C6698F813E4E70F00700036 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C6698F913E4E70F00700036 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C66990A13E4E70F00700036 /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C66990B13E4E70F00700036 /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C66991013E4E71000700036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C66991113E4E71000700036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C66991313E4E71000700036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "League Manager/League Manager-Prefix.pch";
+				INFOPLIST_FILE = "League Manager/League Manager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C66991413E4E71000700036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "League Manager/League Manager-Prefix.pch";
+				INFOPLIST_FILE = "League Manager/League Manager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C6698E313E4E70F00700036 /* Build configuration list for PBXProject "League Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C66991013E4E71000700036 /* Debug */,
+				4C66991113E4E71000700036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C66991213E4E71000700036 /* Build configuration list for PBXNativeTarget "League Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C66991313E4E71000700036 /* Debug */,
+				4C66991413E4E71000700036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4C66990113E4E70F00700036 /* League_Manager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C66990213E4E70F00700036 /* League_Manager.xcdatamodel */,
+			);
+			currentVersion = 4C66990213E4E70F00700036 /* League_Manager.xcdatamodel */;
+			path = League_Manager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4C6698E013E4E70F00700036 /* Project object */;
+}

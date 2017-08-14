@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCFE7559156AFBE800444D4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFE7558156AFBE800444D4C /* UIKit.framework */; };
+		DCFE755B156AFBE800444D4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFE755A156AFBE800444D4C /* Foundation.framework */; };
+		DCFE755D156AFBE800444D4C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFE755C156AFBE800444D4C /* CoreGraphics.framework */; };
+		DCFE7563156AFBE800444D4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCFE7561156AFBE800444D4C /* InfoPlist.strings */; };
+		DCFE7565156AFBE800444D4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFE7564156AFBE800444D4C /* main.m */; };
+		DCFE7569156AFBE800444D4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFE7568156AFBE800444D4C /* AppDelegate.m */; };
+		DCFE756C156AFBE800444D4C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCFE756A156AFBE800444D4C /* MainStoryboard.storyboard */; };
+		DCFE756F156AFBE800444D4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFE756E156AFBE800444D4C /* ViewController.m */; };
+		DCFE7577156AFC1A00444D4C /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFE7575156AFC1A00444D4C /* Default-Landscape@2x~ipad.png */; };
+		DCFE7578156AFC1A00444D4C /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFE7576156AFC1A00444D4C /* Default-Landscape~ipad.png */; };
+		DCFE757A156AFC2B00444D4C /* icon72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFE7579156AFC2B00444D4C /* icon72x72.png */; };
+		DCFE757C156AFC2F00444D4C /* icon144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFE757B156AFC2F00444D4C /* icon144x144.png */; };
+		DCFE7591156AFC4500444D4C /* back001.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFE757E156AFC4500444D4C /* back001.png */; };
+		DCFE7592156AFC4500444D4C /* wanderBoard-cam01.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFE757F156AFC4500444D4C /* wanderBoard-cam01.png */; };
+		DCFE7593156AFC4500444D4C /* wanderBoard-cam02.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFE7580156AFC4500444D4C /* wanderBoard-cam02.png */; };
+		DCFE7594156AFC4500444D4C /* wanderBoard-cam03.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFE7581156AFC4500444D4C /* wanderBoard-cam03.png */; };
+		DCFE7595156AFC4500444D4C /* wanderBoard-cam04.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFE7582156AFC4500444D4C /* wanderBoard-cam04.png */; };
+		DCFE7596156AFC4500444D4C /* wanderBoard-cam05.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFE7583156AFC4500444D4C /* wanderBoard-cam05.png */; };
+		DCFE7597156AFC4500444D4C /* wanderBoard-cam06.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFE7584156AFC4500444D4C /* wanderBoard-cam06.png */; };
+		DCFE7598156AFC4500444D4C /* wanderBoard-cam07.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFE7585156AFC4500444D4C /* wanderBoard-cam07.png */; };
+		DCFE7599156AFC4500444D4C /* wanderBoard-cam08.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFE7586156AFC4500444D4C /* wanderBoard-cam08.png */; };
+		DCFE759A156AFC4500444D4C /* wanderBoard-cam09.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFE7587156AFC4500444D4C /* wanderBoard-cam09.png */; };
+		DCFE759B156AFC4500444D4C /* wanderBoard-cam10.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFE7588156AFC4500444D4C /* wanderBoard-cam10.png */; };
+		DCFE759C156AFC4500444D4C /* wanderBoard-cam11.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFE7589156AFC4500444D4C /* wanderBoard-cam11.png */; };
+		DCFE759D156AFC4500444D4C /* wanderBoard-cam12.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFE758A156AFC4500444D4C /* wanderBoard-cam12.png */; };
+		DCFE759E156AFC4500444D4C /* wanderBoard-cam13.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFE758B156AFC4500444D4C /* wanderBoard-cam13.png */; };
+		DCFE759F156AFC4500444D4C /* wanderBoard-cam14.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFE758C156AFC4500444D4C /* wanderBoard-cam14.png */; };
+		DCFE75A0156AFC4500444D4C /* wanderBoard-cam15.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFE758D156AFC4500444D4C /* wanderBoard-cam15.png */; };
+		DCFE75A1156AFC4500444D4C /* wanderBoard-cam16.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFE758E156AFC4500444D4C /* wanderBoard-cam16.png */; };
+		DCFE75A2156AFC4500444D4C /* wanderBoard-cam17.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFE758F156AFC4500444D4C /* wanderBoard-cam17.png */; };
+		DCFE75A3156AFC4500444D4C /* wanderBoard-cam18.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFE7590156AFC4500444D4C /* wanderBoard-cam18.png */; };
+		DCFE75A6156AFC6500444D4C /* MovementSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFE75A5156AFC5100444D4C /* MovementSegue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DCFE7554156AFBE800444D4C /* wanderBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wanderBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFE7558156AFBE800444D4C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DCFE755A156AFBE800444D4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DCFE755C156AFBE800444D4C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DCFE7560156AFBE800444D4C /* wanderBoard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wanderBoard-Info.plist"; sourceTree = "<group>"; };
+		DCFE7562156AFBE800444D4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCFE7564156AFBE800444D4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCFE7566156AFBE800444D4C /* wanderBoard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wanderBoard-Prefix.pch"; sourceTree = "<group>"; };
+		DCFE7567156AFBE800444D4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCFE7568156AFBE800444D4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCFE756B156AFBE800444D4C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DCFE756D156AFBE800444D4C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DCFE756E156AFBE800444D4C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCFE7575156AFC1A00444D4C /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		DCFE7576156AFC1A00444D4C /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		DCFE7579156AFC2B00444D4C /* icon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon72x72.png; path = ../../icon72x72.png; sourceTree = "<group>"; };
+		DCFE757B156AFC2F00444D4C /* icon144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon144x144.png; path = ../../icon144x144.png; sourceTree = "<group>"; };
+		DCFE757E156AFC4500444D4C /* back001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back001.png; sourceTree = "<group>"; };
+		DCFE757F156AFC4500444D4C /* wanderBoard-cam01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wanderBoard-cam01.png"; sourceTree = "<group>"; };
+		DCFE7580156AFC4500444D4C /* wanderBoard-cam02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wanderBoard-cam02.png"; sourceTree = "<group>"; };
+		DCFE7581156AFC4500444D4C /* wanderBoard-cam03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wanderBoard-cam03.png"; sourceTree = "<group>"; };
+		DCFE7582156AFC4500444D4C /* wanderBoard-cam04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wanderBoard-cam04.png"; sourceTree = "<group>"; };
+		DCFE7583156AFC4500444D4C /* wanderBoard-cam05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wanderBoard-cam05.png"; sourceTree = "<group>"; };
+		DCFE7584156AFC4500444D4C /* wanderBoard-cam06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wanderBoard-cam06.png"; sourceTree = "<group>"; };
+		DCFE7585156AFC4500444D4C /* wanderBoard-cam07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wanderBoard-cam07.png"; sourceTree = "<group>"; };
+		DCFE7586156AFC4500444D4C /* wanderBoard-cam08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wanderBoard-cam08.png"; sourceTree = "<group>"; };
+		DCFE7587156AFC4500444D4C /* wanderBoard-cam09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wanderBoard-cam09.png"; sourceTree = "<group>"; };
+		DCFE7588156AFC4500444D4C /* wanderBoard-cam10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wanderBoard-cam10.png"; sourceTree = "<group>"; };
+		DCFE7589156AFC4500444D4C /* wanderBoard-cam11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wanderBoard-cam11.png"; sourceTree = "<group>"; };
+		DCFE758A156AFC4500444D4C /* wanderBoard-cam12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wanderBoard-cam12.png"; sourceTree = "<group>"; };
+		DCFE758B156AFC4500444D4C /* wanderBoard-cam13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wanderBoard-cam13.png"; sourceTree = "<group>"; };
+		DCFE758C156AFC4500444D4C /* wanderBoard-cam14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wanderBoard-cam14.png"; sourceTree = "<group>"; };
+		DCFE758D156AFC4500444D4C /* wanderBoard-cam15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wanderBoard-cam15.png"; sourceTree = "<group>"; };
+		DCFE758E156AFC4500444D4C /* wanderBoard-cam16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wanderBoard-cam16.png"; sourceTree = "<group>"; };
+		DCFE758F156AFC4500444D4C /* wanderBoard-cam17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wanderBoard-cam17.png"; sourceTree = "<group>"; };
+		DCFE7590156AFC4500444D4C /* wanderBoard-cam18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wanderBoard-cam18.png"; sourceTree = "<group>"; };
+		DCFE75A4156AFC5100444D4C /* MovementSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovementSegue.h; sourceTree = "<group>"; };
+		DCFE75A5156AFC5100444D4C /* MovementSegue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovementSegue.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCFE7551156AFBE800444D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFE7559156AFBE800444D4C /* UIKit.framework in Frameworks */,
+				DCFE755B156AFBE800444D4C /* Foundation.framework in Frameworks */,
+				DCFE755D156AFBE800444D4C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCFE7549156AFBE800444D4C = {
+			isa = PBXGroup;
+			children = (
+				DCFE7575156AFC1A00444D4C /* Default-Landscape@2x~ipad.png */,
+				DCFE7576156AFC1A00444D4C /* Default-Landscape~ipad.png */,
+				DCFE755E156AFBE800444D4C /* wanderBoard */,
+				DCFE7557156AFBE800444D4C /* Frameworks */,
+				DCFE7555156AFBE800444D4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCFE7555156AFBE800444D4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCFE7554156AFBE800444D4C /* wanderBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCFE7557156AFBE800444D4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCFE7558156AFBE800444D4C /* UIKit.framework */,
+				DCFE755A156AFBE800444D4C /* Foundation.framework */,
+				DCFE755C156AFBE800444D4C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCFE755E156AFBE800444D4C /* wanderBoard */ = {
+			isa = PBXGroup;
+			children = (
+				DCFE7567156AFBE800444D4C /* AppDelegate.h */,
+				DCFE7568156AFBE800444D4C /* AppDelegate.m */,
+				DCFE756A156AFBE800444D4C /* MainStoryboard.storyboard */,
+				DCFE756D156AFBE800444D4C /* ViewController.h */,
+				DCFE756E156AFBE800444D4C /* ViewController.m */,
+				DCFE75A4156AFC5100444D4C /* MovementSegue.h */,
+				DCFE75A5156AFC5100444D4C /* MovementSegue.m */,
+				DCFE755F156AFBE800444D4C /* Supporting Files */,
+			);
+			path = wanderBoard;
+			sourceTree = "<group>";
+		};
+		DCFE755F156AFBE800444D4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCFE757D156AFC4500444D4C /* Images */,
+				DCFE7560156AFBE800444D4C /* wanderBoard-Info.plist */,
+				DCFE7561156AFBE800444D4C /* InfoPlist.strings */,
+				DCFE7564156AFBE800444D4C /* main.m */,
+				DCFE7566156AFBE800444D4C /* wanderBoard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCFE757D156AFC4500444D4C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DCFE757B156AFC2F00444D4C /* icon144x144.png */,
+				DCFE7579156AFC2B00444D4C /* icon72x72.png */,
+				DCFE757E156AFC4500444D4C /* back001.png */,
+				DCFE757F156AFC4500444D4C /* wanderBoard-cam01.png */,
+				DCFE7580156AFC4500444D4C /* wanderBoard-cam02.png */,
+				DCFE7581156AFC4500444D4C /* wanderBoard-cam03.png */,
+				DCFE7582156AFC4500444D4C /* wanderBoard-cam04.png */,
+				DCFE7583156AFC4500444D4C /* wanderBoard-cam05.png */,
+				DCFE7584156AFC4500444D4C /* wanderBoard-cam06.png */,
+				DCFE7585156AFC4500444D4C /* wanderBoard-cam07.png */,
+				DCFE7586156AFC4500444D4C /* wanderBoard-cam08.png */,
+				DCFE7587156AFC4500444D4C /* wanderBoard-cam09.png */,
+				DCFE7588156AFC4500444D4C /* wanderBoard-cam10.png */,
+				DCFE7589156AFC4500444D4C /* wanderBoard-cam11.png */,
+				DCFE758A156AFC4500444D4C /* wanderBoard-cam12.png */,
+				DCFE758B156AFC4500444D4C /* wanderBoard-cam13.png */,
+				DCFE758C156AFC4500444D4C /* wanderBoard-cam14.png */,
+				DCFE758D156AFC4500444D4C /* wanderBoard-cam15.png */,
+				DCFE758E156AFC4500444D4C /* wanderBoard-cam16.png */,
+				DCFE758F156AFC4500444D4C /* wanderBoard-cam17.png */,
+				DCFE7590156AFC4500444D4C /* wanderBoard-cam18.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCFE7553156AFBE800444D4C /* wanderBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFE7572156AFBE800444D4C /* Build configuration list for PBXNativeTarget "wanderBoard" */;
+			buildPhases = (
+				DCFE7550156AFBE800444D4C /* Sources */,
+				DCFE7551156AFBE800444D4C /* Frameworks */,
+				DCFE7552156AFBE800444D4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wanderBoard;
+			productName = wanderBoard;
+			productReference = DCFE7554156AFBE800444D4C /* wanderBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCFE754B156AFBE800444D4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Iron Sheep Productions, LLC";
+			};
+			buildConfigurationList = DCFE754E156AFBE800444D4C /* Build configuration list for PBXProject "wanderBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DCFE7549156AFBE800444D4C;
+			productRefGroup = DCFE7555156AFBE800444D4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCFE7553156AFBE800444D4C /* wanderBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCFE7552156AFBE800444D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFE7563156AFBE800444D4C /* InfoPlist.strings in Resources */,
+				DCFE756C156AFBE800444D4C /* MainStoryboard.storyboard in Resources */,
+				DCFE7577156AFC1A00444D4C /* Default-Landscape@2x~ipad.png in Resources */,
+				DCFE7578156AFC1A00444D4C /* Default-Landscape~ipad.png in Resources */,
+				DCFE757A156AFC2B00444D4C /* icon72x72.png in Resources */,
+				DCFE757C156AFC2F00444D4C /* icon144x144.png in Resources */,
+				DCFE7591156AFC4500444D4C /* back001.png in Resources */,
+				DCFE7592156AFC4500444D4C /* wanderBoard-cam01.png in Resources */,
+				DCFE7593156AFC4500444D4C /* wanderBoard-cam02.png in Resources */,
+				DCFE7594156AFC4500444D4C /* wanderBoard-cam03.png in Resources */,
+				DCFE7595156AFC4500444D4C /* wanderBoard-cam04.png in Resources */,
+				DCFE7596156AFC4500444D4C /* wanderBoard-cam05.png in Resources */,
+				DCFE7597156AFC4500444D4C /* wanderBoard-cam06.png in Resources */,
+				DCFE7598156AFC4500444D4C /* wanderBoard-cam07.png in Resources */,
+				DCFE7599156AFC4500444D4C /* wanderBoard-cam08.png in Resources */,
+				DCFE759A156AFC4500444D4C /* wanderBoard-cam09.png in Resources */,
+				DCFE759B156AFC4500444D4C /* wanderBoard-cam10.png in Resources */,
+				DCFE759C156AFC4500444D4C /* wanderBoard-cam11.png in Resources */,
+				DCFE759D156AFC4500444D4C /* wanderBoard-cam12.png in Resources */,
+				DCFE759E156AFC4500444D4C /* wanderBoard-cam13.png in Resources */,
+				DCFE759F156AFC4500444D4C /* wanderBoard-cam14.png in Resources */,
+				DCFE75A0156AFC4500444D4C /* wanderBoard-cam15.png in Resources */,
+				DCFE75A1156AFC4500444D4C /* wanderBoard-cam16.png in Resources */,
+				DCFE75A2156AFC4500444D4C /* wanderBoard-cam17.png in Resources */,
+				DCFE75A3156AFC4500444D4C /* wanderBoard-cam18.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCFE7550156AFBE800444D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFE75A6156AFC6500444D4C /* MovementSegue.m in Sources */,
+				DCFE7565156AFBE800444D4C /* main.m in Sources */,
+				DCFE7569156AFBE800444D4C /* AppDelegate.m in Sources */,
+				DCFE756F156AFBE800444D4C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCFE7561156AFBE800444D4C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCFE7562156AFBE800444D4C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DCFE756A156AFBE800444D4C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCFE756B156AFBE800444D4C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCFE7570156AFBE800444D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DCFE7571156AFBE800444D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCFE7573156AFBE800444D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wanderBoard/wanderBoard-Prefix.pch";
+				INFOPLIST_FILE = "wanderBoard/wanderBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DCFE7574156AFBE800444D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wanderBoard/wanderBoard-Prefix.pch";
+				INFOPLIST_FILE = "wanderBoard/wanderBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCFE754E156AFBE800444D4C /* Build configuration list for PBXProject "wanderBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFE7570156AFBE800444D4C /* Debug */,
+				DCFE7571156AFBE800444D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFE7572156AFBE800444D4C /* Build configuration list for PBXNativeTarget "wanderBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFE7573156AFBE800444D4C /* Debug */,
+				DCFE7574156AFBE800444D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCFE754B156AFBE800444D4C /* Project object */;
+}

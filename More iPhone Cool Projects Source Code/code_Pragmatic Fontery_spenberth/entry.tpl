@@ -1,0 +1,16 @@
+    <dict>
+        <key>name</key>
+        <string>$name</string>
+        <key>width</key>
+        <real>$w</real>
+        <key>height</key>
+        <real>$h</real>
+        <key>x</key>
+        <integer>$x</integer>
+        <key>y</key>
+        <integer>$y</integer>
+        <key>ascent</key>
+        <real>$ascent</real>
+        <key>descent</key>
+        <real>$descent</real>
+    </dict>

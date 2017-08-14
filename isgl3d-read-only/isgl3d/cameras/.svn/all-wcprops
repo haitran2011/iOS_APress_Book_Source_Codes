@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/97/trunk/isgl3d/cameras
+END
+Isgl3dCamera.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/95/trunk/isgl3d/cameras/Isgl3dCamera.h
+END
+Isgl3dFollowCamera.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/88/trunk/isgl3d/cameras/Isgl3dFollowCamera.h
+END
+Isgl3dSpringCamera.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/88/trunk/isgl3d/cameras/Isgl3dSpringCamera.h
+END
+Isgl3dCamera.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/97/trunk/isgl3d/cameras/Isgl3dCamera.m
+END
+Isgl3dSpringCamera.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/66/trunk/isgl3d/cameras/Isgl3dSpringCamera.m
+END
+Isgl3dFollowCamera.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/66/trunk/isgl3d/cameras/Isgl3dFollowCamera.m
+END

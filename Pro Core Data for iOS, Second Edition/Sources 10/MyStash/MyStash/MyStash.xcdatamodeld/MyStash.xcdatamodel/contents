@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="864" systemVersion="11B26" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Category">
+        <attribute name="name" attributeType="String"/>
+        <relationship name="systems" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="System" inverseName="category" inverseEntity="System"/>
+    </entity>
+    <entity name="List">
+        <attribute name="name" attributeType="String"/>
+        <attribute name="version" attributeType="Integer 16" defaultValueString="0"/>
+    </entity>
+    <entity name="Note">
+        <attribute name="body" optional="YES" attributeType="Transformable" valueTransformerName="EncryptedStringTransformer"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="System">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="String" minValueString="3" maxValueString="10" regularExpressionString="[A-Za-z0-9]*."/>
+        <relationship name="category" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="systems" inverseEntity="Category"/>
+    </entity>
+    <configuration name="Notes">
+        <memberEntity name="Note"/>
+    </configuration>
+    <configuration name="Passwords">
+        <memberEntity name="System"/>
+        <memberEntity name="Category"/>
+        <memberEntity name="List"/>
+    </configuration>
+    <elements>
+        <element name="Note" positionX="160" positionY="171" width="128" height="75"/>
+        <element name="System" positionX="-38" positionY="171" width="128" height="105"/>
+        <element name="Category" positionX="-20" positionY="-45" width="128" height="75"/>
+        <element name="List" positionX="-207" positionY="90" width="128" height="75"/>
+    </elements>
+</model>

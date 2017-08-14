@@ -1,0 +1,716 @@
+TMusicPlayer
+v7
+r0
+t293952082.351420
+cCheck dependencies
+cProcessInfoPlistFile /Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/Info.plist MusicPlayer-Info.plist
+cCompileXIB /Users/saul/projects/MusicPlayer/MainWindow.xib
+cCompileXIB /Users/saul/projects/MusicPlayer/Classes/../MusicPlayerView.xib
+cCpResource build/Debug-iphonesimulator/MusicPlayer.app/LICENSE Classes/activerecord-for-core-data/LICENSE
+cProcessPCH /var/folders/O6/O6-HVclnH7qoMWifWe1BhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicPlayer_Prefix-gnwcplpvvlzjuoejcicbxnukgbkf/MusicPlayer_Prefix.pch.gch MusicPlayer_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cDataModelCompile /Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/MusicPlayer.mom /Users/saul/projects/MusicPlayer/Classes/../MusicPlayer.xcdatamodel
+cCompileC build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/main.o /Users/saul/projects/MusicPlayer/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/MusicPlayerAppDelegate.o /Users/saul/projects/MusicPlayer/Classes/MusicPlayerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/MusicPlayerViewController.o /Users/saul/projects/MusicPlayer/Classes/MusicPlayerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/ActiveRecordHelpers.o /Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/ActiveRecordHelpers.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/NSManagedObject+ActiveRecord.o /Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSManagedObject+ActiveRecord.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/NSManagedObjectContext+ActiveRecord.o /Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSManagedObjectContext+ActiveRecord.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/NSManagedObjectModel+ActiveRecord.o /Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSManagedObjectModel+ActiveRecord.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/NSPersistentStore+ActiveRecord.o /Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSPersistentStore+ActiveRecord.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/NSPersistentStoreCoordinator+ActiveRecord.o /Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSPersistentStoreCoordinator+ActiveRecord.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/Playlist.o /Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/Playlist.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/Song.o /Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/Song.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/_Playlist.o /Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/_Playlist.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/_Song.o /Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/_Song.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/MusicPlayer normal i386
+cGenerateDSYMFile /Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app.dSYM /Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/MusicPlayer
+cTouch /Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004B69B45C00000000000000EE
+t1265218652
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004B2B4E070000000000185440
+t1261129223
+s1594432
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004B2B4DFB000000000000046B
+t1261129211
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004BB1800C0000000000000110
+t1269923852
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004B9F1E17000000000000046B
+t1268719127
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BA03AB3000000000026F020
+t1268791987
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B9F1DE40000000000289C20
+t1268719076
+s2661408
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B9F1DD60000000000001355
+t1268719062
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BA6CAEC000000000000098F
+t1269222124
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BA6CB31000000000214E400
+t1269222193
+s34923520
+
+N/Users/saul/projects/MusicPlayer/Classes/../MusicPlayer.xcdatamodel
+c000000004BD520720000000000000088
+t1272258674
+s136
+
+N/Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/Playlist.m
+c000000004BD520740000000000000051
+t1272258676
+s81
+i"Playlist.h"
+
+N/Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/Song.m
+c000000004BD520740000000000000049
+t1272258676
+s73
+i"Song.h"
+
+N/Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/_Playlist.m
+c000000004BD5207400000000000003BB
+t1272258676
+s955
+i"_Playlist.h"
+
+N/Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/_Song.m
+c000000004BD5207400000000000003E1
+t1272258676
+s993
+i"_Song.h"
+
+N/Users/saul/projects/MusicPlayer/Classes/../MusicPlayerView.xib
+c000000004BD1317A0000000000001A55
+t1272000890
+s6741
+
+N/Users/saul/projects/MusicPlayer/Classes/../MusicPlayerViewController.xib
+c000000004BD1317A0000000000001A55
+t1272000890
+s6741
+
+N/Users/saul/projects/MusicPlayer/Classes/MusicPlayerAppDelegate.h
+c000000004BD1317A00000000000001FE
+t1272000890
+s510
+i<UIKit/UIKit.h>
+
+N/Users/saul/projects/MusicPlayer/Classes/MusicPlayerAppDelegate.m
+c000000004BD1317A00000000000002BE
+t1272000890
+s702
+i"MusicPlayerAppDelegate.h"
+i"MusicPlayerViewController.h"
+
+N/Users/saul/projects/MusicPlayer/Classes/MusicPlayerViewController.h
+c000000004BD1317A0000000000000101
+t1272000890
+s257
+i<UIKit/UIKit.h>
+
+N/Users/saul/projects/MusicPlayer/Classes/MusicPlayerViewController.m
+c000000004BD1317A00000000000005D0
+t1272000890
+s1488
+i"MusicPlayerViewController.h"
+
+N/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/.hg_archival.txt
+c000000004BC46708000000000000005E
+t1271162632
+s94
+
+N/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/.hgtags
+c000000004BC46708000000000000002D
+t1271162632
+s45
+
+N/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/ActiveRecordHelpers.h
+c000000004BC467080000000000000235
+t1271162632
+s565
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+
+N/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/ActiveRecordHelpers.m
+c000000004BC46708000000000000097B
+t1271162632
+s2427
+i"ActiveRecordHelpers.h"
+i"NSManagedObjectContext+ActiveRecord.h"
+i"NSPersistentStoreCoordinator+ActiveRecord.h"
+i"NSManagedObjectModel+ActiveRecord.h"
+i"NSPersistentStore+ActiveRecord.h"
+
+N/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/LICENSE
+c000000004BC467080000000000000443
+t1271162632
+s1091
+
+N/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSManagedObject+ActiveRecord.h
+c000000004BC4670800000000000014DA
+t1271162632
+s5338
+i<CoreData/CoreData.h>
+i"ActiveRecordHelpers.h"
+
+N/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSManagedObject+ActiveRecord.m
+c000000004BC4670800000000000045FA
+t1271162632
+s17914
+i<CoreData/CoreData.h>
+i"NSManagedObject+ActiveRecord.h"
+i"NSManagedObjectContext+ActiveRecord.h"
+
+N/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSManagedObjectContext+ActiveRecord.h
+c000000004BC467080000000000000320
+t1271162632
+s800
+i"ActiveRecordHelpers.h"
+
+N/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSManagedObjectContext+ActiveRecord.m
+c000000004BC467080000000000000DF0
+t1271162632
+s3568
+i"NSManagedObject+ActiveRecord.h"
+i"NSManagedObjectContext+ActiveRecord.h"
+i"NSPersistentStoreCoordinator+ActiveRecord.h"
+
+N/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSManagedObjectModel+ActiveRecord.h
+c000000004BC467080000000000000273
+t1271162632
+s627
+i<Foundation/Foundation.h>
+i"ActiveRecordHelpers.h"
+
+N/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSManagedObjectModel+ActiveRecord.m
+c000000004BC467080000000000000525
+t1271162632
+s1317
+i"NSManagedObjectModel+ActiveRecord.h"
+
+N/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSPersistentStore+ActiveRecord.h
+c000000004BC467080000000000000188
+t1271162632
+s392
+i"ActiveRecordHelpers.h"
+
+N/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSPersistentStore+ActiveRecord.m
+c000000004BC46708000000000000044B
+t1271162632
+s1099
+i"NSPersistentStore+ActiveRecord.h"
+
+N/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSPersistentStoreCoordinator+ActiveRecord.h
+c000000004BC467080000000000000281
+t1271162632
+s641
+i"ActiveRecordHelpers.h"
+
+N/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSPersistentStoreCoordinator+ActiveRecord.m
+c000000004BC4670800000000000009B1
+t1271162632
+s2481
+i"NSPersistentStoreCoordinator+ActiveRecord.h"
+i"NSManagedObjectModel+ActiveRecord.h"
+i"NSPersistentStore+ActiveRecord.h"
+
+N/Users/saul/projects/MusicPlayer/MainWindow.xib
+c000000004BD1317A0000000000002678
+t1272000890
+s9848
+
+N/Users/saul/projects/MusicPlayer/MusicPlayer.xcdatamodel
+c000000004BD138920000000000000088
+t1272002706
+s136
+
+N/Users/saul/projects/MusicPlayer/MusicPlayer/Playlist.h
+c000000004BD52074000000000000005A
+t1272258676
+s90
+i"_Playlist.h"
+
+N/Users/saul/projects/MusicPlayer/MusicPlayer/Song.h
+c000000004BD52074000000000000004E
+t1272258676
+s78
+i"_Song.h"
+
+N/Users/saul/projects/MusicPlayer/MusicPlayer/_Playlist.h
+c000000004BD520740000000000000355
+t1272258676
+s853
+i<CoreData/CoreData.h>
+
+N/Users/saul/projects/MusicPlayer/MusicPlayer/_Song.h
+c000000004BD520740000000000000428
+t1272258676
+s1064
+i<CoreData/CoreData.h>
+
+N/Users/saul/projects/MusicPlayer/MusicPlayerViewController.xib
+c000000004BD1317A0000000000001A55
+t1272000890
+s6741
+
+N/Users/saul/projects/MusicPlayer/MusicPlayer_Prefix.pch
+c000000004BD1317A00000000000000BF
+t1272000890
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app
+t1272259282
+s306
+
+N/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app.dSYM
+t1272259282
+s102
+
+N/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/.hg_archival.txt
+t2
+s0
+
+N/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/.hgtags
+t2
+s0
+
+N/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/Info.plist
+t1272259273
+s609
+
+N/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/LICENSE
+t1272259279
+s1091
+
+N/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/MainWindow.nib
+t1272259279
+s1518
+
+N/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/MusicPlayer
+t1272259282
+s65016
+
+N/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/MusicPlayer.mom
+t1272259281
+s2053
+
+N/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/MusicPlayerView.nib
+t1272259279
+s1151
+
+N/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/MusicPlayerViewController.nib
+t1272001387
+s1151
+
+N/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/PkgInfo
+t1272259273
+s8
+
+N/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/ActiveRecordHelpers.o
+t1272259281
+s16444
+
+N/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/MusicPlayer.LinkFileList
+c000000004BD522C9000000000000071F
+t1272259273
+s1823
+
+N/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/MusicPlayerAppDelegate.o
+t1272259281
+s38208
+
+N/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/MusicPlayerViewController.o
+t1272259281
+s29980
+
+N/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/NSManagedObject+ActiveRecord.o
+t1272259281
+s57864
+
+N/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/NSManagedObjectContext+ActiveRecord.o
+t1272259281
+s21672
+
+N/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/NSManagedObjectModel+ActiveRecord.o
+t1272259281
+s10676
+
+N/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/NSPersistentStore+ActiveRecord.o
+t1272259281
+s10816
+
+N/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/NSPersistentStoreCoordinator+ActiveRecord.o
+t1272259281
+s14048
+
+N/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/Playlist.o
+t1272259281
+s4912
+
+N/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/Song.o
+t1272259281
+s4888
+
+N/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/_Playlist.o
+t1272259281
+s16132
+
+N/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/_Song.o
+t1272259281
+s16832
+
+N/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/main.o
+t1272259281
+s5936
+
+N/Users/saul/projects/MusicPlayer/main.m
+c000000004BD1317A0000000000000174
+t1272000890
+s372
+i<UIKit/UIKit.h>
+
+N/var/folders/O6/O6-HVclnH7qoMWifWe1BhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicPlayer_Prefix-ciekpngnnrhrokaxoothzziiblez/MusicPlayer_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/O6/O6-HVclnH7qoMWifWe1BhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicPlayer_Prefix-gnwcplpvvlzjuoejcicbxnukgbkf/MusicPlayer_Prefix.pch.gch
+t1272259281
+s13026768
+
+NMusicPlayer-Info.plist
+c000000004BD1317A000000000000038D
+t1272000890
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies293952072#293952073#0(0"0(0#1#0"4300960984#0"0#
+
+CCompileC build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/ActiveRecordHelpers.o /Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/ActiveRecordHelpers.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293952081.302356
+e293952081.426410
+r1
+xCompileC
+xbuild/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/ActiveRecordHelpers.o
+x/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/ActiveRecordHelpers.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/ActiveRecordHelpers.m293952081#293952081#0(0"0(0#0#89"/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/ActiveRecordHelpers.m4300960984#1938"    cd /Users/saul/projects/MusicPlayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-generated-files.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-own-target-headers.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-all-target-headers.hmap -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-project-headers.hmap -F/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator -I/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/include -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources/i386 -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources -include /var/folders/O6/O6-HVclnH7qoMWifWe1BhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicPlayer_Prefix-gnwcplpvvlzjuoejcicbxnukgbkf/MusicPlayer_Prefix.pch -c /Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/ActiveRecordHelpers.m -o /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/ActiveRecordHelpers.o0#
+
+CCompileC build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/MusicPlayerAppDelegate.o /Users/saul/projects/MusicPlayer/Classes/MusicPlayerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293952081.154466
+e293952081.302166
+r1
+xCompileC
+xbuild/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/MusicPlayerAppDelegate.o
+x/Users/saul/projects/MusicPlayer/Classes/MusicPlayerAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/saul/projects/MusicPlayer/Classes/MusicPlayerAppDelegate.m293952081#293952081#0(0"0(0#0#65"/Users/saul/projects/MusicPlayer/Classes/MusicPlayerAppDelegate.m4300960984#1917"    cd /Users/saul/projects/MusicPlayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-generated-files.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-own-target-headers.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-all-target-headers.hmap -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-project-headers.hmap -F/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator -I/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/include -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources/i386 -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources -include /var/folders/O6/O6-HVclnH7qoMWifWe1BhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicPlayer_Prefix-gnwcplpvvlzjuoejcicbxnukgbkf/MusicPlayer_Prefix.pch -c /Users/saul/projects/MusicPlayer/Classes/MusicPlayerAppDelegate.m -o /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/MusicPlayerAppDelegate.o0#
+
+CCompileC build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/MusicPlayerViewController.o /Users/saul/projects/MusicPlayer/Classes/MusicPlayerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293952081.247648
+e293952081.323912
+r1
+xCompileC
+xbuild/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/MusicPlayerViewController.o
+x/Users/saul/projects/MusicPlayer/Classes/MusicPlayerViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/saul/projects/MusicPlayer/Classes/MusicPlayerViewController.m293952081#293952081#0(0"0(0#0#68"/Users/saul/projects/MusicPlayer/Classes/MusicPlayerViewController.m4300960984#1923"    cd /Users/saul/projects/MusicPlayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-generated-files.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-own-target-headers.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-all-target-headers.hmap -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-project-headers.hmap -F/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator -I/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/include -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources/i386 -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources -include /var/folders/O6/O6-HVclnH7qoMWifWe1BhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicPlayer_Prefix-gnwcplpvvlzjuoejcicbxnukgbkf/MusicPlayer_Prefix.pch -c /Users/saul/projects/MusicPlayer/Classes/MusicPlayerViewController.m -o /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/MusicPlayerViewController.o0#
+
+CCompileC build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/NSManagedObject+ActiveRecord.o /Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSManagedObject+ActiveRecord.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293952081.324053
+e293952081.532972
+r1
+xCompileC
+xbuild/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/NSManagedObject+ActiveRecord.o
+x/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSManagedObject+ActiveRecord.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@106"Compile /Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSManagedObject+ActiveRecord.m293952081#293952081#0(0"0(0#0#98"/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSManagedObject+ActiveRecord.m4300960984#1956"    cd /Users/saul/projects/MusicPlayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-generated-files.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-own-target-headers.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-all-target-headers.hmap -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-project-headers.hmap -F/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator -I/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/include -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources/i386 -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources -include /var/folders/O6/O6-HVclnH7qoMWifWe1BhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicPlayer_Prefix-gnwcplpvvlzjuoejcicbxnukgbkf/MusicPlayer_Prefix.pch -c /Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSManagedObject+ActiveRecord.m -o /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/NSManagedObject+ActiveRecord.o0#
+
+CCompileC build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/NSManagedObjectContext+ActiveRecord.o /Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSManagedObjectContext+ActiveRecord.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293952081.426522
+e293952081.535958
+r1
+xCompileC
+xbuild/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/NSManagedObjectContext+ActiveRecord.o
+x/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSManagedObjectContext+ActiveRecord.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@113"Compile /Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSManagedObjectContext+ActiveRecord.m293952081#293952081#0(0"0(0#0#105"/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSManagedObjectContext+ActiveRecord.m4300960984#1970"    cd /Users/saul/projects/MusicPlayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-generated-files.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-own-target-headers.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-all-target-headers.hmap -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-project-headers.hmap -F/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator -I/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/include -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources/i386 -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources -include /var/folders/O6/O6-HVclnH7qoMWifWe1BhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicPlayer_Prefix-gnwcplpvvlzjuoejcicbxnukgbkf/MusicPlayer_Prefix.pch -c /Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSManagedObjectContext+ActiveRecord.m -o /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/NSManagedObjectContext+ActiveRecord.o0#
+
+CCompileC build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/NSManagedObjectModel+ActiveRecord.o /Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSManagedObjectModel+ActiveRecord.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293952081.533305
+e293952081.626718
+r1
+xCompileC
+xbuild/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/NSManagedObjectModel+ActiveRecord.o
+x/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSManagedObjectModel+ActiveRecord.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@111"Compile /Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSManagedObjectModel+ActiveRecord.m293952081#293952081#0(0"0(0#0#103"/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSManagedObjectModel+ActiveRecord.m4300960984#1966"    cd /Users/saul/projects/MusicPlayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-generated-files.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-own-target-headers.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-all-target-headers.hmap -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-project-headers.hmap -F/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator -I/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/include -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources/i386 -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources -include /var/folders/O6/O6-HVclnH7qoMWifWe1BhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicPlayer_Prefix-gnwcplpvvlzjuoejcicbxnukgbkf/MusicPlayer_Prefix.pch -c /Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSManagedObjectModel+ActiveRecord.m -o /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/NSManagedObjectModel+ActiveRecord.o0#
+
+CCompileC build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/NSPersistentStore+ActiveRecord.o /Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSPersistentStore+ActiveRecord.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293952081.536066
+e293952081.635260
+r1
+xCompileC
+xbuild/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/NSPersistentStore+ActiveRecord.o
+x/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSPersistentStore+ActiveRecord.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSPersistentStore+ActiveRecord.m293952081#293952081#0(0"0(0#0#100"/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSPersistentStore+ActiveRecord.m4300960984#1960"    cd /Users/saul/projects/MusicPlayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-generated-files.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-own-target-headers.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-all-target-headers.hmap -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-project-headers.hmap -F/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator -I/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/include -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources/i386 -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources -include /var/folders/O6/O6-HVclnH7qoMWifWe1BhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicPlayer_Prefix-gnwcplpvvlzjuoejcicbxnukgbkf/MusicPlayer_Prefix.pch -c /Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSPersistentStore+ActiveRecord.m -o /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/NSPersistentStore+ActiveRecord.o0#
+
+CCompileC build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/NSPersistentStoreCoordinator+ActiveRecord.o /Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSPersistentStoreCoordinator+ActiveRecord.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293952081.626842
+e293952081.719081
+r1
+xCompileC
+xbuild/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/NSPersistentStoreCoordinator+ActiveRecord.o
+x/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSPersistentStoreCoordinator+ActiveRecord.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@119"Compile /Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSPersistentStoreCoordinator+ActiveRecord.m293952081#293952081#0(0"0(0#0#111"/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSPersistentStoreCoordinator+ActiveRecord.m4300960984#1982"    cd /Users/saul/projects/MusicPlayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-generated-files.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-own-target-headers.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-all-target-headers.hmap -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-project-headers.hmap -F/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator -I/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/include -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources/i386 -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources -include /var/folders/O6/O6-HVclnH7qoMWifWe1BhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicPlayer_Prefix-gnwcplpvvlzjuoejcicbxnukgbkf/MusicPlayer_Prefix.pch -c /Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/NSPersistentStoreCoordinator+ActiveRecord.m -o /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/NSPersistentStoreCoordinator+ActiveRecord.o0#
+
+CCompileC build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/Playlist.o /Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/Playlist.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293952081.635374
+e293952081.716128
+r1
+xCompileC
+xbuild/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/Playlist.o
+x/Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/Playlist.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/Playlist.m293952081#293952081#0(0"0(0#0#66"/Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/Playlist.m4300960984#1904"    cd /Users/saul/projects/MusicPlayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-generated-files.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-own-target-headers.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-all-target-headers.hmap -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-project-headers.hmap -F/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator -I/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/include -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources/i386 -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources -include /var/folders/O6/O6-HVclnH7qoMWifWe1BhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicPlayer_Prefix-gnwcplpvvlzjuoejcicbxnukgbkf/MusicPlayer_Prefix.pch -c /Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/Playlist.m -o /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/Playlist.o0#
+
+CCompileC build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/Song.o /Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/Song.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293952081.716246
+e293952081.816472
+r1
+xCompileC
+xbuild/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/Song.o
+x/Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/Song.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/Song.m293952081#293952081#0(0"0(0#0#62"/Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/Song.m4300960984#1896"    cd /Users/saul/projects/MusicPlayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-generated-files.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-own-target-headers.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-all-target-headers.hmap -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-project-headers.hmap -F/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator -I/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/include -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources/i386 -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources -include /var/folders/O6/O6-HVclnH7qoMWifWe1BhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicPlayer_Prefix-gnwcplpvvlzjuoejcicbxnukgbkf/MusicPlayer_Prefix.pch -c /Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/Song.m -o /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/Song.o0#
+
+CCompileC build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/_Playlist.o /Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/_Playlist.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293952081.719185
+e293952081.837699
+r1
+xCompileC
+xbuild/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/_Playlist.o
+x/Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/_Playlist.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/_Playlist.m293952081#293952081#0(0"0(0#0#67"/Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/_Playlist.m4300960984#1906"    cd /Users/saul/projects/MusicPlayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-generated-files.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-own-target-headers.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-all-target-headers.hmap -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-project-headers.hmap -F/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator -I/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/include -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources/i386 -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources -include /var/folders/O6/O6-HVclnH7qoMWifWe1BhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicPlayer_Prefix-gnwcplpvvlzjuoejcicbxnukgbkf/MusicPlayer_Prefix.pch -c /Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/_Playlist.m -o /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/_Playlist.o0#
+
+CCompileC build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/_Song.o /Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/_Song.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293952081.816598
+e293952081.897257
+r1
+xCompileC
+xbuild/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/_Song.o
+x/Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/_Song.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/_Song.m293952081#293952081#0(0"0(0#0#63"/Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/_Song.m4300960984#1898"    cd /Users/saul/projects/MusicPlayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-generated-files.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-own-target-headers.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-all-target-headers.hmap -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-project-headers.hmap -F/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator -I/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/include -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources/i386 -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources -include /var/folders/O6/O6-HVclnH7qoMWifWe1BhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicPlayer_Prefix-gnwcplpvvlzjuoejcicbxnukgbkf/MusicPlayer_Prefix.pch -c /Users/saul/projects/MusicPlayer/Classes/../MusicPlayer/_Song.m -o /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/_Song.o0#
+
+CCompileC build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/main.o /Users/saul/projects/MusicPlayer/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293952081.079974
+e293952081.247535
+r1
+xCompileC
+xbuild/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/main.o
+x/Users/saul/projects/MusicPlayer/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/saul/projects/MusicPlayer/main.m293952081#293952081#0(0"0(0#0#39"/Users/saul/projects/MusicPlayer/main.m4300960984#1873"    cd /Users/saul/projects/MusicPlayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-generated-files.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-own-target-headers.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-all-target-headers.hmap -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-project-headers.hmap -F/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator -I/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/include -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources/i386 -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources -include /var/folders/O6/O6-HVclnH7qoMWifWe1BhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicPlayer_Prefix-gnwcplpvvlzjuoejcicbxnukgbkf/MusicPlayer_Prefix.pch -c /Users/saul/projects/MusicPlayer/main.m -o /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/saul/projects/MusicPlayer/Classes/../MusicPlayerView.xib
+s293952073.154785
+e293952079.148746
+r1
+xCompileXIB
+x/Users/saul/projects/MusicPlayer/Classes/../MusicPlayerView.xib
+lSLF07#2@41"CompileXIB Classes/../MusicPlayerView.xib293952073#293952079#0(0"0(0#0#63"/Users/saul/projects/MusicPlayer/Classes/../MusicPlayerView.xib4300960984#489"    cd /Users/saul/projects/MusicPlayer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/MusicPlayerView.nib /Users/saul/projects/MusicPlayer/Classes/../MusicPlayerView.xib0#
+
+CCompileXIB /Users/saul/projects/MusicPlayer/Classes/../MusicPlayerViewController.xib
+r0
+
+CCompileXIB /Users/saul/projects/MusicPlayer/MainWindow.xib
+s293952073.136868
+e293952079.298106
+r1
+xCompileXIB
+x/Users/saul/projects/MusicPlayer/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib293952073#293952079#0(0"0(0#0#47"/Users/saul/projects/MusicPlayer/MainWindow.xib4300960984#468"    cd /Users/saul/projects/MusicPlayer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/MainWindow.nib /Users/saul/projects/MusicPlayer/MainWindow.xib0#
+
+CCompileXIB /Users/saul/projects/MusicPlayer/MusicPlayerViewController.xib
+s293694186.328319
+e293694187.345093
+r1
+xCompileXIB
+x/Users/saul/projects/MusicPlayer/MusicPlayerViewController.xib
+lSLF07#2@40"CompileXIB MusicPlayerViewController.xib293694186#293694187#0(0"0(0#0#62"/Users/saul/projects/MusicPlayer/MusicPlayerViewController.xib4300960984#498"    cd /Users/saul/projects/MusicPlayer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/MusicPlayerViewController.nib /Users/saul/projects/MusicPlayer/MusicPlayerViewController.xib0#
+
+CCpResource build/Debug-iphonesimulator/MusicPlayer.app/.hg_archival.txt Classes/activerecord-for-core-data/.hg_archival.txt
+r0
+
+CCpResource build/Debug-iphonesimulator/MusicPlayer.app/.hgtags Classes/activerecord-for-core-data/.hgtags
+r0
+
+CCpResource build/Debug-iphonesimulator/MusicPlayer.app/LICENSE Classes/activerecord-for-core-data/LICENSE
+s293952079.148978
+e293952079.274116
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MusicPlayer.app/LICENSE
+xClasses/activerecord-for-core-data/LICENSE
+lSLF07#2@47"Copy Classes/activerecord-for-core-data/LICENSE293952079#293952079#0(0"0(0#0#75"/Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/LICENSE4300960984#472"    cd /Users/saul/projects/MusicPlayer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/saul/projects/MusicPlayer/Classes/activerecord-for-core-data/LICENSE /Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app0#
+
+CDataModelCompile /Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/MusicPlayer.mom /Users/saul/projects/MusicPlayer/Classes/../MusicPlayer.xcdatamodel
+s293952081.078897
+e293952081.154343
+r1
+xDataModelCompile
+x/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/MusicPlayer.mom
+x/Users/saul/projects/MusicPlayer/Classes/../MusicPlayer.xcdatamodel
+lSLF07#2@75"Compile /Users/saul/projects/MusicPlayer/Classes/../MusicPlayer.xcdatamodel293952081#293952081#0(0"0(0#0#67"/Users/saul/projects/MusicPlayer/Classes/../MusicPlayer.xcdatamodel4300960984#389"    cd /Users/saul/projects/MusicPlayer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.5 /Users/saul/projects/MusicPlayer/Classes/../MusicPlayer.xcdatamodel /Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/MusicPlayer.mom0#
+
+CDataModelCompile /Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/MusicPlayer.mom /Users/saul/projects/MusicPlayer/MusicPlayer.xcdatamodel
+r0
+
+CGenerateDSYMFile /Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app.dSYM /Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/MusicPlayer
+s293952082.214514
+e293952082.313012
+r1
+xGenerateDSYMFile
+x/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app.dSYM
+x/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/MusicPlayer
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/MusicPlayer.app.dSYM build/Debug-iphonesimulator/MusicPlayer.app/MusicPlayer293952082#293952082#0(0"0(0#0#88"/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/MusicPlayer4300960984#377"    cd /Users/saul/projects/MusicPlayer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/MusicPlayer -o /Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app.dSYM0#
+
+CLd /Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/MusicPlayer normal i386
+s293952081.897376
+e293952082.214381
+r1
+xLd
+x/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/MusicPlayer
+xnormal
+xi386
+lSLF07#2@93"Link /Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/MusicPlayer293952081#293952082#0(0"0(0#0#0"4300960984#874"    cd /Users/saul/projects/MusicPlayer    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator -F/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator -filelist /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/Objects-normal/i386/MusicPlayer.LinkFileList -mmacosx-version-min=10.5 -framework CoreData -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/MusicPlayer0#
+
+CProcessInfoPlistFile /Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/Info.plist MusicPlayer-Info.plist
+s293952073.117993
+e293952073.136772
+r1
+xProcessInfoPlistFile
+x/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/Info.plist
+xMusicPlayer-Info.plist
+lSLF07#2@30"Process MusicPlayer-Info.plist293952073#293952073#0(0"0(0#0#55"/Users/saul/projects/MusicPlayer/MusicPlayer-Info.plist4300960984#473"    cd /Users/saul/projects/MusicPlayer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MusicPlayer-Info.plist -genpkginfo /Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app/Info.plist0#
+
+CProcessPCH /var/folders/O6/O6-HVclnH7qoMWifWe1BhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicPlayer_Prefix-ciekpngnnrhrokaxoothzziiblez/MusicPlayer_Prefix.pch.gch MusicPlayer_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/O6/O6-HVclnH7qoMWifWe1BhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicPlayer_Prefix-gnwcplpvvlzjuoejcicbxnukgbkf/MusicPlayer_Prefix.pch.gch MusicPlayer_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s293952079.298279
+e293952081.078736
+r1
+xProcessPCH
+x/var/folders/O6/O6-HVclnH7qoMWifWe1BhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicPlayer_Prefix-gnwcplpvvlzjuoejcicbxnukgbkf/MusicPlayer_Prefix.pch.gch
+xMusicPlayer_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile MusicPlayer_Prefix.pch293952079#293952081#0(0"0(0#0#55"/Users/saul/projects/MusicPlayer/MusicPlayer_Prefix.pch4300960984#1767"    cd /Users/saul/projects/MusicPlayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-generated-files.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-own-target-headers.hmap -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-all-target-headers.hmap -iquote /Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/MusicPlayer-project-headers.hmap -F/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator -I/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/include -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources/i386 -I/Users/saul/projects/MusicPlayer/build/MusicPlayer.build/Debug-iphonesimulator/MusicPlayer.build/DerivedSources -c /Users/saul/projects/MusicPlayer/MusicPlayer_Prefix.pch -o /var/folders/O6/O6-HVclnH7qoMWifWe1BhE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MusicPlayer_Prefix-gnwcplpvvlzjuoejcicbxnukgbkf/MusicPlayer_Prefix.pch.gch0#
+
+CTouch /Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app
+s293952082.313113
+e293952082.351328
+r1
+xTouch
+x/Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app
+lSLF07#2@82"Touch /Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app293952082#293952082#0(0"0(0#0#0"4300960984#270"    cd /Users/saul/projects/MusicPlayer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/saul/projects/MusicPlayer/build/Debug-iphonesimulator/MusicPlayer.app0#
+

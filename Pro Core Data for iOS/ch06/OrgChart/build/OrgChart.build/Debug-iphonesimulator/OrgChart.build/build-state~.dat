@@ -1,0 +1,356 @@
+TOrgChart
+v7
+r0
+t314196619.076299
+cCheck dependencies
+cProcessInfoPlistFile /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/Info.plist OrgChart-Info.plist
+cCompileXIB /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/MainWindow.xib
+cCompileXIB /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/OrgChartViewController.xib
+cProcessPCH /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-cwsogxkjquirhafxealwjsnvuxkg/OrgChart_Prefix.pch.gch OrgChart_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-cceoijchtycrhhgolsiuupfjtupu/OrgChart_Prefix.pch.pth OrgChart_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+cDataModelCompile /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/OrgChart.mom /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/OrgChart.xcdatamodel
+cCompileC build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/Objects-normal/i386/main.o /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/Objects-normal/i386/OrgChartAppDelegate.o /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/Objects-normal/i386/OrgChartViewController.o /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cAnalyze /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/main.m
+cAnalyze /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m
+cAnalyze /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartViewController.m
+cLd /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/OrgChart normal i386
+cGenerateDSYMFile /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app.dSYM /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/OrgChart
+cTouch /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004CC122A000000000001D6CE0
+t1287725728
+s1928416
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004CC12294000000000000046B
+t1287725716
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.h
+c000000004CFF7E02000000000000050F
+t1291812354
+s1295
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m
+c000000004D0A0A9F00000000000025D9
+t1292503711
+s9689
+i"OrgChartAppDelegate.h"
+i"OrgChartViewController.h"
+
+N/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartViewController.h
+c000000004CFF7E0200000000000001CC
+t1291812354
+s460
+i<UIKit/UIKit.h>
+
+N/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartViewController.m
+c000000004CFF7DEC00000000000006A0
+t1291812332
+s1696
+i"OrgChartViewController.h"
+
+N/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/MainWindow.xib
+c000000004CFF60250000000000004E35
+t1291804709
+s20021
+
+N/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/OrgChart.xcdatamodel
+c000000004D09FB980000000000000088
+t1292499864
+s136
+
+N/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/OrgChartViewController.xib
+c000000004CFF60250000000000001A49
+t1291804709
+s6729
+
+N/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/OrgChart_Prefix.pch
+c000000004CFF602500000000000000B9
+t1291804709
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app
+t1292503819
+s272
+
+N/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app.dSYM
+t1292503819
+s102
+
+N/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/Info.plist
+t1292503817
+s595
+
+N/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/MainWindow.nib
+t1292503818
+s1125
+
+N/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/OrgChart
+t1292503819
+s23880
+
+N/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/OrgChart.mom
+t1292503818
+s2215
+
+N/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/OrgChartViewController.nib
+t1292503818
+s795
+
+N/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/PkgInfo
+t1292503817
+s8
+
+N/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/Objects-normal/i386/OrgChart.LinkFileList
+c000000004D0A0B0900000000000001E0
+t1292503817
+s480
+
+N/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/Objects-normal/i386/OrgChartAppDelegate.o
+t1292503819
+s74872
+
+N/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/Objects-normal/i386/OrgChartViewController.o
+t1292503818
+s37572
+
+N/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/Objects-normal/i386/main.o
+t1292503818
+s6352
+
+N/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/StaticAnalyzer/normal/i386/OrgChartAppDelegate.plist
+t1292503819
+s21962
+
+N/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/StaticAnalyzer/normal/i386/OrgChartViewController.plist
+t1292503819
+s276
+
+N/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/StaticAnalyzer/normal/i386/main.plist
+t1292503819
+s276
+
+N/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/main.m
+c000000004CFF7DFB0000000000000257
+t1291812347
+s599
+i<UIKit/UIKit.h>
+
+N/var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-cceoijchtycrhhgolsiuupfjtupu/OrgChart_Prefix.pch.pth
+t1292503818
+s2784096
+
+N/var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-cwsogxkjquirhafxealwjsnvuxkg/OrgChart_Prefix.pch.gch
+t1292503818
+s15453392
+
+NOrgChart-Info.plist
+c000000004CFF6025000000000000038D
+t1291804709
+s909
+
+CAnalyze /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m
+s314196618.968292
+e314196619.045708
+r1
+xAnalyze
+x/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m
+o/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m:231:34: warning: Potential leak of an object allocated on line 231 and stored into 'fetchRequest'
+o   NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+o                                  ^
+o/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m:237:43: warning: Potential leak of an object allocated on line 237 and stored into 'sortDescriptorByAge'
+o   NSSortDescriptor *sortDescriptorByAge = [[NSSortDescriptor alloc] initWithKey:@"age" ascending:YES];
+o                                           ^
+o/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m:238:44: warning: Potential leak of an object allocated on line 238 and stored into 'sortDescriptorByName'
+o   NSSortDescriptor *sortDescriptorByName = [[NSSortDescriptor alloc] initWithKey:@"name" ascending:NO];
+o                                            ^
+o/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m:239:30: warning: Potential leak of an object allocated on line 239 and stored into 'sortDescriptors'
+o   NSArray *sortDescriptors = [[NSArray alloc] initWithObjects:sortDescriptorByAge, sortDescriptorByName, nil];
+o                              ^
+o4 warnings generated.
+lSLF07#2@101"Analyze /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196618#314196619#0(1353"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m:231:34: warning: Potential leak of an object allocated on line 231 and stored into 'fetchRequest'   NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];                                  ^/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m:237:43: warning: Potential leak of an object allocated on line 237 and stored into 'sortDescriptorByAge'   NSSortDescriptor *sortDescriptorByAge = [[NSSortDescriptor alloc] initWithKey:@"age" ascending:YES];                                           ^/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m:238:44: warning: Potential leak of an object allocated on line 238 and stored into 'sortDescriptorByName'   NSSortDescriptor *sortDescriptorByName = [[NSSortDescriptor alloc] initWithKey:@"name" ascending:NO];                                            ^/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m:239:30: warning: Potential leak of an object allocated on line 239 and stored into 'sortDescriptors'   NSArray *sortDescriptors = [[NSArray alloc] initWithObjects:sortDescriptorByAge, sortDescriptorByName, nil];                              ^4 warnings generated.4(0@87"Potential leak of an object allocated on line 237 and stored into 'sortDescriptorByAge'314196619#18446744073709551615#0#5(17@0"314196619#18446744073709551615#0#0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#0#0#0#0#0"0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#0#0#0#0#1(3@6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#228#3#228#3#6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#237#3#237#3#17@0"314196619#18446744073709551615#0#0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#0#0#0#0#0"0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#0#0#0#0#1(3@6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#237#3#237#3#6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#237#43#237#101#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)314196619#18446744073709551615#0#0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#237#43#0#0#0"1(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#237#43#237#101#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"314196619#18446744073709551615#0#0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#0#0#0#0#0"0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#0#0#0#0#1(3@6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#237#43#237#101#6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#240#3#240#3#21@152"Object allocated on line 237 and stored into 'sortDescriptorByAge' is no longer referenced after this point and has a retain count of +1 (object leaked)314196619#18446744073709551615#0#0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#240#3#0#0#0"1(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#240#3#240#3#152"Object allocated on line 237 and stored into 'sortDescriptorByAge' is no longer referenced after this point and has a retain count of +1 (object leaked)6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#240#3#0#0#36"Memory (Core Foundation/Objective-C)0(4"Leak0@88"Potential leak of an object allocated on line 238 and stored into 'sortDescriptorByName'314196619#18446744073709551615#0#5(17@0"314196619#18446744073709551615#0#0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#0#0#0#0#0"0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#0#0#0#0#1(3@6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#228#3#228#3#6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#238#3#238#3#17@0"314196619#18446744073709551615#0#0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#0#0#0#0#0"0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#0#0#0#0#1(3@6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#238#3#238#3#6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#238#44#238#102#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)314196619#18446744073709551615#0#0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#238#44#0#0#0"1(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#238#44#238#102#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"314196619#18446744073709551615#0#0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#0#0#0#0#0"0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#0#0#0#0#1(3@6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#238#44#238#102#6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#240#3#240#3#21@153"Object allocated on line 238 and stored into 'sortDescriptorByName' is no longer referenced after this point and has a retain count of +1 (object leaked)314196619#18446744073709551615#0#0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#240#3#0#0#0"1(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#240#3#240#3#153"Object allocated on line 238 and stored into 'sortDescriptorByName' is no longer referenced after this point and has a retain count of +1 (object leaked)6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#240#3#0#0#36"Memory (Core Foundation/Objective-C)0(4"Leak0@83"Potential leak of an object allocated on line 239 and stored into 'sortDescriptors'314196619#18446744073709551615#0#5(17@0"314196619#18446744073709551615#0#0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#0#0#0#0#0"0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#0#0#0#0#1(3@6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#228#3#228#3#6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#239#3#239#3#17@0"314196619#18446744073709551615#0#0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#0#0#0#0#0"0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#0#0#0#0#1(3@6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#239#3#239#3#6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#239#30#239#109#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)314196619#18446744073709551615#0#0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#239#30#0#0#0"1(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#239#30#239#109#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"314196619#18446744073709551615#0#0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#0#0#0#0#0"0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#0#0#0#0#1(3@6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#239#30#239#109#6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#242#3#242#9#21@148"Object allocated on line 239 and stored into 'sortDescriptors' is no longer referenced after this point and has a retain count of +1 (object leaked)314196619#18446744073709551615#0#0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#242#3#0#0#0"1(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#242#3#242#9#148"Object allocated on line 239 and stored into 'sortDescriptors' is no longer referenced after this point and has a retain count of +1 (object leaked)6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#242#3#0#0#36"Memory (Core Foundation/Objective-C)0(4"Leak0@80"Potential leak of an object allocated on line 231 and stored into 'fetchRequest'314196619#18446744073709551615#0#5(17@0"314196619#18446744073709551615#0#0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#0#0#0#0#0"0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#0#0#0#0#1(3@6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#228#3#228#3#6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#231#3#231#3#17@0"314196619#18446744073709551615#0#0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#0#0#0#0#0"0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#0#0#0#0#1(3@6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#231#3#231#3#6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#231#34#231#62#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)314196619#18446744073709551615#0#0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#231#34#0#0#0"1(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#231#34#231#62#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"314196619#18446744073709551615#0#0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#0#0#0#0#0"0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#0#0#0#0#1(3@6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#231#34#231#62#6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#244#34#244#40#21@145"Object allocated on line 231 and stored into 'fetchRequest' is no longer referenced after this point and has a retain count of +1 (object leaked)314196619#18446744073709551615#0#0(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#244#34#0#0#0"1(6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#244#34#244#40#145"Object allocated on line 231 and stored into 'fetchRequest' is no longer referenced after this point and has a retain count of +1 (object leaked)6@93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196511#244#34#0#0#36"Memory (Core Foundation/Objective-C)0(4"Leak0#0#93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m8614659136#2256"    cd /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-generated-files.hmap -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-own-target-headers.hmap -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-all-target-headers.hmap -iquote /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-project-headers.hmap -F/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/include -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/DerivedSources/i386 -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/DerivedSources -include /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-cceoijchtycrhhgolsiuupfjtupu/OrgChart_Prefix.pch --analyze /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m -o /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/StaticAnalyzer/normal/i386/OrgChartAppDelegate.plist0#
+
+CAnalyze /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartViewController.m
+s314196618.969455
+e314196619.026781
+r1
+xAnalyze
+x/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartViewController.m
+lSLF07#2@104"Analyze /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartViewController.m314196618#314196619#0(0"0(0#0#96"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartViewController.m8613786976#2262"    cd /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-generated-files.hmap -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-own-target-headers.hmap -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-all-target-headers.hmap -iquote /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-project-headers.hmap -F/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/include -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/DerivedSources/i386 -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/DerivedSources -include /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-cceoijchtycrhhgolsiuupfjtupu/OrgChart_Prefix.pch --analyze /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartViewController.m -o /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/StaticAnalyzer/normal/i386/OrgChartViewController.plist0#
+
+CAnalyze /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/main.m
+s314196618.950709
+e314196619.006272
+r1
+xAnalyze
+x/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/main.m
+lSLF07#2@78"Analyze /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/main.m314196618#314196619#0(0"0(0#0#70"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/main.m8606127328#2218"    cd /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-generated-files.hmap -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-own-target-headers.hmap -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-all-target-headers.hmap -iquote /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-project-headers.hmap -F/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/include -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/DerivedSources/i386 -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/DerivedSources -include /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-cceoijchtycrhhgolsiuupfjtupu/OrgChart_Prefix.pch --analyze /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/main.m -o /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/StaticAnalyzer/normal/i386/main.plist0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies314196617#314196617#0(0"0(0#1#0"8613600352#0"0#
+
+CCompileC build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/Objects-normal/i386/OrgChartAppDelegate.o /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314196618.884772
+e314196619.038429
+r1
+xCompileC
+xbuild/OrgChart.build/Debug-iphonesimulator/OrgChart.build/Objects-normal/i386/OrgChartAppDelegate.o
+x/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m314196618#314196619#0(0"0(0#0#93"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m8607967552#2247"    cd /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-generated-files.hmap -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-own-target-headers.hmap -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-all-target-headers.hmap -iquote /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-project-headers.hmap -F/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/include -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/DerivedSources/i386 -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/DerivedSources -include /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-cwsogxkjquirhafxealwjsnvuxkg/OrgChart_Prefix.pch -c /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartAppDelegate.m -o /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/Objects-normal/i386/OrgChartAppDelegate.o0#
+
+CCompileC build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/Objects-normal/i386/OrgChartViewController.o /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314196618.886130
+e314196618.968189
+r1
+xCompileC
+xbuild/OrgChart.build/Debug-iphonesimulator/OrgChart.build/Objects-normal/i386/OrgChartViewController.o
+x/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartViewController.m314196618#314196618#0(0"0(0#0#96"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartViewController.m8615548352#2253"    cd /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-generated-files.hmap -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-own-target-headers.hmap -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-all-target-headers.hmap -iquote /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-project-headers.hmap -F/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/include -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/DerivedSources/i386 -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/DerivedSources -include /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-cwsogxkjquirhafxealwjsnvuxkg/OrgChart_Prefix.pch -c /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/Classes/OrgChartViewController.m -o /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/Objects-normal/i386/OrgChartViewController.o0#
+
+CCompileC build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/Objects-normal/i386/main.o /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s314196618.883723
+e314196618.967954
+r1
+xCompileC
+xbuild/OrgChart.build/Debug-iphonesimulator/OrgChart.build/Objects-normal/i386/main.o
+x/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/main.m314196618#314196618#0(0"0(0#0#70"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/main.m8608114144#2209"    cd /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-generated-files.hmap -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-own-target-headers.hmap -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-all-target-headers.hmap -iquote /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-project-headers.hmap -F/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/include -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/DerivedSources/i386 -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/DerivedSources -include /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-cwsogxkjquirhafxealwjsnvuxkg/OrgChart_Prefix.pch -c /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/main.m -o /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/MainWindow.xib
+s314196617.750315
+e314196618.118510
+r1
+xCompileXIB
+x/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib314196617#314196618#0(0"0(0#0#78"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/MainWindow.xib8614808224#646"    cd /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/MainWindow.nib /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/OrgChartViewController.xib
+s314196617.750956
+e314196618.100610
+r1
+xCompileXIB
+x/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/OrgChartViewController.xib
+lSLF07#2@37"CompileXIB OrgChartViewController.xib314196617#314196618#0(0"0(0#0#90"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/OrgChartViewController.xib8614777440#670"    cd /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/OrgChartViewController.nib /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/OrgChartViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CDataModelCompile /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/OrgChart.mom /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/OrgChart.xcdatamodel
+s314196618.882987
+e314196618.950353
+r1
+xDataModelCompile
+x/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/OrgChart.mom
+x/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/OrgChart.xcdatamodel
+lSLF07#2@92"Compile /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/OrgChart.xcdatamodel314196618#314196618#0(0"0(0#0#84"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/OrgChart.xcdatamodel8606041408#462"    cd /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/OrgChart.xcdatamodel /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/OrgChart.mom0#
+
+CGenerateDSYMFile /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app.dSYM /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/OrgChart
+s314196619.061036
+e314196619.073794
+r1
+xGenerateDSYMFile
+x/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app.dSYM
+x/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/OrgChart
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/OrgChart.app.dSYM build/Debug-iphonesimulator/OrgChart.app/OrgChart314196619#314196619#0(0"0(0#0#113"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/OrgChart8613098784#461"    cd /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/OrgChart -o /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app.dSYM0#
+
+CLd /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/OrgChart normal i386
+s314196619.038557
+e314196619.060945
+r1
+xLd
+x/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/OrgChart
+xnormal
+xi386
+lSLF07#2@118"Link /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/OrgChart314196619#314196619#0(0"0(0#0#0"8603760384#1050"    cd /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator -F/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator -filelist /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/Objects-normal/i386/OrgChart.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/OrgChart0#
+
+CProcessInfoPlistFile /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/Info.plist OrgChart-Info.plist
+s314196617.746974
+e314196617.750254
+r1
+xProcessInfoPlistFile
+x/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/Info.plist
+xOrgChart-Info.plist
+lSLF07#2@27"Process OrgChart-Info.plist314196617#314196617#0(0"0(0#0#83"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/OrgChart-Info.plist8603389856#557"    cd /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility OrgChart-Info.plist -genpkginfo /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app/Info.plist0#
+
+CProcessPCH /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-cceoijchtycrhhgolsiuupfjtupu/OrgChart_Prefix.pch.pth OrgChart_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s314196618.119452
+e314196618.443129
+r1
+xProcessPCH
+x/var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-cceoijchtycrhhgolsiuupfjtupu/OrgChart_Prefix.pch.pth
+xOrgChart_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@30"Precompile OrgChart_Prefix.pch314196618#314196618#0(0"0(0#0#83"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/OrgChart_Prefix.pch8614413056#2066"    cd /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-generated-files.hmap -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-own-target-headers.hmap -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-all-target-headers.hmap -iquote /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-project-headers.hmap -F/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/include -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/DerivedSources/i386 -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/DerivedSources -c /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/OrgChart_Prefix.pch -o /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-cceoijchtycrhhgolsiuupfjtupu/OrgChart_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-cwsogxkjquirhafxealwjsnvuxkg/OrgChart_Prefix.pch.gch OrgChart_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s314196618.118633
+e314196618.882904
+r1
+xProcessPCH
+x/var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-cwsogxkjquirhafxealwjsnvuxkg/OrgChart_Prefix.pch.gch
+xOrgChart_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile OrgChart_Prefix.pch314196618#314196618#0(0"0(0#0#83"/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/OrgChart_Prefix.pch8614470880#2075"    cd /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-generated-files.hmap -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-own-target-headers.hmap -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-all-target-headers.hmap -iquote /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/OrgChart-project-headers.hmap -F/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/include -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/DerivedSources/i386 -I/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/OrgChart.build/Debug-iphonesimulator/OrgChart.build/DerivedSources -c /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/OrgChart_Prefix.pch -o /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-cwsogxkjquirhafxealwjsnvuxkg/OrgChart_Prefix.pch.gch0#
+
+CTouch /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app
+s314196619.073906
+e314196619.076271
+r1
+xTouch
+x/Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app
+lSLF07#2@110"Touch /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app314196619#314196619#0(0"0(0#0#0"8608329696#329"    cd /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/rwarner/Development/books/CoreData/Sources/ch06/OrgChart/build/Debug-iphonesimulator/OrgChart.app0#
+

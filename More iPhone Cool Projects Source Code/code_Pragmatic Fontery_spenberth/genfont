@@ -1,0 +1,211 @@
+#!/usr/bin/php
+<?php
+
+$LATIN = ' ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+$LATIN .= '.!?,!"#$%&\'()*+-:;<=>[\\]^_{|}~';
+$HEAD  = file_get_contents('head.tpl');
+$TPL = file_get_contents('entry.tpl');
+$TAIL = file_get_contents('tail.tpl');
+$char_table = array();
+
+//$LATIN = ' !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`';
+//$LATIN .= "abcdefghijklmnopqrstuvwxyzi{|}~";
+
+function metrics($char,$font,$pointsize) {
+  $char = htmlentities($char);
+  if ($char == '\\') $char = '\\\\';
+  $out = <<<EOF
+  <query-font-metrics text="$char" font="$font" pointsize="$pointsize" />
+  <print output="$char width=%[msl:font-metrics.width]" />
+  <print output=" height=%[msl:font-metrics.height]" />
+  <print output=" advance=%[msl:font-metrics.max_advance]" />
+  <print output=" ascent=%[msl:font-metrics.ascent]" />
+  <print output=" descent=%[msl:font-metrics.descent]" />
+  <print output = " x=%[msl:font-metrics.origin.x] y=%[msl:font-metrics.origin.y]\\n" />\n
+EOF;
+  return $out;
+}
+
+function file_header() {
+  $out = '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
+  $out .= "<image>\n";
+  return $out;
+}
+
+function file_footer() {
+  $out = "</image>\n";
+  return $out;
+}
+
+function latin_metrics($font,$pointsize) {
+  global $LATIN;
+  $out = file_header();
+  $len = strlen($LATIN);
+  for ($i=0; $i < $len; $i++) {
+    $c = substr($LATIN,$i,1);
+    $out .= metrics($c,$font,$pointsize);
+  }
+  $out .= file_footer();
+  return $out;
+}
+
+function base_command($font,$pointsize) {
+  $out = "convert -size 256x256 xc:none -font $font -pointsize $pointsize -fill black ";
+  return $out;
+}
+
+function cdata($thing) {
+  return "<![CDATA[$thing]]>";
+}
+
+function show_char($char,$x,$y) {
+   if ($char == '"') $char = '\\"';
+   if ($char == "'") $char = "\\'";
+   if ($char == "\\") $char = "\\\\";
+   if ($char == "(") $char = "\(";
+   if ($char == ")") $char = "\)";
+   if ($char == "&") $char = "\&";
+   if ($char == "<") $char = "\<";
+   if ($char == "!") $char = "\!";
+   $out = "-annotate +$x+$y \"$char\" "; 
+   return $out;
+}
+
+function build_maps($font, $pointsize, $height, $descent) {
+   global $LATIN, $HEAD, $TAIL, $char_table;
+   $plist = $HEAD;
+   $count = 0;
+   $len = strlen($LATIN);
+   $cmd = base_command($font,$pointsize);
+   $xpos = 0;
+   $ypos = $height + $descent + 2;
+   $lastY = 256 + $descent;
+   $filenum = 0;
+   while ($count < $len) {
+      $char = substr($LATIN,$count,1);
+      $metrics = $char_table[$char];
+      if (($xpos + $metrics['width']) > 256) {
+        $xpos = 0;
+        $ypos += ($height + 1);
+      }
+      if ($ypos > $lastY) {
+         if ($count > 0) {
+			$plist .= $TAIL;
+            $cmd .= "font".$filenum.".png";
+            $retval = exec($cmd);
+            if (!$retval) file_put_contents("font".$filenum.".plist",$plist);
+         }
+         $filenum++;
+		 $xpos = 0;
+         $ypos = $height + $descent + 1;
+         $plist = $HEAD;
+         $cmd = base_command($font,$pointsize);
+      }
+      $cmd .= show_char($char, $xpos, $ypos);
+      $metrics['width'] = $metrics['x'];
+      $metrics['x'] = $xpos;
+      $metrics['y'] = $ypos - $metrics['ascent'];
+      $plist .= build_plist_entry($metrics);
+      $xpos += $metrics['width'] + 4;
+      $count++;
+  }
+  if ($xpos > 0 && $count > 0) {
+    $plist .= $TAIL;
+    $cmd .= "font".$filenum.".png";
+    $retval = exec($cmd);
+    if (!$retval) file_put_contents("font".$filenum.".plist",$plist);
+    $filenum++;
+  }
+  return $filenum;
+}
+
+function parseMetricsLine($line) {
+   $result = array();
+   $char = substr($line,0,1);
+   $parts = explode(' ' ,trim(substr($line,2))); 
+   $result['char'] = $char;
+   foreach ($parts as $part) {
+      $av = explode('=',$part);
+      $result[trim($av[0])] = floatval($av[1]);
+   }
+   return $result;
+}
+
+function build_plist_entry($entry) {
+   global $TPL;
+   $out = $TPL;
+   $out = str_replace('$x', $entry['x'], $out);
+   $out = str_replace('$y', $entry['y'], $out);
+   $out = str_replace('$name', cdata($entry['char']), $out);
+   $out = str_replace('$ascent', $entry['ascent'], $out);
+   $out = str_replace('$descent', $entry['descent'], $out);
+   $out = str_replace('$w', $entry['width'], $out);
+   $out = str_replace('$h', $entry['height'], $out);
+   return $out;
+}
+
+function build_plist($info) {
+  global $HEAD, $TPL, $TAIL;
+  $out = $HEAD;
+  foreach ($info as $entry) {
+//echo "Processing '$entry'\n'";
+    $out .= build_plist_entry(parseMetricsLine($entry));
+  }
+  $out .= $TAIL;
+  return $out;
+}
+
+function fill_char_table($info) {
+  global $char_table;
+  $size = 0;
+  $len = sizeof($info);
+  for ($i=0; $i < $len; $i++) {
+    $vals = parseMetricsLine($info[$i]);
+    $char_table[$vals['char']] = $vals;
+    if ($size < $vals['x']) $size = $vals['width'];
+    if ($size < $vals['height']) $size = $vals['height'];
+  }
+  return $size+1;
+}
+
+function createMap($font,$pointsize) {
+   global $char_table;
+   $metrics = latin_metrics($font,$pointsize);
+   $fname = tempnam("tmp","font");
+   file_put_contents($fname,$metrics);
+   $info = array();
+   $retval = exec("conjure $fname", &$info);
+   if ($retval) {
+     // we have metrics now
+     $box_size = fill_char_table($info);
+     $all = $char_table['A']; 
+     $ascent = $all['ascent'];
+     $descent = $all['descent'];
+     $linesize = $all['height']+1;
+     $baseline = $linesize + $descent;
+     $count = build_maps($font,$pointsize,$linesize,$descent);
+     return $count;
+   }
+   return 0;
+}
+
+function main($font) {
+  $done = false;
+  $lastSize = 18;
+  $size = $lastSize;
+  echo "Working...";
+  while (!$done) {
+    echo ".";
+    $count = createMap($font,$lastSize);
+    if ($count == 0) $done = true;
+    if ($count == 1) {
+      $lastSize = $size;
+      $size += 2;
+    }
+    $done = $done || ($count > 1);
+  }
+  echo "\n";
+  echo "We created a fontmap font0.png and property list font1.png using font size $lastSize.\n";
+}
+
+main($argv[1]);

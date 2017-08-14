@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/124/trunk/tests/shaders
+END
+ShaderMaterialDemoView.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/123/trunk/tests/shaders/ShaderMaterialDemoView.m
+END
+DemoShader.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/123/trunk/tests/shaders/DemoShader.h
+END
+PowerVRShader.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/123/trunk/tests/shaders/PowerVRShader.h
+END
+Noise.pvr
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/123/trunk/tests/shaders/Noise.pvr
+END
+DemoShader.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/124/trunk/tests/shaders/DemoShader.m
+END
+PowerVRShader.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/124/trunk/tests/shaders/PowerVRShader.m
+END
+demoShader.fsh
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/121/trunk/tests/shaders/demoShader.fsh
+END
+powervrShader.fsh
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/123/trunk/tests/shaders/powervrShader.fsh
+END
+powervrShader.vsh
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/123/trunk/tests/shaders/powervrShader.vsh
+END
+demoShader.vsh
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/123/trunk/tests/shaders/demoShader.vsh
+END
+ShaderMaterialDemoView.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/121/trunk/tests/shaders/ShaderMaterialDemoView.h
+END

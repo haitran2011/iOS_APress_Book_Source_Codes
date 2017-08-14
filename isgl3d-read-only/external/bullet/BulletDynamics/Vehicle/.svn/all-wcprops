@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/20/trunk/external/bullet/BulletDynamics/Vehicle
+END
+btRaycastVehicle.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/20/trunk/external/bullet/BulletDynamics/Vehicle/btRaycastVehicle.h
+END
+btWheelInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/20/trunk/external/bullet/BulletDynamics/Vehicle/btWheelInfo.cpp
+END
+btVehicleRaycaster.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/20/trunk/external/bullet/BulletDynamics/Vehicle/btVehicleRaycaster.h
+END
+btWheelInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/20/trunk/external/bullet/BulletDynamics/Vehicle/btWheelInfo.h
+END
+btRaycastVehicle.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/20/trunk/external/bullet/BulletDynamics/Vehicle/btRaycastVehicle.cpp
+END

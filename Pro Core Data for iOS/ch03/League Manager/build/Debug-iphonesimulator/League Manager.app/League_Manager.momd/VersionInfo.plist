@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSManagedObjectModel_CurrentVersionName</key>
+	<string>League_Manager</string>
+	<key>NSManagedObjectModel_VersionHashes</key>
+	<dict>
+		<key>League_Manager</key>
+		<dict>
+			<key>Player</key>
+			<data>
+			QRI+8jf5OXSA5dkydbK20isvHVrWhCAttsY9Yh4oUSQ=
+			</data>
+			<key>Team</key>
+			<data>
+			V/pOfHFixiAQ1Nb7Xlg2Xu4laNYWtrsg5Br1qtI9JMY=
+			</data>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/122/trunk/Resources/Shaders
+END
+capture.fsh
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/7/trunk/Resources/Shaders/capture.fsh
+END
+shadowMap.vsh
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/7/trunk/Resources/Shaders/shadowMap.vsh
+END
+particle.fsh
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/7/trunk/Resources/Shaders/particle.fsh
+END
+capture.vsh
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/7/trunk/Resources/Shaders/capture.vsh
+END
+particle.vsh
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/7/trunk/Resources/Shaders/particle.vsh
+END
+shadowMap.fsh
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/7/trunk/Resources/Shaders/shadowMap.fsh
+END
+generic.vsh
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/122/trunk/Resources/Shaders/generic.vsh
+END
+generic.fsh
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/7/trunk/Resources/Shaders/generic.fsh
+END

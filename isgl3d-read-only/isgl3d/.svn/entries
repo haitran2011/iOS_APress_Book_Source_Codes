@@ -1,0 +1,181 @@
+10
+
+dir
+143
+http://isgl3d.googlecode.com/svn/trunk/isgl3d
+http://isgl3d.googlecode.com/svn
+
+
+
+2011-11-25T18:37:52.608663Z
+140
+stuart.caunt@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+92988a87-13a2-556d-73fc-66728a54d5e9
+
+isgl3d.m
+file
+
+
+
+
+2012-12-16T06:50:06.000000Z
+1d3e16da70a7eb40c34c8e7cf403d517
+2011-07-11T16:44:56.625556Z
+103
+stuart.caunt@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1291
+
+materials
+dir
+
+importers
+dir
+
+particles
+dir
+
+core
+dir
+
+math
+dir
+
+renderers
+dir
+
+lights
+dir
+
+primitives
+dir
+
+animators
+dir
+
+utils
+dir
+
+actions
+dir
+
+isgl3dTypes.h
+file
+
+
+
+
+2012-12-16T06:50:06.000000Z
+ba2546d3ca3cf9be60b68b94f0f4e082
+2011-07-11T16:44:56.625556Z
+103
+stuart.caunt@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2529
+
+events
+dir
+
+containers
+dir
+
+tweener
+dir
+
+view
+dir
+
+cameras
+dir
+
+isgl3d.h
+file
+
+
+
+
+2012-12-16T06:50:06.000000Z
+9cac2a62016f714f2c3b4a36cc0b6a14
+2011-08-12T23:27:27.179513Z
+130
+stuart.caunt@gmail.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6501
+
+ui
+dir
+

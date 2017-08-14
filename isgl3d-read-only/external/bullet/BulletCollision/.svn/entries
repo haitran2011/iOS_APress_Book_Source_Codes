@@ -1,0 +1,43 @@
+10
+
+dir
+143
+http://isgl3d.googlecode.com/svn/trunk/external/bullet/BulletCollision
+http://isgl3d.googlecode.com/svn
+
+
+
+2011-02-26T17:40:18.753509Z
+20
+stuart.caunt@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+92988a87-13a2-556d-73fc-66728a54d5e9
+
+CollisionShapes
+dir
+
+BroadphaseCollision
+dir
+
+Gimpact
+dir
+
+NarrowPhaseCollision
+dir
+
+CollisionDispatch
+dir
+

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/67/trunk/tests/pod
+END
+SkinningTestView.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/46/trunk/tests/pod/SkinningTestView.h
+END
+SkinningTestView.mm
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/67/trunk/tests/pod/SkinningTestView.mm
+END
+PODTestView.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/46/trunk/tests/pod/PODTestView.h
+END
+PODTestView.mm
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/58/trunk/tests/pod/PODTestView.mm
+END

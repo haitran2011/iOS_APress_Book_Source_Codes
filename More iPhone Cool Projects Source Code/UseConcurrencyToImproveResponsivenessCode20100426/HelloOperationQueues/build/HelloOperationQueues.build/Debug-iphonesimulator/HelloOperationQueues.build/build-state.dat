@@ -1,0 +1,519 @@
+THelloOperationQueues
+v7
+r0
+t293992568.776731
+cCheck dependencies
+cProcessInfoPlistFile /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/Info.plist HelloOperationQueues-Info.plist
+cCompileXIB /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/MainWindow.xib
+cCompileXIB /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/HelloOperationQueuesViewController.xib
+cProcessPCH /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/HelloOperationQueues_Prefix-damddugtkkdnllbgwcelexsoojan/HelloOperationQueues_Prefix.pch.gch HelloOperationQueues_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/main.o /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/HelloOperationQueuesAppDelegate.o /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/Classes/HelloOperationQueuesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/HelloOperationQueuesViewController.o /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/Classes/HelloOperationQueuesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/JobUnit.o /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/Classes/JobUnit.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/HelloOperationQueues normal i386
+cGenerateDSYMFile /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app.dSYM /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/HelloOperationQueues
+cTouch /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004B69B45C00000000000000EE
+t1265218652
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Users/danton/Apress/HelloOperationQueues/Classes/HelloOperationQueuesAppDelegate.h
+c000000004BAFB78B000000000000023E
+t1269806987
+s574
+i<UIKit/UIKit.h>
+
+N/Users/danton/Apress/HelloOperationQueues/Classes/HelloOperationQueuesAppDelegate.m
+c000000004BAFB78B00000000000002BC
+t1269806987
+s700
+i"HelloOperationQueuesAppDelegate.h"
+i"HelloOperationQueuesViewController.h"
+
+N/Users/danton/Apress/HelloOperationQueues/Classes/HelloOperationQueuesViewController.h
+c000000004BD2120800000000000002A8
+t1272058376
+s680
+i<UIKit/UIKit.h>
+
+N/Users/danton/Apress/HelloOperationQueues/Classes/HelloOperationQueuesViewController.m
+c000000004BD5A53E0000000000000F5D
+t1272292670
+s3933
+i"HelloOperationQueuesViewController.h"
+i"JobUnit.h"
+
+N/Users/danton/Apress/HelloOperationQueues/Classes/JobUnit.h
+c000000004BB0BACC0000000000000180
+t1269873356
+s384
+i<Foundation/Foundation.h>
+
+N/Users/danton/Apress/HelloOperationQueues/Classes/JobUnit.m
+c000000004BB0BDB40000000000000410
+t1269874100
+s1040
+i"JobUnit.h"
+
+N/Users/danton/Apress/HelloOperationQueues/HelloOperationQueuesViewController.xib
+c000000004BB941540000000000007074
+t1270432084
+s28788
+
+N/Users/danton/Apress/HelloOperationQueues/HelloOperationQueues_Prefix.pch
+c000000004BAFB78B00000000000000D1
+t1269806987
+s209
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/danton/Apress/HelloOperationQueues/MainWindow.xib
+c000000004BAFB78B00000000000024DD
+t1269806987
+s9437
+
+N/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app
+t1272292672
+s238
+
+N/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app.dSYM
+t1272292672
+s102
+
+N/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/HelloOperationQueues
+t1272292672
+s26996
+
+N/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/HelloOperationQueuesViewController.nib
+t1270435513
+s4538
+
+N/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/Info.plist
+t1272058406
+s651
+
+N/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/MainWindow.nib
+t1269873380
+s1521
+
+N/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/PkgInfo
+t1272058406
+s8
+
+N/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/HelloOperationQueues.LinkFileList
+c000000004BB0BAE30000000000000298
+t1269873379
+s664
+
+N/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/HelloOperationQueuesAppDelegate.o
+t1272058412
+s38692
+
+N/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/HelloOperationQueuesViewController.o
+t1272292672
+s43936
+
+N/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/JobUnit.o
+t1272058412
+s10744
+
+N/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/main.o
+t1272058412
+s5956
+
+N/Users/danton/Apress/HelloOperationQueues/main.m
+c000000004BAFB78B0000000000000187
+t1269806987
+s391
+i<UIKit/UIKit.h>
+
+N/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/Classes/HelloOperationQueuesAppDelegate.h
+c000000004BAFB78B000000000000023E
+t1269806987
+s574
+i<UIKit/UIKit.h>
+
+N/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/Classes/HelloOperationQueuesAppDelegate.m
+c000000004BAFB78B00000000000002BC
+t1269806987
+s700
+i"HelloOperationQueuesAppDelegate.h"
+i"HelloOperationQueuesViewController.h"
+
+N/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/Classes/HelloOperationQueuesViewController.h
+c000000004BD5C0C60000000000000295
+t1272299718
+s661
+i<UIKit/UIKit.h>
+
+N/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/Classes/HelloOperationQueuesViewController.m
+c000000004BD5A53E0000000000000F5D
+t1272292670
+s3933
+i"HelloOperationQueuesViewController.h"
+i"JobUnit.h"
+
+N/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/Classes/JobUnit.h
+c000000004BB0BACC0000000000000180
+t1269873356
+s384
+i<Foundation/Foundation.h>
+
+N/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/Classes/JobUnit.m
+c000000004BB0BDB40000000000000410
+t1269874100
+s1040
+i"JobUnit.h"
+
+N/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/HelloOperationQueuesViewController.xib
+c000000004BB941540000000000007074
+t1270432084
+s28788
+
+N/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/HelloOperationQueues_Prefix.pch
+c000000004BAFB78B00000000000000D1
+t1269806987
+s209
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/MainWindow.xib
+c000000004BAFB78B00000000000024DD
+t1269806987
+s9437
+
+N/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app
+t1272299768
+s238
+
+N/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app.dSYM
+t1272299768
+s102
+
+N/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/HelloOperationQueues
+t1272299768
+s27396
+
+N/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/HelloOperationQueuesViewController.nib
+t1270435513
+s4538
+
+N/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/Info.plist
+t1272058406
+s651
+
+N/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/MainWindow.nib
+t1269873380
+s1521
+
+N/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/PkgInfo
+t1272058406
+s8
+
+N/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/HelloOperationQueues.LinkFileList
+c000000004BD5C0F70000000000000360
+t1272299767
+s864
+
+N/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/HelloOperationQueuesAppDelegate.o
+t1272299768
+s38776
+
+N/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/HelloOperationQueuesViewController.o
+t1272299768
+s43988
+
+N/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/JobUnit.o
+t1272299768
+s10844
+
+N/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/main.o
+t1272299768
+s6056
+
+N/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/main.m
+c000000004BAFB78B0000000000000187
+t1269806987
+s391
+i<UIKit/UIKit.h>
+
+N/var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/HelloOperationQueues_Prefix-cojcwweqfncdzdcfwslcxxxyhkyg/HelloOperationQueues_Prefix.pch.gch
+t1272058411
+s13026768
+
+N/var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/HelloOperationQueues_Prefix-damddugtkkdnllbgwcelexsoojan/HelloOperationQueues_Prefix.pch.gch
+t1272299767
+s13026768
+
+N/var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/HelloOperationQueues_Prefix-dtoheiopxmdvtlbdihwoqzzedodd/HelloOperationQueues_Prefix.pch.gch
+t1269873381
+s13034960
+
+NHelloOperationQueues-Info.plist
+c000000004BAFB78B000000000000038D
+t1269806987
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies293992567#293992567#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/HelloOperationQueuesAppDelegate.o /Users/danton/Apress/HelloOperationQueues/Classes/HelloOperationQueuesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293751212.277801
+e293751212.434191
+r1
+xCompileC
+xbuild/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/HelloOperationQueuesAppDelegate.o
+x/Users/danton/Apress/HelloOperationQueues/Classes/HelloOperationQueuesAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/danton/Apress/HelloOperationQueues/Classes/HelloOperationQueuesAppDelegate.m293751212#293751212#0(0"0(0#0#83"/Users/danton/Apress/HelloOperationQueues/Classes/HelloOperationQueuesAppDelegate.m4300911832#2214"    cd /Users/danton/Apress/HelloOperationQueues    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-generated-files.hmap -I/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-own-target-headers.hmap -I/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-all-target-headers.hmap -iquote /Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-project-headers.hmap -F/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator -I/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/include -I/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/DerivedSources/i386 -I/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/DerivedSources -include /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/HelloOperationQueues_Prefix-cojcwweqfncdzdcfwslcxxxyhkyg/HelloOperationQueues_Prefix.pch -c /Users/danton/Apress/HelloOperationQueues/Classes/HelloOperationQueuesAppDelegate.m -o /Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/HelloOperationQueuesAppDelegate.o0#
+
+CCompileC build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/HelloOperationQueuesAppDelegate.o /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/Classes/HelloOperationQueuesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293992568.112175
+e293992568.215946
+r1
+xCompileC
+xbuild/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/HelloOperationQueuesAppDelegate.o
+x/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/Classes/HelloOperationQueuesAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@141"Compile /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/Classes/HelloOperationQueuesAppDelegate.m293992568#293992568#0(0"0(0#0#133"/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/Classes/HelloOperationQueuesAppDelegate.m4300911832#2764"    cd /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-generated-files.hmap -I/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-own-target-headers.hmap -I/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-all-target-headers.hmap -iquote /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-project-headers.hmap -F/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator -I/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/include -I/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/DerivedSources/i386 -I/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/DerivedSources -include /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/HelloOperationQueues_Prefix-damddugtkkdnllbgwcelexsoojan/HelloOperationQueues_Prefix.pch -c /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/Classes/HelloOperationQueuesAppDelegate.m -o /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/HelloOperationQueuesAppDelegate.o0#
+
+CCompileC build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/HelloOperationQueuesViewController.o /Users/danton/Apress/HelloOperationQueues/Classes/HelloOperationQueuesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293985472.460138
+e293985472.711569
+r1
+xCompileC
+xbuild/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/HelloOperationQueuesViewController.o
+x/Users/danton/Apress/HelloOperationQueues/Classes/HelloOperationQueuesViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/danton/Apress/HelloOperationQueues/Classes/HelloOperationQueuesViewController.m293985472#293985472#0(0"0(0#0#86"/Users/danton/Apress/HelloOperationQueues/Classes/HelloOperationQueuesViewController.m4300911832#2220"    cd /Users/danton/Apress/HelloOperationQueues    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-generated-files.hmap -I/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-own-target-headers.hmap -I/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-all-target-headers.hmap -iquote /Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-project-headers.hmap -F/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator -I/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/include -I/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/DerivedSources/i386 -I/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/DerivedSources -include /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/HelloOperationQueues_Prefix-cojcwweqfncdzdcfwslcxxxyhkyg/HelloOperationQueues_Prefix.pch -c /Users/danton/Apress/HelloOperationQueues/Classes/HelloOperationQueuesViewController.m -o /Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/HelloOperationQueuesViewController.o0#
+
+CCompileC build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/HelloOperationQueuesViewController.o /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/Classes/HelloOperationQueuesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293992568.204009
+e293992568.311039
+r1
+xCompileC
+xbuild/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/HelloOperationQueuesViewController.o
+x/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/Classes/HelloOperationQueuesViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@144"Compile /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/Classes/HelloOperationQueuesViewController.m293992568#293992568#0(0"0(0#0#136"/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/Classes/HelloOperationQueuesViewController.m4300911832#2770"    cd /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-generated-files.hmap -I/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-own-target-headers.hmap -I/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-all-target-headers.hmap -iquote /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-project-headers.hmap -F/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator -I/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/include -I/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/DerivedSources/i386 -I/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/DerivedSources -include /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/HelloOperationQueues_Prefix-damddugtkkdnllbgwcelexsoojan/HelloOperationQueues_Prefix.pch -c /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/Classes/HelloOperationQueuesViewController.m -o /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/HelloOperationQueuesViewController.o0#
+
+CCompileC build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/JobUnit.o /Users/danton/Apress/HelloOperationQueues/Classes/JobUnit.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293751212.434377
+e293751212.558092
+r1
+xCompileC
+xbuild/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/JobUnit.o
+x/Users/danton/Apress/HelloOperationQueues/Classes/JobUnit.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/danton/Apress/HelloOperationQueues/Classes/JobUnit.m293751212#293751212#0(0"0(0#0#59"/Users/danton/Apress/HelloOperationQueues/Classes/JobUnit.m4300911832#2166"    cd /Users/danton/Apress/HelloOperationQueues    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-generated-files.hmap -I/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-own-target-headers.hmap -I/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-all-target-headers.hmap -iquote /Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-project-headers.hmap -F/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator -I/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/include -I/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/DerivedSources/i386 -I/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/DerivedSources -include /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/HelloOperationQueues_Prefix-cojcwweqfncdzdcfwslcxxxyhkyg/HelloOperationQueues_Prefix.pch -c /Users/danton/Apress/HelloOperationQueues/Classes/JobUnit.m -o /Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/JobUnit.o0#
+
+CCompileC build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/JobUnit.o /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/Classes/JobUnit.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293992568.216060
+e293992568.284255
+r1
+xCompileC
+xbuild/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/JobUnit.o
+x/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/Classes/JobUnit.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@117"Compile /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/Classes/JobUnit.m293992568#293992568#0(0"0(0#0#109"/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/Classes/JobUnit.m4300911832#2716"    cd /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-generated-files.hmap -I/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-own-target-headers.hmap -I/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-all-target-headers.hmap -iquote /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-project-headers.hmap -F/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator -I/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/include -I/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/DerivedSources/i386 -I/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/DerivedSources -include /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/HelloOperationQueues_Prefix-damddugtkkdnllbgwcelexsoojan/HelloOperationQueues_Prefix.pch -c /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/Classes/JobUnit.m -o /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/JobUnit.o0#
+
+CCompileC build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/main.o /Users/danton/Apress/HelloOperationQueues/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293751212.266545
+e293751212.426445
+r1
+xCompileC
+xbuild/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/main.o
+x/Users/danton/Apress/HelloOperationQueues/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/danton/Apress/HelloOperationQueues/main.m293751212#293751212#0(0"0(0#0#48"/Users/danton/Apress/HelloOperationQueues/main.m4300911832#2152"    cd /Users/danton/Apress/HelloOperationQueues    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-generated-files.hmap -I/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-own-target-headers.hmap -I/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-all-target-headers.hmap -iquote /Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-project-headers.hmap -F/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator -I/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/include -I/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/DerivedSources/i386 -I/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/DerivedSources -include /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/HelloOperationQueues_Prefix-cojcwweqfncdzdcfwslcxxxyhkyg/HelloOperationQueues_Prefix.pch -c /Users/danton/Apress/HelloOperationQueues/main.m -o /Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/main.o0#
+
+CCompileC build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/main.o /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293992568.099508
+e293992568.203901
+r1
+xCompileC
+xbuild/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/main.o
+x/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@106"Compile /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/main.m293992568#293992568#0(0"0(0#0#98"/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/main.m4300911832#2702"    cd /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-generated-files.hmap -I/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-own-target-headers.hmap -I/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-all-target-headers.hmap -iquote /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-project-headers.hmap -F/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator -I/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/include -I/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/DerivedSources/i386 -I/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/DerivedSources -include /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/HelloOperationQueues_Prefix-damddugtkkdnllbgwcelexsoojan/HelloOperationQueues_Prefix.pch -c /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/main.m -o /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/danton/Apress/HelloOperationQueues/HelloOperationQueuesViewController.xib
+s292128311.619214
+e292128314.016220
+r1
+xCompileXIB
+x/Users/danton/Apress/HelloOperationQueues/HelloOperationQueuesViewController.xib
+lSLF07#2@49"CompileXIB HelloOperationQueuesViewController.xib292128311#292128314#0(0"0(0#0#80"/Users/danton/Apress/HelloOperationQueues/HelloOperationQueuesViewController.xib4300885448#552"    cd /Users/danton/Apress/HelloOperationQueues    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/HelloOperationQueuesViewController.nib /Users/danton/Apress/HelloOperationQueues/HelloOperationQueuesViewController.xib0#
+
+CCompileXIB /Users/danton/Apress/HelloOperationQueues/MainWindow.xib
+s291566179.532946
+e291566180.449114
+r1
+xCompileXIB
+x/Users/danton/Apress/HelloOperationQueues/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib291566179#291566180#0(0"0(0#0#56"/Users/danton/Apress/HelloOperationQueues/MainWindow.xib4300885448#504"    cd /Users/danton/Apress/HelloOperationQueues    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/MainWindow.nib /Users/danton/Apress/HelloOperationQueues/MainWindow.xib0#
+
+CCompileXIB /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/HelloOperationQueuesViewController.xib
+r0
+
+CCompileXIB /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/MainWindow.xib
+r0
+
+CGenerateDSYMFile /Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app.dSYM /Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/HelloOperationQueues
+s293985472.757567
+e293985472.872310
+r1
+xGenerateDSYMFile
+x/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app.dSYM
+x/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/HelloOperationQueues
+lSLF07#2@148"GenerateDSYMFile build/Debug-iphonesimulator/HelloOperationQueues.app.dSYM build/Debug-iphonesimulator/HelloOperationQueues.app/HelloOperationQueues293985472#293985472#0(0"0(0#0#115"/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/HelloOperationQueues4300911832#431"    cd /Users/danton/Apress/HelloOperationQueues    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/HelloOperationQueues -o /Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app.dSYM0#
+
+CGenerateDSYMFile /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app.dSYM /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/HelloOperationQueues
+s293992568.657312
+e293992568.763367
+r1
+xGenerateDSYMFile
+x/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app.dSYM
+x/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/HelloOperationQueues
+lSLF07#2@148"GenerateDSYMFile build/Debug-iphonesimulator/HelloOperationQueues.app.dSYM build/Debug-iphonesimulator/HelloOperationQueues.app/HelloOperationQueues293992568#293992568#0(0"0(0#0#165"/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/HelloOperationQueues4300911832#581"    cd /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/HelloOperationQueues -o /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app.dSYM0#
+
+CLd /Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/HelloOperationQueues normal i386
+s293985472.711702
+e293985472.757445
+r1
+xLd
+x/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/HelloOperationQueues
+xnormal
+xi386
+lSLF07#2@120"Link /Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/HelloOperationQueues293985472#293985472#0(0"0(0#0#0"4300911832#944"    cd /Users/danton/Apress/HelloOperationQueues    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator -F/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator -filelist /Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/HelloOperationQueues.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/HelloOperationQueues0#
+
+CLd /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/HelloOperationQueues normal i386
+s293992568.311145
+e293992568.657169
+r1
+xLd
+x/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/HelloOperationQueues
+xnormal
+xi386
+lSLF07#2@170"Link /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/HelloOperationQueues293992568#293992568#0(0"0(0#0#0"4300911832#1194"    cd /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator -F/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator -filelist /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/Objects-normal/i386/HelloOperationQueues.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/HelloOperationQueues0#
+
+CProcessInfoPlistFile /Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/Info.plist HelloOperationQueues-Info.plist
+s293751206.567707
+e293751206.608497
+r1
+xProcessInfoPlistFile
+x/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/Info.plist
+xHelloOperationQueues-Info.plist
+lSLF07#2@39"Process HelloOperationQueues-Info.plist293751206#293751206#0(0"0(0#0#73"/Users/danton/Apress/HelloOperationQueues/HelloOperationQueues-Info.plist4300911832#527"    cd /Users/danton/Apress/HelloOperationQueues    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility HelloOperationQueues-Info.plist -genpkginfo /Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app/Info.plist HelloOperationQueues-Info.plist
+r0
+
+CProcessPCH /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/HelloOperationQueues_Prefix-cojcwweqfncdzdcfwslcxxxyhkyg/HelloOperationQueues_Prefix.pch.gch HelloOperationQueues_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s293751206.609545
+e293751212.266136
+r1
+xProcessPCH
+x/var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/HelloOperationQueues_Prefix-cojcwweqfncdzdcfwslcxxxyhkyg/HelloOperationQueues_Prefix.pch.gch
+xHelloOperationQueues_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Precompile HelloOperationQueues_Prefix.pch293751206#293751212#0(0"0(0#0#73"/Users/danton/Apress/HelloOperationQueues/HelloOperationQueues_Prefix.pch4300911832#2028"    cd /Users/danton/Apress/HelloOperationQueues    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-generated-files.hmap -I/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-own-target-headers.hmap -I/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-all-target-headers.hmap -iquote /Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-project-headers.hmap -F/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator -I/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/include -I/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/DerivedSources/i386 -I/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/DerivedSources -c /Users/danton/Apress/HelloOperationQueues/HelloOperationQueues_Prefix.pch -o /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/HelloOperationQueues_Prefix-cojcwweqfncdzdcfwslcxxxyhkyg/HelloOperationQueues_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/HelloOperationQueues_Prefix-damddugtkkdnllbgwcelexsoojan/HelloOperationQueues_Prefix.pch.gch HelloOperationQueues_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s293992567.178947
+e293992568.099399
+r1
+xProcessPCH
+x/var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/HelloOperationQueues_Prefix-damddugtkkdnllbgwcelexsoojan/HelloOperationQueues_Prefix.pch.gch
+xHelloOperationQueues_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Precompile HelloOperationQueues_Prefix.pch293992567#293992568#0(0"0(0#0#123"/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/HelloOperationQueues_Prefix.pch4300911832#2528"    cd /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-generated-files.hmap -I/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-own-target-headers.hmap -I/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-all-target-headers.hmap -iquote /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-project-headers.hmap -F/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator -I/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/include -I/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/DerivedSources/i386 -I/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/DerivedSources -c /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/HelloOperationQueues_Prefix.pch -o /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/HelloOperationQueues_Prefix-damddugtkkdnllbgwcelexsoojan/HelloOperationQueues_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/HelloOperationQueues_Prefix-dtoheiopxmdvtlbdihwoqzzedodd/HelloOperationQueues_Prefix.pch.gch HelloOperationQueues_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s291566180.604813
+e291566181.997488
+r1
+xProcessPCH
+x/var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/HelloOperationQueues_Prefix-dtoheiopxmdvtlbdihwoqzzedodd/HelloOperationQueues_Prefix.pch.gch
+xHelloOperationQueues_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Precompile HelloOperationQueues_Prefix.pch291566180#291566181#0(0"0(0#0#73"/Users/danton/Apress/HelloOperationQueues/HelloOperationQueues_Prefix.pch4300885448#2028"    cd /Users/danton/Apress/HelloOperationQueues    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-generated-files.hmap -I/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-own-target-headers.hmap -I/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-all-target-headers.hmap -iquote /Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/HelloOperationQueues-project-headers.hmap -F/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator -I/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/include -I/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/DerivedSources/i386 -I/Users/danton/Apress/HelloOperationQueues/build/HelloOperationQueues.build/Debug-iphonesimulator/HelloOperationQueues.build/DerivedSources -c /Users/danton/Apress/HelloOperationQueues/HelloOperationQueues_Prefix.pch -o /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/HelloOperationQueues_Prefix-dtoheiopxmdvtlbdihwoqzzedodd/HelloOperationQueues_Prefix.pch.gch0#
+
+CTouch /Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app
+s293985472.872409
+e293985472.875031
+r1
+xTouch
+x/Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app
+lSLF07#2@100"Touch /Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app293985472#293985472#0(0"0(0#0#0"4300911832#297"    cd /Users/danton/Apress/HelloOperationQueues    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/danton/Apress/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app0#
+
+CTouch /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app
+s293992568.763595
+e293992568.776680
+r1
+xTouch
+x/Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app
+lSLF07#2@150"Touch /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app293992568#293992568#0(0"0(0#0#0"4300911832#397"    cd /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/danton/Apress/UseConcurrencyToImproveResponsivenessCode20100426/HelloOperationQueues/build/Debug-iphonesimulator/HelloOperationQueues.app0#
+

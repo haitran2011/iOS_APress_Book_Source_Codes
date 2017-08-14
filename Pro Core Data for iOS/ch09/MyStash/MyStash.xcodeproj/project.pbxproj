@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* MyStashAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MyStashAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		C717CC6C12BBE1FD0075BFB3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C717CC6B12BBE1FD0075BFB3 /* CoreData.framework */; };
+		C717CC7212BBE2970075BFB3 /* MyStash.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = C717CC7112BBE2970075BFB3 /* MyStash.xcdatamodel */; };
+		C717CC8F12BBE9BC0075BFB3 /* NoteListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C717CC8E12BBE9BC0075BFB3 /* NoteListViewController.m */; };
+		C717CC9412BBEA350075BFB3 /* note.png in Resources */ = {isa = PBXBuildFile; fileRef = C717CC9012BBEA350075BFB3 /* note.png */; };
+		C717CC9512BBEA350075BFB3 /* note@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C717CC9112BBEA350075BFB3 /* note@2x.png */; };
+		C717CC9612BBEA350075BFB3 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = C717CC9212BBEA350075BFB3 /* password.png */; };
+		C717CC9712BBEA350075BFB3 /* password@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C717CC9312BBEA350075BFB3 /* password@2x.png */; };
+		C717CCA312BBEBDC0075BFB3 /* PasswordListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C717CCA212BBEBDC0075BFB3 /* PasswordListViewController.m */; };
+		C717CD0212BBF3BE0075BFB3 /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C717CD0012BBF3BE0075BFB3 /* NoteViewController.m */; };
+		C717CD0312BBF3BE0075BFB3 /* NoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C717CD0112BBF3BE0075BFB3 /* NoteViewController.xib */; };
+		C717CD1112BBF8840075BFB3 /* PasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C717CD0F12BBF8840075BFB3 /* PasswordViewController.m */; };
+		C717CD1212BBF8840075BFB3 /* PasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C717CD1012BBF8840075BFB3 /* PasswordViewController.xib */; };
+		C717CD3712BC093A0075BFB3 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = C717CD3612BC093A0075BFB3 /* Note.m */; };
+		C717CD3A12BC0A880075BFB3 /* NSData+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = C717CD3912BC0A880075BFB3 /* NSData+Encryption.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MyStashAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStashAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MyStashAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyStashAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* MyStash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* MyStash_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStash_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* MyStash-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MyStash-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C717CC6B12BBE1FD0075BFB3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C717CC7112BBE2970075BFB3 /* MyStash.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = MyStash.xcdatamodel; sourceTree = "<group>"; };
+		C717CC8D12BBE9BC0075BFB3 /* NoteListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteListViewController.h; sourceTree = "<group>"; };
+		C717CC8E12BBE9BC0075BFB3 /* NoteListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteListViewController.m; sourceTree = "<group>"; };
+		C717CC9012BBEA350075BFB3 /* note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note.png; sourceTree = "<group>"; };
+		C717CC9112BBEA350075BFB3 /* note@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "note@2x.png"; sourceTree = "<group>"; };
+		C717CC9212BBEA350075BFB3 /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
+		C717CC9312BBEA350075BFB3 /* password@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "password@2x.png"; sourceTree = "<group>"; };
+		C717CCA112BBEBDC0075BFB3 /* PasswordListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordListViewController.h; sourceTree = "<group>"; };
+		C717CCA212BBEBDC0075BFB3 /* PasswordListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordListViewController.m; sourceTree = "<group>"; };
+		C717CCFF12BBF3BE0075BFB3 /* NoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteViewController.h; sourceTree = "<group>"; };
+		C717CD0012BBF3BE0075BFB3 /* NoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteViewController.m; sourceTree = "<group>"; };
+		C717CD0112BBF3BE0075BFB3 /* NoteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteViewController.xib; sourceTree = "<group>"; };
+		C717CD0E12BBF8840075BFB3 /* PasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordViewController.h; sourceTree = "<group>"; };
+		C717CD0F12BBF8840075BFB3 /* PasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordViewController.m; sourceTree = "<group>"; };
+		C717CD1012BBF8840075BFB3 /* PasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasswordViewController.xib; sourceTree = "<group>"; };
+		C717CD3512BC093A0075BFB3 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		C717CD3612BC093A0075BFB3 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		C717CD3812BC0A880075BFB3 /* NSData+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Encryption.h"; sourceTree = "<group>"; };
+		C717CD3912BC0A880075BFB3 /* NSData+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encryption.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				C717CC6C12BBE1FD0075BFB3 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C717CD3512BC093A0075BFB3 /* Note.h */,
+				C717CD3612BC093A0075BFB3 /* Note.m */,
+				1D3623240D0F684500981E51 /* MyStashAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MyStashAppDelegate.m */,
+				C717CC8D12BBE9BC0075BFB3 /* NoteListViewController.h */,
+				C717CC8E12BBE9BC0075BFB3 /* NoteListViewController.m */,
+				C717CCA112BBEBDC0075BFB3 /* PasswordListViewController.h */,
+				C717CCA212BBEBDC0075BFB3 /* PasswordListViewController.m */,
+				C717CCFF12BBF3BE0075BFB3 /* NoteViewController.h */,
+				C717CD0012BBF3BE0075BFB3 /* NoteViewController.m */,
+				C717CD0112BBF3BE0075BFB3 /* NoteViewController.xib */,
+				C717CD0E12BBF8840075BFB3 /* PasswordViewController.h */,
+				C717CD0F12BBF8840075BFB3 /* PasswordViewController.m */,
+				C717CD1012BBF8840075BFB3 /* PasswordViewController.xib */,
+				C717CD3812BC0A880075BFB3 /* NSData+Encryption.h */,
+				C717CD3912BC0A880075BFB3 /* NSData+Encryption.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* MyStash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* MyStash_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C717CC9012BBEA350075BFB3 /* note.png */,
+				C717CC9112BBEA350075BFB3 /* note@2x.png */,
+				C717CC9212BBEA350075BFB3 /* password.png */,
+				C717CC9312BBEA350075BFB3 /* password@2x.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* MyStash-Info.plist */,
+				C717CC7112BBE2970075BFB3 /* MyStash.xcdatamodel */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				C717CC6B12BBE1FD0075BFB3 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* MyStash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MyStash" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyStash;
+			productName = MyStash;
+			productReference = 1D6058910D05DD3D006BFB54 /* MyStash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MyStash" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* MyStash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				C717CC9412BBEA350075BFB3 /* note.png in Resources */,
+				C717CC9512BBEA350075BFB3 /* note@2x.png in Resources */,
+				C717CC9612BBEA350075BFB3 /* password.png in Resources */,
+				C717CC9712BBEA350075BFB3 /* password@2x.png in Resources */,
+				C717CD0312BBF3BE0075BFB3 /* NoteViewController.xib in Resources */,
+				C717CD1212BBF8840075BFB3 /* PasswordViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* MyStashAppDelegate.m in Sources */,
+				C717CC7212BBE2970075BFB3 /* MyStash.xcdatamodel in Sources */,
+				C717CC8F12BBE9BC0075BFB3 /* NoteListViewController.m in Sources */,
+				C717CCA312BBEBDC0075BFB3 /* PasswordListViewController.m in Sources */,
+				C717CD0212BBF3BE0075BFB3 /* NoteViewController.m in Sources */,
+				C717CD1112BBF8840075BFB3 /* PasswordViewController.m in Sources */,
+				C717CD3712BC093A0075BFB3 /* Note.m in Sources */,
+				C717CD3A12BC0A880075BFB3 /* NSData+Encryption.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MyStash_Prefix.pch;
+				INFOPLIST_FILE = "MyStash-Info.plist";
+				PRODUCT_NAME = MyStash;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MyStash_Prefix.pch;
+				INFOPLIST_FILE = "MyStash-Info.plist";
+				PRODUCT_NAME = MyStash;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MyStash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MyStash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

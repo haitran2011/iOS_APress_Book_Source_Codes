@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/120/trunk/templates/xcode3/isgl3d_app/Classes
+END
+Isgl3dViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/105/trunk/templates/xcode3/isgl3d_app/Classes/Isgl3dViewController.m
+END
+HelloWorldView.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/70/trunk/templates/xcode3/isgl3d_app/Classes/HelloWorldView.m
+END
+___PROJECTNAME___AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/94/trunk/templates/xcode3/isgl3d_app/Classes/___PROJECTNAME___AppDelegate.h
+END
+___PROJECTNAME___AppDelegate.mm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/120/trunk/templates/xcode3/isgl3d_app/Classes/___PROJECTNAME___AppDelegate.mm
+END
+Isgl3dViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/70/trunk/templates/xcode3/isgl3d_app/Classes/Isgl3dViewController.h
+END
+HelloWorldView.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/70/trunk/templates/xcode3/isgl3d_app/Classes/HelloWorldView.h
+END

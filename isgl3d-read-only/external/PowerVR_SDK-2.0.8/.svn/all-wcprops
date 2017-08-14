@@ -1,0 +1,287 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8
+END
+PVRTVertex.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTVertex.h
+END
+PVRTMemoryFileSystem.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTMemoryFileSystem.h
+END
+PVRTBackground.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTBackground.h
+END
+PVRTTrans.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTTrans.cpp
+END
+PVRTPrint3D.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTPrint3D.h
+END
+PVRTBoneBatch.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTBoneBatch.h
+END
+PVRTQuaternion.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTQuaternion.h
+END
+PVRTMisc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTMisc.cpp
+END
+PVRTResourceFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTResourceFile.h
+END
+PVRTError.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTError.h
+END
+PVRTGeometry.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTGeometry.h
+END
+PVRTTexture.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTTexture.cpp
+END
+PVRTModelPOD.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTModelPOD.cpp
+END
+PVRTGlobal.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTGlobal.h
+END
+PVRTMathTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTMathTable.h
+END
+PVRTString.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTString.cpp
+END
+PVRTShadowVol.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTShadowVol.cpp
+END
+PVRTVector.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTVector.h
+END
+PVRTSingleton.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTSingleton.h
+END
+PVRTMatrix.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTMatrix.h
+END
+PVRTDecompress.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTDecompress.h
+END
+PVRTFixedPoint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTFixedPoint.cpp
+END
+PVRTMatrixF.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTMatrixF.cpp
+END
+PVRTVertex.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTVertex.cpp
+END
+PVRTPFXParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTPFXParser.h
+END
+PVRTPrint3Ddat.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTPrint3Ddat.h
+END
+PVRTPrint3D.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTPrint3D.cpp
+END
+PVRTBoneBatch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTBoneBatch.cpp
+END
+PVRTTriStrip.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTTriStrip.h
+END
+PVRTResourceFile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTResourceFile.cpp
+END
+PVRTError.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTError.cpp
+END
+PVRTQuaternionF.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTQuaternionF.cpp
+END
+PVRTGeometry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTGeometry.cpp
+END
+PVRTMatrixX.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTMatrixX.cpp
+END
+PVRTTrans.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTTrans.h
+END
+PVRTMisc.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTMisc.h
+END
+PVRTVector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTVector.cpp
+END
+PVRTDecompress.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTDecompress.cpp
+END
+PVRTTexture.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTTexture.h
+END
+PVRTModelPOD.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTModelPOD.h
+END
+PVRTPFXParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTPFXParser.cpp
+END
+PVRTString.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTString.h
+END
+PVRTShadowVol.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTShadowVol.h
+END
+PVRTQuaternionX.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTQuaternionX.cpp
+END
+PVRTFixedPoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTFixedPoint.h
+END
+PVRTTriStrip.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTTriStrip.cpp
+END
+PVRTools.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/PVRTools.h
+END

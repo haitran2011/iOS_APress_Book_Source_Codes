@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/134/trunk/isgl3d/core
+END
+Isgl3dScheduler.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/69/trunk/isgl3d/core/Isgl3dScheduler.m
+END
+Isgl3dGLTexture.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/123/trunk/isgl3d/core/Isgl3dGLTexture.h
+END
+Isgl3dFpsRenderer.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/55/trunk/isgl3d/core/Isgl3dFpsRenderer.m
+END
+Isgl3dGLMesh.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/79/trunk/isgl3d/core/Isgl3dGLMesh.m
+END
+Isgl3dUVMap.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/5/trunk/isgl3d/core/Isgl3dUVMap.h
+END
+Isgl3dGLTexture.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/58/trunk/isgl3d/core/Isgl3dGLTexture.m
+END
+Isgl3dGLView.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/120/trunk/isgl3d/core/Isgl3dGLView.h
+END
+Isgl3dUVMap.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/42/trunk/isgl3d/core/Isgl3dUVMap.m
+END
+Isgl3dPVRLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/120/trunk/isgl3d/core/Isgl3dPVRLoader.h
+END
+Isgl3dGLVBOFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/30/trunk/isgl3d/core/Isgl3dGLVBOFactory.h
+END
+Isgl3dEAGLView.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/120/trunk/isgl3d/core/Isgl3dEAGLView.h
+END
+Isgl3dGLVBOData.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/5/trunk/isgl3d/core/Isgl3dGLVBOData.h
+END
+Isgl3dGLVBOFactory.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/42/trunk/isgl3d/core/Isgl3dGLVBOFactory.m
+END
+Isgl3dGLContext.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/120/trunk/isgl3d/core/Isgl3dGLContext.h
+END
+Isgl3dGLVBOData.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/42/trunk/isgl3d/core/Isgl3dGLVBOData.m
+END
+Isgl3dGLDepthRenderTexture.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/123/trunk/isgl3d/core/Isgl3dGLDepthRenderTexture.h
+END
+Isgl3dEAGLView.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/120/trunk/isgl3d/core/Isgl3dEAGLView.m
+END
+Isgl3dGLTextureFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/134/trunk/isgl3d/core/Isgl3dGLTextureFactory.h
+END
+Isgl3dDirector.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/134/trunk/isgl3d/core/Isgl3dDirector.h
+END
+Isgl3dGLTextureFactoryState.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/120/trunk/isgl3d/core/Isgl3dGLTextureFactoryState.h
+END
+Isgl3dGLContext.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/120/trunk/isgl3d/core/Isgl3dGLContext.m
+END
+Isgl3dGLDepthRenderTexture.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/42/trunk/isgl3d/core/Isgl3dGLDepthRenderTexture.m
+END
+Isgl3dScheduler.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/69/trunk/isgl3d/core/Isgl3dScheduler.h
+END
+Isgl3dFpsRenderer.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/55/trunk/isgl3d/core/Isgl3dFpsRenderer.h
+END
+Isgl3dGLMesh.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/88/trunk/isgl3d/core/Isgl3dGLMesh.h
+END
+Isgl3dPVRLoader.mm
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/120/trunk/isgl3d/core/Isgl3dPVRLoader.mm
+END
+Isgl3dDirector.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/126/trunk/isgl3d/core/Isgl3dDirector.m
+END
+Isgl3dGLTextureFactory.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/123/trunk/isgl3d/core/Isgl3dGLTextureFactory.m
+END
+Isgl3dGLTextureFactoryState.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/120/trunk/isgl3d/core/Isgl3dGLTextureFactoryState.m
+END

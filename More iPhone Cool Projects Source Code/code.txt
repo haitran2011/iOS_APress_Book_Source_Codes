@@ -1,0 +1,12 @@
+A<WeatherForecast><day>Partly cloudy with a 30% chance of showers</day><day>Sunny</day><day>Partly cloudy with a 10% chance of showers</day></WeatherForecast>B<WeatherForecast><day showerChance=”30” conditions=”partlyCloudy”/><day showerChance=”0” conditions=”sunny”/><day showerChance=”10” conditions=”partlyCloudy”/></WeatherForecast>
+
++ (id)defaultCenter- (void)addObserver:(id)notificationObserver selector:(SEL)notificationSelector name:(NSString *)notificationName object:(id)notificationSender- (void)postNotificationName:(NSString *)notificationName object:(id)notificationSender userInfo:(NSDictionary *)userInfo- (void)removeObserver:(id)notificationObserver
+
+
+[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(dataDidChange:) name:MyAppDataDidChangeNotification object:nil];
+
+
+#define MyAppDataDidChangeNotification @”MyAppDataDidChangeNotification”
+
+
+[[NSNotificationCenter defaultCenter] postNotificationName: MyAppDataDidChangeNotification object:self userInfo:nil];

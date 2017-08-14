@@ -1,0 +1,1 @@
+The files in this folder are block extensions to NSOperationQueue and NSThread developed by Landon Fuller/Plausible Labs and the originals are available from http://github.com/landonf/block_samples/tree/master/NSOperationBlocks.  Modifications were made to NSOperationQueue+PLBlocks.h and .m 

@@ -1,0 +1,429 @@
+TOrgChart
+v7
+r0
+t313497527.587409
+cCheck dependencies
+cCpResource build/Debug-iphoneos/OrgChart.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/Info.plist OrgChart-Info.plist
+cCompileXIB /Users/rwarner/Development/OrgChart/MainWindow.xib
+cCompileXIB /Users/rwarner/Development/OrgChart/OrgChartViewController.xib
+cProcessPCH /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-bpmvcdgqegmbhahkzvvhwnyhgatf/OrgChart_Prefix.pch.gch OrgChart_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-gbrylcuxrzbumzabcqtqwabbactv/OrgChart_Prefix.pch.gch OrgChart_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv6/main.o /Users/rwarner/Development/OrgChart/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv6/OrgChartAppDelegate.o /Users/rwarner/Development/OrgChart/Classes/OrgChartAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv6/OrgChartViewController.o /Users/rwarner/Development/OrgChart/Classes/OrgChartViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv7/main.o /Users/rwarner/Development/OrgChart/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv7/OrgChartAppDelegate.o /Users/rwarner/Development/OrgChart/Classes/OrgChartAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv7/OrgChartViewController.o /Users/rwarner/Development/OrgChart/Classes/OrgChartViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv6/OrgChart normal armv6
+cLd /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv7/OrgChart normal armv7
+cCreateUniversalBinary /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/OrgChart normal "armv6 armv7"
+cGenerateDSYMFile /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app.dSYM /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/OrgChart
+cProcessProductPackaging "/Users/rwarner/Library/MobileDevice/Provisioning Profiles/FAA71ECB-743A-4B32-AC6E-DCB0B15FEE0E.mobileprovision" /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/embedded.mobileprovision
+cTouch /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart.xcent
+cCodeSign /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/rwarner/Development/OrgChart/Classes/OrgChartAppDelegate.h
+c000000004CFF602500000000000001DA
+t1291804709
+s474
+i<UIKit/UIKit.h>
+
+N/Users/rwarner/Development/OrgChart/Classes/OrgChartAppDelegate.m
+c000000004CFF60250000000000000A8F
+t1291804709
+s2703
+i"OrgChartAppDelegate.h"
+i"OrgChartViewController.h"
+
+N/Users/rwarner/Development/OrgChart/Classes/OrgChartViewController.h
+c000000004CFF602500000000000000E6
+t1291804709
+s230
+i<UIKit/UIKit.h>
+
+N/Users/rwarner/Development/OrgChart/Classes/OrgChartViewController.m
+c000000004CFF602500000000000005BA
+t1291804709
+s1466
+i"OrgChartViewController.h"
+
+N/Users/rwarner/Development/OrgChart/MainWindow.xib
+c000000004CFF60250000000000004E35
+t1291804709
+s20021
+
+N/Users/rwarner/Development/OrgChart/OrgChartViewController.xib
+c000000004CFF60250000000000001A49
+t1291804709
+s6729
+
+N/Users/rwarner/Development/OrgChart/OrgChart_Prefix.pch
+c000000004CFF602500000000000000B9
+t1291804709
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app
+t1291804727
+s374
+
+N/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app.dSYM
+t1291804727
+s102
+
+N/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/Info.plist
+t1291804725
+s785
+
+N/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/MainWindow.nib
+t1291804726
+s1125
+
+N/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/OrgChart
+t1291804727
+s41664
+
+N/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/OrgChartViewController.nib
+t1291804726
+s795
+
+N/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/PkgInfo
+t1291804725
+s8
+
+N/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/ResourceRules.plist
+t1291804725
+s485
+
+N/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/embedded.mobileprovision
+t1291804727
+s7474
+
+N/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv6/OrgChart
+t1291804727
+s17088
+
+N/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv6/OrgChart.LinkFileList
+c000000004CFF6035000000000000017A
+t1291804725
+s378
+
+N/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv6/OrgChartAppDelegate.o
+t1291804727
+s50536
+
+N/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv6/OrgChartViewController.o
+t1291804727
+s37500
+
+N/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv6/main.o
+t1291804726
+s6440
+
+N/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv7/OrgChart
+t1291804727
+s17088
+
+N/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv7/OrgChart.LinkFileList
+c000000004CFF6035000000000000017A
+t1291804725
+s378
+
+N/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv7/OrgChartAppDelegate.o
+t1291804727
+s50456
+
+N/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv7/OrgChartViewController.o
+t1291804727
+s37476
+
+N/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv7/main.o
+t1291804727
+s6424
+
+N/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart.xcent
+t1291804727
+s422
+
+N/Users/rwarner/Development/OrgChart/main.m
+c000000004CFF6025000000000000015F
+t1291804709
+s351
+i<UIKit/UIKit.h>
+
+N/Users/rwarner/Library/MobileDevice/Provisioning Profiles/FAA71ECB-743A-4B32-AC6E-DCB0B15FEE0E.mobileprovision
+c000000004CF0436D0000000000001D32
+t1290814317
+s7474
+
+N/var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-bpmvcdgqegmbhahkzvvhwnyhgatf/OrgChart_Prefix.pch.gch
+t1291804726
+s9983704
+
+N/var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-gbrylcuxrzbumzabcqtqwabbactv/OrgChart_Prefix.pch.gch
+t1291804726
+s10446552
+
+NOrgChart-Info.plist
+c000000004CFF6025000000000000038D
+t1291804709
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies313497525#313497525#0(0"0(0#1#0"8247620834010738688#0"0#
+
+CCodeSign /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app
+s313497527.230655
+e313497527.587224
+r1
+xCodeSign
+x/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app
+lSLF07#2@42"CodeSign build/Debug-iphoneos/OrgChart.app313497527#313497527#0(0"0(0#0#69"/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app8604355264#639"    cd /Users/rwarner/Development/OrgChart    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Rob Warner (Q53QK6V88H)" --resource-rules=/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/ResourceRules.plist --entitlements /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart.xcent /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app0#
+
+CCompileC build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv6/OrgChartAppDelegate.o /Users/rwarner/Development/OrgChart/Classes/OrgChartAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313497526.914472
+e313497527.028987
+r1
+xCompileC
+xbuild/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv6/OrgChartAppDelegate.o
+x/Users/rwarner/Development/OrgChart/Classes/OrgChartAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/rwarner/Development/OrgChart/Classes/OrgChartAppDelegate.m313497526#313497527#0(0"0(0#0#65"/Users/rwarner/Development/OrgChart/Classes/OrgChartAppDelegate.m8606478304#1749"    cd /Users/rwarner/Development/OrgChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-generated-files.hmap -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-own-target-headers.hmap -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-all-target-headers.hmap -iquote /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-project-headers.hmap -F/Users/rwarner/Development/OrgChart/build/Debug-iphoneos -I/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/include -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/DerivedSources/armv6 -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/DerivedSources -include /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-bpmvcdgqegmbhahkzvvhwnyhgatf/OrgChart_Prefix.pch -c /Users/rwarner/Development/OrgChart/Classes/OrgChartAppDelegate.m -o /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv6/OrgChartAppDelegate.o0#
+
+CCompileC build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv6/OrgChartViewController.o /Users/rwarner/Development/OrgChart/Classes/OrgChartViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313497526.915531
+e313497527.004063
+r1
+xCompileC
+xbuild/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv6/OrgChartViewController.o
+x/Users/rwarner/Development/OrgChart/Classes/OrgChartViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/rwarner/Development/OrgChart/Classes/OrgChartViewController.m313497526#313497527#0(0"0(0#0#68"/Users/rwarner/Development/OrgChart/Classes/OrgChartViewController.m8606295168#1755"    cd /Users/rwarner/Development/OrgChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-generated-files.hmap -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-own-target-headers.hmap -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-all-target-headers.hmap -iquote /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-project-headers.hmap -F/Users/rwarner/Development/OrgChart/build/Debug-iphoneos -I/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/include -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/DerivedSources/armv6 -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/DerivedSources -include /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-bpmvcdgqegmbhahkzvvhwnyhgatf/OrgChart_Prefix.pch -c /Users/rwarner/Development/OrgChart/Classes/OrgChartViewController.m -o /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv6/OrgChartViewController.o0#
+
+CCompileC build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv6/main.o /Users/rwarner/Development/OrgChart/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313497526.913411
+e313497526.996695
+r1
+xCompileC
+xbuild/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv6/main.o
+x/Users/rwarner/Development/OrgChart/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/rwarner/Development/OrgChart/main.m313497526#313497526#0(0"0(0#0#42"/Users/rwarner/Development/OrgChart/main.m8606701632#1711"    cd /Users/rwarner/Development/OrgChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-generated-files.hmap -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-own-target-headers.hmap -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-all-target-headers.hmap -iquote /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-project-headers.hmap -F/Users/rwarner/Development/OrgChart/build/Debug-iphoneos -I/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/include -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/DerivedSources/armv6 -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/DerivedSources -include /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-bpmvcdgqegmbhahkzvvhwnyhgatf/OrgChart_Prefix.pch -c /Users/rwarner/Development/OrgChart/main.m -o /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv7/OrgChartAppDelegate.o /Users/rwarner/Development/OrgChart/Classes/OrgChartAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313497526.996829
+e313497527.075448
+r1
+xCompileC
+xbuild/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv7/OrgChartAppDelegate.o
+x/Users/rwarner/Development/OrgChart/Classes/OrgChartAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/rwarner/Development/OrgChart/Classes/OrgChartAppDelegate.m313497526#313497527#0(0"0(0#0#65"/Users/rwarner/Development/OrgChart/Classes/OrgChartAppDelegate.m8608903104#1749"    cd /Users/rwarner/Development/OrgChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-generated-files.hmap -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-own-target-headers.hmap -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-all-target-headers.hmap -iquote /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-project-headers.hmap -F/Users/rwarner/Development/OrgChart/build/Debug-iphoneos -I/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/include -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/DerivedSources/armv7 -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/DerivedSources -include /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-gbrylcuxrzbumzabcqtqwabbactv/OrgChart_Prefix.pch -c /Users/rwarner/Development/OrgChart/Classes/OrgChartAppDelegate.m -o /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv7/OrgChartAppDelegate.o0#
+
+CCompileC build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv7/OrgChartViewController.o /Users/rwarner/Development/OrgChart/Classes/OrgChartViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313497527.004228
+e313497527.074536
+r1
+xCompileC
+xbuild/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv7/OrgChartViewController.o
+x/Users/rwarner/Development/OrgChart/Classes/OrgChartViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/rwarner/Development/OrgChart/Classes/OrgChartViewController.m313497527#313497527#0(0"0(0#0#68"/Users/rwarner/Development/OrgChart/Classes/OrgChartViewController.m8606580992#1755"    cd /Users/rwarner/Development/OrgChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-generated-files.hmap -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-own-target-headers.hmap -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-all-target-headers.hmap -iquote /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-project-headers.hmap -F/Users/rwarner/Development/OrgChart/build/Debug-iphoneos -I/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/include -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/DerivedSources/armv7 -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/DerivedSources -include /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-gbrylcuxrzbumzabcqtqwabbactv/OrgChart_Prefix.pch -c /Users/rwarner/Development/OrgChart/Classes/OrgChartViewController.m -o /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv7/OrgChartViewController.o0#
+
+CCompileC build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv7/main.o /Users/rwarner/Development/OrgChart/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313497526.916862
+e313497527.016914
+r1
+xCompileC
+xbuild/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv7/main.o
+x/Users/rwarner/Development/OrgChart/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/rwarner/Development/OrgChart/main.m313497526#313497527#0(0"0(0#0#42"/Users/rwarner/Development/OrgChart/main.m8609082432#1711"    cd /Users/rwarner/Development/OrgChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-generated-files.hmap -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-own-target-headers.hmap -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-all-target-headers.hmap -iquote /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-project-headers.hmap -F/Users/rwarner/Development/OrgChart/build/Debug-iphoneos -I/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/include -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/DerivedSources/armv7 -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/DerivedSources -include /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-gbrylcuxrzbumzabcqtqwabbactv/OrgChart_Prefix.pch -c /Users/rwarner/Development/OrgChart/main.m -o /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/rwarner/Development/OrgChart/MainWindow.xib
+s313497525.762299
+e313497526.171130
+r1
+xCompileXIB
+x/Users/rwarner/Development/OrgChart/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib313497525#313497526#0(0"0(0#0#50"/Users/rwarner/Development/OrgChart/MainWindow.xib8606155360#534"    cd /Users/rwarner/Development/OrgChart    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/MainWindow.nib /Users/rwarner/Development/OrgChart/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/rwarner/Development/OrgChart/OrgChartViewController.xib
+s313497525.763530
+e313497526.149771
+r1
+xCompileXIB
+x/Users/rwarner/Development/OrgChart/OrgChartViewController.xib
+lSLF07#2@37"CompileXIB OrgChartViewController.xib313497525#313497526#0(0"0(0#0#62"/Users/rwarner/Development/OrgChart/OrgChartViewController.xib8609181984#558"    cd /Users/rwarner/Development/OrgChart    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/OrgChartViewController.nib /Users/rwarner/Development/OrgChart/OrgChartViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource build/Debug-iphoneos/OrgChart.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s313497525.749967
+e313497525.762211
+r1
+xCpResource
+xbuild/Debug-iphoneos/OrgChart.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist313497525#313497525#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist3416935188149710336#489"    cd /Users/rwarner/Development/OrgChart    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app0#
+
+CCreateUniversalBinary /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/OrgChart normal "armv6 armv7"
+s313497527.184652
+e313497527.191508
+r1
+xCreateUniversalBinary
+x/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/OrgChart
+xnormal
+xarmv6 armv7
+lSLF07#2@85"CreateUniversalBinary build/Debug-iphoneos/OrgChart.app/OrgChart normal "armv6 armv7"313497527#313497527#0(0"0(0#0#47"/Users/rwarner/Development/OrgChart/armv6 armv78606200800#514"    cd /Users/rwarner/Development/OrgChart    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv6/OrgChart /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv7/OrgChart -output /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/OrgChart0#
+
+CGenerateDSYMFile /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app.dSYM /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/OrgChart
+s313497527.191620
+e313497527.222635
+r1
+xGenerateDSYMFile
+x/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app.dSYM
+x/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/OrgChart
+lSLF07#2@98"GenerateDSYMFile build/Debug-iphoneos/OrgChart.app.dSYM build/Debug-iphoneos/OrgChart.app/OrgChart313497527#313497527#0(0"0(0#0#78"/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/OrgChart8606094112#356"    cd /Users/rwarner/Development/OrgChart    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/OrgChart -o /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app.dSYM0#
+
+CLd /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv6/OrgChart normal armv6
+s313497527.029102
+e313497527.184557
+r1
+xLd
+x/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv6/OrgChart
+xnormal
+xarmv6
+lSLF07#2@121"Link /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv6/OrgChart313497527#313497527#0(0"0(0#0#0"8606460896#850"    cd /Users/rwarner/Development/OrgChart    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/rwarner/Development/OrgChart/build/Debug-iphoneos -F/Users/rwarner/Development/OrgChart/build/Debug-iphoneos -filelist /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv6/OrgChart.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv6/OrgChart0#
+
+CLd /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv7/OrgChart normal armv7
+s313497527.075525
+e313497527.183873
+r1
+xLd
+x/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv7/OrgChart
+xnormal
+xarmv7
+lSLF07#2@121"Link /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv7/OrgChart313497527#313497527#0(0"0(0#0#0"8606255200#850"    cd /Users/rwarner/Development/OrgChart    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/rwarner/Development/OrgChart/build/Debug-iphoneos -F/Users/rwarner/Development/OrgChart/build/Debug-iphoneos -filelist /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv7/OrgChart.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/Objects-normal/armv7/OrgChart0#
+
+CProcessInfoPlistFile /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/Info.plist OrgChart-Info.plist
+s313497525.755564
+e313497525.759329
+r1
+xProcessInfoPlistFile
+x/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/Info.plist
+xOrgChart-Info.plist
+lSLF07#2@27"Process OrgChart-Info.plist313497525#313497525#0(0"0(0#0#55"/Users/rwarner/Development/OrgChart/OrgChart-Info.plist8606688608#554"    cd /Users/rwarner/Development/OrgChart    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility OrgChart-Info.plist -genpkginfo /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/ResourceRules.plist -o /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/Info.plist0#
+
+CProcessPCH /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-bpmvcdgqegmbhahkzvvhwnyhgatf/OrgChart_Prefix.pch.gch OrgChart_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s313497526.171315
+e313497526.913349
+r1
+xProcessPCH
+x/var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-bpmvcdgqegmbhahkzvvhwnyhgatf/OrgChart_Prefix.pch.gch
+xOrgChart_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile OrgChart_Prefix.pch313497526#313497526#0(0"0(0#0#55"/Users/rwarner/Development/OrgChart/OrgChart_Prefix.pch8606119968#1611"    cd /Users/rwarner/Development/OrgChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-generated-files.hmap -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-own-target-headers.hmap -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-all-target-headers.hmap -iquote /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-project-headers.hmap -F/Users/rwarner/Development/OrgChart/build/Debug-iphoneos -I/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/include -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/DerivedSources/armv6 -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/DerivedSources -c /Users/rwarner/Development/OrgChart/OrgChart_Prefix.pch -o /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-bpmvcdgqegmbhahkzvvhwnyhgatf/OrgChart_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-gbrylcuxrzbumzabcqtqwabbactv/OrgChart_Prefix.pch.gch OrgChart_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s313497526.172378
+e313497526.913111
+r1
+xProcessPCH
+x/var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-gbrylcuxrzbumzabcqtqwabbactv/OrgChart_Prefix.pch.gch
+xOrgChart_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile OrgChart_Prefix.pch313497526#313497526#0(0"0(0#0#55"/Users/rwarner/Development/OrgChart/OrgChart_Prefix.pch8602223776#1611"    cd /Users/rwarner/Development/OrgChart    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-generated-files.hmap -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-own-target-headers.hmap -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-all-target-headers.hmap -iquote /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart-project-headers.hmap -F/Users/rwarner/Development/OrgChart/build/Debug-iphoneos -I/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/include -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/DerivedSources/armv7 -I/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/DerivedSources -c /Users/rwarner/Development/OrgChart/OrgChart_Prefix.pch -o /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OrgChart_Prefix-gbrylcuxrzbumzabcqtqwabbactv/OrgChart_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/rwarner/Library/MobileDevice/Provisioning Profiles/FAA71ECB-743A-4B32-AC6E-DCB0B15FEE0E.mobileprovision" /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/embedded.mobileprovision
+s313497527.222771
+e313497527.223909
+r1
+xProcessProductPackaging
+x/Users/rwarner/Library/MobileDevice/Provisioning Profiles/FAA71ECB-743A-4B32-AC6E-DCB0B15FEE0E.mobileprovision
+x/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/embedded.mobileprovision
+lSLF07#2@195"ProcessProductPackaging "/Users/rwarner/Library/MobileDevice/Provisioning Profiles/FAA71ECB-743A-4B32-AC6E-DCB0B15FEE0E.mobileprovision" build/Debug-iphoneos/OrgChart.app/embedded.mobileprovision313497527#313497527#0(0"0(0#0#94"/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/embedded.mobileprovision8605931936#420"    cd /Users/rwarner/Development/OrgChart    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/rwarner/Library/MobileDevice/Provisioning Profiles/FAA71ECB-743A-4B32-AC6E-DCB0B15FEE0E.mobileprovision" -o /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart.xcent
+s313497527.228765
+e313497527.230578
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart.xcent
+lSLF07#2@178"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart.xcent313497527#313497527#0(0"0(0#0#101"/Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart.xcent8604526240#429"    cd /Users/rwarner/Development/OrgChart    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/rwarner/Development/OrgChart/build/OrgChart.build/Debug-iphoneos/OrgChart.build/OrgChart.xcent0#
+
+CTouch /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app
+s313497527.223978
+e313497527.228641
+r1
+xTouch
+x/Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app
+lSLF07#2@75"Touch /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app313497527#313497527#0(0"0(0#0#0"8605842272#259"    cd /Users/rwarner/Development/OrgChart    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/rwarner/Development/OrgChart/build/Debug-iphoneos/OrgChart.app0#
+

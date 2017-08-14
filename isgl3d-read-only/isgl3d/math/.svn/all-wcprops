@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/128/trunk/isgl3d/math
+END
+Isgl3dMatrix.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/94/trunk/isgl3d/math/Isgl3dMatrix.h
+END
+Isgl3dQuaternion.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/94/trunk/isgl3d/math/Isgl3dQuaternion.h
+END
+Isgl3dVector.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/65/trunk/isgl3d/math/Isgl3dVector.m
+END
+Isgl3dGLU.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/66/trunk/isgl3d/math/Isgl3dGLU.h
+END
+Isgl3dMatrix.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/128/trunk/isgl3d/math/Isgl3dMatrix.m
+END
+Isgl3dQuaternion.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/65/trunk/isgl3d/math/Isgl3dQuaternion.m
+END
+Isgl3dGLU.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/55/trunk/isgl3d/math/Isgl3dGLU.m
+END
+Isgl3dVector.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/94/trunk/isgl3d/math/Isgl3dVector.h
+END

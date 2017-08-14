@@ -1,0 +1,412 @@
+TInterestingness
+v7
+r0
+t291156906.122429
+cCheck dependencies
+cProcessInfoPlistFile /Users/danton/Apress/Interestingness/build/Debug-iphonesimulator/Interestingness.app/Info.plist Interestingness-Info.plist
+cCompileXIB /Users/danton/Apress/Interestingness/MainWindow.xib
+cProcessPCH /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Interestingness_Prefix-bathnhwnhfkvqkbdblvkztjzpnnk/Interestingness_Prefix.pch.gch Interestingness_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/main.o /Users/danton/Apress/Interestingness/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/InterestingnessAppDelegate.o /Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/InterestingnessTableViewController.o /Users/danton/Apress/Interestingness/Classes/InterestingnessTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/NSObject+SBJSON.o /Users/danton/Apress/Interestingness/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/NSString+SBJSON.o /Users/danton/Apress/Interestingness/Classes/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/SBJSON.o /Users/danton/Apress/Interestingness/Classes/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/SBJsonBase.o /Users/danton/Apress/Interestingness/Classes/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/SBJsonParser.o /Users/danton/Apress/Interestingness/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/SBJsonWriter.o /Users/danton/Apress/Interestingness/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
+c000000004B91BBA300000000000000EE
+t1267841955
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDC853000000000026EE30
+t1253951571
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDC952000000000027E880
+t1253951826
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDC93F0000000000001355
+t1253951807
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDEE1D0000000000000788
+t1253961245
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDEEE200000000016721E0
+t1253961442
+s23536096
+
+N/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.h
+c000000004BAA765F00000000000001D0
+t1269462623
+s464
+i<UIKit/UIKit.h>
+
+N/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m
+c000000004BAA7C1E0000000000000314
+t1269464094
+s788
+i"InterestingnessAppDelegate.h"
+i"InterestingnessTableViewController.h"
+
+N/Users/danton/Apress/Interestingness/Classes/InterestingnessTableViewController.h
+c000000004BAA6B520000000000000126
+t1269459794
+s294
+i<UIKit/UIKit.h>
+
+N/Users/danton/Apress/Interestingness/Classes/InterestingnessTableViewController.m
+c000000004BAA6B5200000000000010D8
+t1269459794
+s4312
+i"InterestingnessTableViewController.h"
+
+N/Users/danton/Apress/Interestingness/Classes/JSON/NSObject+SBJSON.h
+c000000004B93BE5E0000000000000A01
+t1267973726
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/danton/Apress/Interestingness/Classes/JSON/NSObject+SBJSON.m
+c000000004B93BE5E000000000000089E
+t1267973726
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/danton/Apress/Interestingness/Classes/JSON/NSString+SBJSON.h
+c000000004B93BE5E0000000000000916
+t1267973726
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/danton/Apress/Interestingness/Classes/JSON/NSString+SBJSON.m
+c000000004B93BE5E000000000000087D
+t1267973726
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/danton/Apress/Interestingness/Classes/JSON/SBJSON.h
+c000000004B93BE5E0000000000000AED
+t1267973726
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/danton/Apress/Interestingness/Classes/JSON/SBJSON.m
+c000000004B93BE5E0000000000001ABC
+t1267973726
+s6844
+i"SBJSON.h"
+
+N/Users/danton/Apress/Interestingness/Classes/JSON/SBJsonBase.h
+c000000004B93BE5E0000000000000B82
+t1267973726
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/danton/Apress/Interestingness/Classes/JSON/SBJsonBase.m
+c000000004B93BE5E0000000000000AC1
+t1267973726
+s2753
+i"SBJsonBase.h"
+
+N/Users/danton/Apress/Interestingness/Classes/JSON/SBJsonParser.h
+c000000004B93BE5E0000000000000C0B
+t1267973726
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/danton/Apress/Interestingness/Classes/JSON/SBJsonParser.m
+c000000004B93C6A300000000000036D0
+t1267975843
+s14032
+i"SBJsonParser.h"
+
+N/Users/danton/Apress/Interestingness/Classes/JSON/SBJsonWriter.h
+c000000004B93BE5E0000000000001140
+t1267973726
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/danton/Apress/Interestingness/Classes/JSON/SBJsonWriter.m
+c000000004B93BE5E0000000000001F26
+t1267973726
+s7974
+i"SBJsonWriter.h"
+
+N/Users/danton/Apress/Interestingness/Interestingness_Prefix.pch
+c000000004BAA660E00000000000000C7
+t1269458446
+s199
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/danton/Apress/Interestingness/MainWindow.xib
+c000000004BAA660E0000000000001F7B
+t1269458446
+s8059
+
+N/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator/Interestingness.app
+t2
+s0
+
+N/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator/Interestingness.app.dSYM
+t2
+s0
+
+N/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator/Interestingness.app/Info.plist
+t1269464098
+s602
+
+N/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator/Interestingness.app/Interestingness
+t2
+s0
+
+N/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator/Interestingness.app/MainWindow.nib
+t1269464102
+s1353
+
+N/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator/Interestingness.app/PkgInfo
+t1269464098
+s8
+
+N/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/Interestingness.LinkFileList
+c000000004BAA7C21000000000000052A
+t1269464097
+s1322
+
+N/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/InterestingnessAppDelegate.o
+t2
+s0
+
+N/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/InterestingnessTableViewController.o
+t1269464105
+s33052
+
+N/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/NSObject+SBJSON.o
+t1269464105
+s7756
+
+N/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/NSString+SBJSON.o
+t1269464105
+s7776
+
+N/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/SBJSON.o
+t1269464105
+s16776
+
+N/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/SBJsonBase.o
+t1269464106
+s12120
+
+N/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/SBJsonParser.o
+t1269464106
+s29836
+
+N/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/SBJsonWriter.o
+t1269464106
+s22572
+
+N/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/main.o
+t1269464105
+s5952
+
+N/Users/danton/Apress/Interestingness/main.m
+c000000004BAA660E0000000000000182
+t1269458446
+s386
+i<UIKit/UIKit.h>
+
+N/var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Interestingness_Prefix-bathnhwnhfkvqkbdblvkztjzpnnk/Interestingness_Prefix.pch.gch
+t1269464105
+s13034960
+
+NInterestingness-Info.plist
+c000000004BAA660E000000000000038D
+t1269458446
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies291156897#291156898#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/InterestingnessAppDelegate.o /Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s291156905.396338
+e291156905.687825
+r0
+xCompileC
+xbuild/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/InterestingnessAppDelegate.o
+x/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m:9:
+o/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.h:11: error: expected identifier or '(' before '@' token
+o/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.h:15: error: expected specifier-qualifier-list before 'InterestingnessTableViewController'
+o/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m: In function '-[InterestingnessAppDelegate applicationDidFinishLaunching:]':
+o/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m:19: error: 'tableViewController' undeclared (first use in this function)
+o/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m:19: error: (Each undeclared identifier is reported only once
+o/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m:19: error: for each function it appears in.)
+o/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m: In function '-[InterestingnessAppDelegate dealloc]':
+o/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m:30: error: 'tableViewController' undeclared (first use in this function)
+lSLF07#2@81"Compile /Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m291156905#291156905#0(1218"In file included from /Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m:9:/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.h:11: error: expected identifier or '(' before '@' token/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.h:15: error: expected specifier-qualifier-list before 'InterestingnessTableViewController'/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m: In function '-[InterestingnessAppDelegate applicationDidFinishLaunching:]':/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m:19: error: 'tableViewController' undeclared (first use in this function)/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m:19: error: (Each undeclared identifier is reported only once/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m:19: error: for each function it appears in.)/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m: In function '-[InterestingnessAppDelegate dealloc]':/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m:30: error: 'tableViewController' undeclared (first use in this function)4(4@43"Expected identifier or '(' before '@' token291156905#99#129#2(7@95"In file included from /Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m291156905#18446744073709551615#0#0(6@73"/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m291156894#9#0#9#0#0"0(13@120"Expected identifier or '(' before '@' token in /Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.h291156905#18446744073709551615#0#0(6@73"/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.h291155423#11#0#11#0#0"0(6@73"/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.h291155423#11#0#11#0#19"expected * before *0(4@77"Expected specifier-qualifier-list before 'InterestingnessTableViewController'291156905#228#163#2(7@95"In file included from /Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m291156905#18446744073709551615#0#0(6@73"/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m291156894#9#0#9#0#0"0(13@154"Expected specifier-qualifier-list before 'InterestingnessTableViewController' in /Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.h291156905#18446744073709551615#0#0(6@73"/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.h291155423#15#0#15#0#0"0(6@73"/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.h291155423#15#0#15#0#19"expected * before *0(4@61"'tableViewController' undeclared (first use in this function)291156905#542#147#0(6@73"/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m291156894#19#0#19#0#43"'*' undeclared (first use in this function)0(4@61"'tableViewController' undeclared (first use in this function)291156905#1071#147#0(6@73"/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m291156894#30#0#30#0#43"'*' undeclared (first use in this function)0(0#0#73"/Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m4300885448#2049"    cd /Users/danton/Apress/Interestingness    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-generated-files.hmap -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-own-target-headers.hmap -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-all-target-headers.hmap -iquote /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-project-headers.hmap -F/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator -I/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator/include -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/DerivedSources/i386 -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/DerivedSources -include /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Interestingness_Prefix-bathnhwnhfkvqkbdblvkztjzpnnk/Interestingness_Prefix.pch -c /Users/danton/Apress/Interestingness/Classes/InterestingnessAppDelegate.m -o /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/InterestingnessAppDelegate.o1#
+
+CCompileC build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/InterestingnessTableViewController.o /Users/danton/Apress/Interestingness/Classes/InterestingnessTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s291156905.688037
+e291156905.813760
+r1
+xCompileC
+xbuild/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/InterestingnessTableViewController.o
+x/Users/danton/Apress/Interestingness/Classes/InterestingnessTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/danton/Apress/Interestingness/Classes/InterestingnessTableViewController.m291156905#291156905#0(0"0(0#0#81"/Users/danton/Apress/Interestingness/Classes/InterestingnessTableViewController.m4300885448#2065"    cd /Users/danton/Apress/Interestingness    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-generated-files.hmap -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-own-target-headers.hmap -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-all-target-headers.hmap -iquote /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-project-headers.hmap -F/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator -I/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator/include -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/DerivedSources/i386 -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/DerivedSources -include /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Interestingness_Prefix-bathnhwnhfkvqkbdblvkztjzpnnk/Interestingness_Prefix.pch -c /Users/danton/Apress/Interestingness/Classes/InterestingnessTableViewController.m -o /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/InterestingnessTableViewController.o0#
+
+CCompileC build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/NSObject+SBJSON.o /Users/danton/Apress/Interestingness/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s291156905.703707
+e291156905.784608
+r1
+xCompileC
+xbuild/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/danton/Apress/Interestingness/Classes/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/danton/Apress/Interestingness/Classes/JSON/NSObject+SBJSON.m291156905#291156905#0(0"0(0#0#67"/Users/danton/Apress/Interestingness/Classes/JSON/NSObject+SBJSON.m4300885448#2032"    cd /Users/danton/Apress/Interestingness    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-generated-files.hmap -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-own-target-headers.hmap -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-all-target-headers.hmap -iquote /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-project-headers.hmap -F/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator -I/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator/include -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/DerivedSources/i386 -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/DerivedSources -include /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Interestingness_Prefix-bathnhwnhfkvqkbdblvkztjzpnnk/Interestingness_Prefix.pch -c /Users/danton/Apress/Interestingness/Classes/JSON/NSObject+SBJSON.m -o /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/NSObject+SBJSON.o0#
+
+CCompileC build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/NSString+SBJSON.o /Users/danton/Apress/Interestingness/Classes/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s291156905.784729
+e291156905.911187
+r1
+xCompileC
+xbuild/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/danton/Apress/Interestingness/Classes/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/danton/Apress/Interestingness/Classes/JSON/NSString+SBJSON.m291156905#291156906#0(0"0(0#0#67"/Users/danton/Apress/Interestingness/Classes/JSON/NSString+SBJSON.m4300885448#2032"    cd /Users/danton/Apress/Interestingness    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-generated-files.hmap -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-own-target-headers.hmap -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-all-target-headers.hmap -iquote /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-project-headers.hmap -F/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator -I/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator/include -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/DerivedSources/i386 -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/DerivedSources -include /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Interestingness_Prefix-bathnhwnhfkvqkbdblvkztjzpnnk/Interestingness_Prefix.pch -c /Users/danton/Apress/Interestingness/Classes/JSON/NSString+SBJSON.m -o /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/NSString+SBJSON.o0#
+
+CCompileC build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/SBJSON.o /Users/danton/Apress/Interestingness/Classes/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s291156905.813872
+e291156905.937104
+r1
+xCompileC
+xbuild/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/SBJSON.o
+x/Users/danton/Apress/Interestingness/Classes/JSON/SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/danton/Apress/Interestingness/Classes/JSON/SBJSON.m291156905#291156906#0(0"0(0#0#58"/Users/danton/Apress/Interestingness/Classes/JSON/SBJSON.m4300885448#2014"    cd /Users/danton/Apress/Interestingness    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-generated-files.hmap -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-own-target-headers.hmap -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-all-target-headers.hmap -iquote /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-project-headers.hmap -F/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator -I/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator/include -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/DerivedSources/i386 -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/DerivedSources -include /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Interestingness_Prefix-bathnhwnhfkvqkbdblvkztjzpnnk/Interestingness_Prefix.pch -c /Users/danton/Apress/Interestingness/Classes/JSON/SBJSON.m -o /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/SBJSON.o0#
+
+CCompileC build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/SBJsonBase.o /Users/danton/Apress/Interestingness/Classes/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s291156905.911377
+e291156906.009223
+r1
+xCompileC
+xbuild/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/SBJsonBase.o
+x/Users/danton/Apress/Interestingness/Classes/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/danton/Apress/Interestingness/Classes/JSON/SBJsonBase.m291156905#291156906#0(0"0(0#0#62"/Users/danton/Apress/Interestingness/Classes/JSON/SBJsonBase.m4300885448#2022"    cd /Users/danton/Apress/Interestingness    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-generated-files.hmap -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-own-target-headers.hmap -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-all-target-headers.hmap -iquote /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-project-headers.hmap -F/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator -I/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator/include -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/DerivedSources/i386 -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/DerivedSources -include /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Interestingness_Prefix-bathnhwnhfkvqkbdblvkztjzpnnk/Interestingness_Prefix.pch -c /Users/danton/Apress/Interestingness/Classes/JSON/SBJsonBase.m -o /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/SBJsonBase.o0#
+
+CCompileC build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/SBJsonParser.o /Users/danton/Apress/Interestingness/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s291156905.937216
+e291156906.102989
+r1
+xCompileC
+xbuild/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/SBJsonParser.o
+x/Users/danton/Apress/Interestingness/Classes/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/danton/Apress/Interestingness/Classes/JSON/SBJsonParser.m291156905#291156906#0(0"0(0#0#64"/Users/danton/Apress/Interestingness/Classes/JSON/SBJsonParser.m4300885448#2026"    cd /Users/danton/Apress/Interestingness    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-generated-files.hmap -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-own-target-headers.hmap -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-all-target-headers.hmap -iquote /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-project-headers.hmap -F/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator -I/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator/include -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/DerivedSources/i386 -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/DerivedSources -include /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Interestingness_Prefix-bathnhwnhfkvqkbdblvkztjzpnnk/Interestingness_Prefix.pch -c /Users/danton/Apress/Interestingness/Classes/JSON/SBJsonParser.m -o /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/SBJsonWriter.o /Users/danton/Apress/Interestingness/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s291156906.009319
+e291156906.122332
+r1
+xCompileC
+xbuild/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/danton/Apress/Interestingness/Classes/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/danton/Apress/Interestingness/Classes/JSON/SBJsonWriter.m291156906#291156906#0(0"0(0#0#64"/Users/danton/Apress/Interestingness/Classes/JSON/SBJsonWriter.m4300885448#2026"    cd /Users/danton/Apress/Interestingness    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-generated-files.hmap -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-own-target-headers.hmap -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-all-target-headers.hmap -iquote /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-project-headers.hmap -F/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator -I/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator/include -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/DerivedSources/i386 -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/DerivedSources -include /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Interestingness_Prefix-bathnhwnhfkvqkbdblvkztjzpnnk/Interestingness_Prefix.pch -c /Users/danton/Apress/Interestingness/Classes/JSON/SBJsonWriter.m -o /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/main.o /Users/danton/Apress/Interestingness/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s291156905.320908
+e291156905.703569
+r1
+xCompileC
+xbuild/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/main.o
+x/Users/danton/Apress/Interestingness/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/danton/Apress/Interestingness/main.m291156905#291156905#0(0"0(0#0#43"/Users/danton/Apress/Interestingness/main.m4300885448#1997"    cd /Users/danton/Apress/Interestingness    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-generated-files.hmap -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-own-target-headers.hmap -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-all-target-headers.hmap -iquote /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-project-headers.hmap -F/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator -I/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator/include -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/DerivedSources/i386 -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/DerivedSources -include /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Interestingness_Prefix-bathnhwnhfkvqkbdblvkztjzpnnk/Interestingness_Prefix.pch -c /Users/danton/Apress/Interestingness/main.m -o /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/danton/Apress/Interestingness/MainWindow.xib
+s291156898.239119
+e291156902.230737
+r1
+xCompileXIB
+x/Users/danton/Apress/Interestingness/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib291156898#291156902#0(0"0(0#0#51"/Users/danton/Apress/Interestingness/MainWindow.xib4300885448#484"    cd /Users/danton/Apress/Interestingness    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danton/Apress/Interestingness/build/Debug-iphonesimulator/Interestingness.app/MainWindow.nib /Users/danton/Apress/Interestingness/MainWindow.xib0#
+
+CGenerateDSYMFile /Users/danton/Apress/Interestingness/build/Debug-iphonesimulator/Interestingness.app.dSYM /Users/danton/Apress/Interestingness/build/Debug-iphonesimulator/Interestingness.app/Interestingness
+r0
+
+CLd /Users/danton/Apress/Interestingness/build/Debug-iphonesimulator/Interestingness.app/Interestingness normal i386
+r0
+
+CProcessInfoPlistFile /Users/danton/Apress/Interestingness/build/Debug-iphonesimulator/Interestingness.app/Info.plist Interestingness-Info.plist
+s291156898.114986
+e291156898.239010
+r1
+xProcessInfoPlistFile
+x/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator/Interestingness.app/Info.plist
+xInterestingness-Info.plist
+lSLF07#2@34"Process Interestingness-Info.plist291156898#291156898#0(0"0(0#0#63"/Users/danton/Apress/Interestingness/Interestingness-Info.plist31525648366108776#497"    cd /Users/danton/Apress/Interestingness    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Interestingness-Info.plist -genpkginfo /Users/danton/Apress/Interestingness/build/Debug-iphonesimulator/Interestingness.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/danton/Apress/Interestingness/build/Debug-iphonesimulator/Interestingness.app/Info.plist0#
+
+CProcessPCH /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Interestingness_Prefix-bathnhwnhfkvqkbdblvkztjzpnnk/Interestingness_Prefix.pch.gch Interestingness_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s291156902.230911
+e291156905.320702
+r1
+xProcessPCH
+x/var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Interestingness_Prefix-bathnhwnhfkvqkbdblvkztjzpnnk/Interestingness_Prefix.pch.gch
+xInterestingness_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile Interestingness_Prefix.pch291156902#291156905#0(0"0(0#0#63"/Users/danton/Apress/Interestingness/Interestingness_Prefix.pch4300885448#1883"    cd /Users/danton/Apress/Interestingness    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-generated-files.hmap -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-own-target-headers.hmap -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-all-target-headers.hmap -iquote /Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/Interestingness-project-headers.hmap -F/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator -I/Users/danton/Apress/Interestingness/build/Debug-iphonesimulator/include -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/DerivedSources/i386 -I/Users/danton/Apress/Interestingness/build/Interestingness.build/Debug-iphonesimulator/Interestingness.build/DerivedSources -c /Users/danton/Apress/Interestingness/Interestingness_Prefix.pch -o /var/folders/ej/ejDf7WG2GgCCH-3NmBtlJE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Interestingness_Prefix-bathnhwnhfkvqkbdblvkztjzpnnk/Interestingness_Prefix.pch.gch0#
+
+CTouch /Users/danton/Apress/Interestingness/build/Debug-iphonesimulator/Interestingness.app
+r0
+

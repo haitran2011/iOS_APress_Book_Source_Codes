@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/67/trunk/tests/camera
+END
+FollowCameraTestView.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/67/trunk/tests/camera/FollowCameraTestView.m
+END
+SpringCameraTestView.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/67/trunk/tests/camera/SpringCameraTestView.m
+END
+CameraMovementTestView.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/46/trunk/tests/camera/CameraMovementTestView.h
+END
+CameraZoomAndFocusDemoView.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/46/trunk/tests/camera/CameraZoomAndFocusDemoView.h
+END
+CameraMovementTestView.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/67/trunk/tests/camera/CameraMovementTestView.m
+END
+CameraZoomAndFocusDemoView.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/67/trunk/tests/camera/CameraZoomAndFocusDemoView.m
+END
+SpringCameraTestView.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/66/trunk/tests/camera/SpringCameraTestView.h
+END
+FollowCameraTestView.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/66/trunk/tests/camera/FollowCameraTestView.h
+END

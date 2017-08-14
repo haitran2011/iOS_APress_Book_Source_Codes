@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/140/trunk/templates/xcode4/iSGL3D%20Application.xctemplate
+END
+TemplateIcon.icns
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/92/trunk/templates/xcode4/iSGL3D%20Application.xctemplate/TemplateIcon.icns
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/70/trunk/templates/xcode4/iSGL3D%20Application.xctemplate/main.m
+END
+Isgl3dViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/105/trunk/templates/xcode4/iSGL3D%20Application.xctemplate/Isgl3dViewController.m
+END
+___PACKAGENAMEASIDENTIFIER___AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/140/trunk/templates/xcode4/iSGL3D%20Application.xctemplate/___PACKAGENAMEASIDENTIFIER___AppDelegate.h
+END
+___PACKAGENAMEASIDENTIFIER___AppDelegate.mm
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/120/trunk/templates/xcode4/iSGL3D%20Application.xctemplate/___PACKAGENAMEASIDENTIFIER___AppDelegate.mm
+END
+HelloWorldView.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/70/trunk/templates/xcode4/iSGL3D%20Application.xctemplate/HelloWorldView.m
+END
+TemplateInfo.plist
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/120/trunk/templates/xcode4/iSGL3D%20Application.xctemplate/TemplateInfo.plist
+END
+Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/70/trunk/templates/xcode4/iSGL3D%20Application.xctemplate/Prefix.pch
+END
+Isgl3dViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/70/trunk/templates/xcode4/iSGL3D%20Application.xctemplate/Isgl3dViewController.h
+END
+HelloWorldView.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/70/trunk/templates/xcode4/iSGL3D%20Application.xctemplate/HelloWorldView.h
+END

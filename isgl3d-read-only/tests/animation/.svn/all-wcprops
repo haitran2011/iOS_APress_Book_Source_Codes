@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/88/trunk/tests/animation
+END
+KeyframeMeshAnimationTestView.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/79/trunk/tests/animation/KeyframeMeshAnimationTestView.h
+END
+TestMesh.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/79/trunk/tests/animation/TestMesh.h
+END
+KeyframeMeshAnimationTestView.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/79/trunk/tests/animation/KeyframeMeshAnimationTestView.m
+END
+KeyframePODAnimationTestView.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/79/trunk/tests/animation/KeyframePODAnimationTestView.h
+END
+TestMesh.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/79/trunk/tests/animation/TestMesh.m
+END
+KeyframePODAnimationTestView.mm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/88/trunk/tests/animation/KeyframePODAnimationTestView.mm
+END

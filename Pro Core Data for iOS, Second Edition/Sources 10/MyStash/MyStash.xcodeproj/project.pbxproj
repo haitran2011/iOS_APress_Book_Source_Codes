@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C723DE8813F28AE200EF8088 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C723DE8713F28AE200EF8088 /* UIKit.framework */; };
+		C723DE8A13F28AE200EF8088 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C723DE8913F28AE200EF8088 /* Foundation.framework */; };
+		C723DE8C13F28AE200EF8088 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C723DE8B13F28AE200EF8088 /* CoreData.framework */; };
+		C723DE9213F28AE200EF8088 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C723DE9013F28AE200EF8088 /* InfoPlist.strings */; };
+		C723DE9413F28AE200EF8088 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C723DE9313F28AE200EF8088 /* main.m */; };
+		C723DE9813F28AE200EF8088 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C723DE9713F28AE200EF8088 /* AppDelegate.m */; };
+		C723DE9B13F28AE200EF8088 /* MyStash.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C723DE9913F28AE200EF8088 /* MyStash.xcdatamodeld */; };
+		C723DEA813F2931D00EF8088 /* NoteListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C723DEA713F2931D00EF8088 /* NoteListViewController.m */; };
+		C723DEAD13F2949200EF8088 /* note.png in Resources */ = {isa = PBXBuildFile; fileRef = C723DEA913F2949200EF8088 /* note.png */; };
+		C723DEAE13F2949200EF8088 /* note@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C723DEAA13F2949200EF8088 /* note@2x.png */; };
+		C723DEAF13F2949200EF8088 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = C723DEAB13F2949200EF8088 /* password.png */; };
+		C723DEB013F2949200EF8088 /* password@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C723DEAC13F2949200EF8088 /* password@2x.png */; };
+		C723DEB413F2972500EF8088 /* PasswordListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C723DEB313F2972500EF8088 /* PasswordListViewController.m */; };
+		C73BBEB013FFC6B900B26D15 /* NSData+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = C73BBEAF13FFC6B900B26D15 /* NSData+Encryption.m */; };
+		C73BBEB413FFCC0200B26D15 /* EncryptedStringTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C73BBEB313FFCC0200B26D15 /* EncryptedStringTransformer.m */; };
+		C74680B913FE7512004076AB /* PasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C74680B713FE7512004076AB /* PasswordViewController.m */; };
+		C74680BA13FE7512004076AB /* PasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C74680B813FE7512004076AB /* PasswordViewController.xib */; };
+		C75C5A7213FE6541008CA740 /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75C5A7013FE6541008CA740 /* NoteViewController.m */; };
+		C75C5A7313FE6541008CA740 /* NoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C75C5A7113FE6541008CA740 /* NoteViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C723DE8313F28AE200EF8088 /* MyStash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C723DE8713F28AE200EF8088 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C723DE8913F28AE200EF8088 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C723DE8B13F28AE200EF8088 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C723DE8F13F28AE200EF8088 /* MyStash-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyStash-Info.plist"; sourceTree = "<group>"; };
+		C723DE9113F28AE200EF8088 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C723DE9313F28AE200EF8088 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C723DE9513F28AE200EF8088 /* MyStash-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyStash-Prefix.pch"; sourceTree = "<group>"; };
+		C723DE9613F28AE200EF8088 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C723DE9713F28AE200EF8088 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C723DE9A13F28AE200EF8088 /* MyStash.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyStash.xcdatamodel; sourceTree = "<group>"; };
+		C723DEA613F2931D00EF8088 /* NoteListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteListViewController.h; sourceTree = "<group>"; };
+		C723DEA713F2931D00EF8088 /* NoteListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteListViewController.m; sourceTree = "<group>"; };
+		C723DEA913F2949200EF8088 /* note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note.png; sourceTree = "<group>"; };
+		C723DEAA13F2949200EF8088 /* note@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "note@2x.png"; sourceTree = "<group>"; };
+		C723DEAB13F2949200EF8088 /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
+		C723DEAC13F2949200EF8088 /* password@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "password@2x.png"; sourceTree = "<group>"; };
+		C723DEB213F2972500EF8088 /* PasswordListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordListViewController.h; sourceTree = "<group>"; };
+		C723DEB313F2972500EF8088 /* PasswordListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordListViewController.m; sourceTree = "<group>"; };
+		C73BBEAE13FFC6B900B26D15 /* NSData+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Encryption.h"; sourceTree = "<group>"; };
+		C73BBEAF13FFC6B900B26D15 /* NSData+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encryption.m"; sourceTree = "<group>"; };
+		C73BBEB213FFCC0200B26D15 /* EncryptedStringTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptedStringTransformer.h; sourceTree = "<group>"; };
+		C73BBEB313FFCC0200B26D15 /* EncryptedStringTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptedStringTransformer.m; sourceTree = "<group>"; };
+		C74680B613FE7512004076AB /* PasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordViewController.h; sourceTree = "<group>"; };
+		C74680B713FE7512004076AB /* PasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordViewController.m; sourceTree = "<group>"; };
+		C74680B813FE7512004076AB /* PasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasswordViewController.xib; sourceTree = "<group>"; };
+		C75C5A6F13FE6541008CA740 /* NoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteViewController.h; sourceTree = "<group>"; };
+		C75C5A7013FE6541008CA740 /* NoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteViewController.m; sourceTree = "<group>"; };
+		C75C5A7113FE6541008CA740 /* NoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoteViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C723DE8013F28AE200EF8088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C723DE8813F28AE200EF8088 /* UIKit.framework in Frameworks */,
+				C723DE8A13F28AE200EF8088 /* Foundation.framework in Frameworks */,
+				C723DE8C13F28AE200EF8088 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C723DE7813F28AE200EF8088 = {
+			isa = PBXGroup;
+			children = (
+				C723DE8D13F28AE200EF8088 /* MyStash */,
+				C723DE8613F28AE200EF8088 /* Frameworks */,
+				C723DE8413F28AE200EF8088 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C723DE8413F28AE200EF8088 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C723DE8313F28AE200EF8088 /* MyStash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C723DE8613F28AE200EF8088 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C723DE8713F28AE200EF8088 /* UIKit.framework */,
+				C723DE8913F28AE200EF8088 /* Foundation.framework */,
+				C723DE8B13F28AE200EF8088 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C723DE8D13F28AE200EF8088 /* MyStash */ = {
+			isa = PBXGroup;
+			children = (
+				C723DEB113F2949B00EF8088 /* Images */,
+				C723DE9613F28AE200EF8088 /* AppDelegate.h */,
+				C723DE9713F28AE200EF8088 /* AppDelegate.m */,
+				C723DEB213F2972500EF8088 /* PasswordListViewController.h */,
+				C723DEB313F2972500EF8088 /* PasswordListViewController.m */,
+				C723DEA613F2931D00EF8088 /* NoteListViewController.h */,
+				C723DEA713F2931D00EF8088 /* NoteListViewController.m */,
+				C723DE9913F28AE200EF8088 /* MyStash.xcdatamodeld */,
+				C73BBEB213FFCC0200B26D15 /* EncryptedStringTransformer.h */,
+				C73BBEB313FFCC0200B26D15 /* EncryptedStringTransformer.m */,
+				C723DE8E13F28AE200EF8088 /* Supporting Files */,
+				C75C5A6F13FE6541008CA740 /* NoteViewController.h */,
+				C75C5A7013FE6541008CA740 /* NoteViewController.m */,
+				C75C5A7113FE6541008CA740 /* NoteViewController.xib */,
+				C74680B613FE7512004076AB /* PasswordViewController.h */,
+				C74680B713FE7512004076AB /* PasswordViewController.m */,
+				C74680B813FE7512004076AB /* PasswordViewController.xib */,
+				C73BBEAE13FFC6B900B26D15 /* NSData+Encryption.h */,
+				C73BBEAF13FFC6B900B26D15 /* NSData+Encryption.m */,
+			);
+			path = MyStash;
+			sourceTree = "<group>";
+		};
+		C723DE8E13F28AE200EF8088 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C723DE8F13F28AE200EF8088 /* MyStash-Info.plist */,
+				C723DE9013F28AE200EF8088 /* InfoPlist.strings */,
+				C723DE9313F28AE200EF8088 /* main.m */,
+				C723DE9513F28AE200EF8088 /* MyStash-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C723DEB113F2949B00EF8088 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C723DEA913F2949200EF8088 /* note.png */,
+				C723DEAA13F2949200EF8088 /* note@2x.png */,
+				C723DEAB13F2949200EF8088 /* password.png */,
+				C723DEAC13F2949200EF8088 /* password@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C723DE8213F28AE200EF8088 /* MyStash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C723DE9E13F28AE200EF8088 /* Build configuration list for PBXNativeTarget "MyStash" */;
+			buildPhases = (
+				C723DE7F13F28AE200EF8088 /* Sources */,
+				C723DE8013F28AE200EF8088 /* Frameworks */,
+				C723DE8113F28AE200EF8088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyStash;
+			productName = MyStash;
+			productReference = C723DE8313F28AE200EF8088 /* MyStash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C723DE7A13F28AE200EF8088 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Grailbox;
+			};
+			buildConfigurationList = C723DE7D13F28AE200EF8088 /* Build configuration list for PBXProject "MyStash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C723DE7813F28AE200EF8088;
+			productRefGroup = C723DE8413F28AE200EF8088 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C723DE8213F28AE200EF8088 /* MyStash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C723DE8113F28AE200EF8088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C723DE9213F28AE200EF8088 /* InfoPlist.strings in Resources */,
+				C723DEAD13F2949200EF8088 /* note.png in Resources */,
+				C723DEAE13F2949200EF8088 /* note@2x.png in Resources */,
+				C723DEAF13F2949200EF8088 /* password.png in Resources */,
+				C723DEB013F2949200EF8088 /* password@2x.png in Resources */,
+				C75C5A7313FE6541008CA740 /* NoteViewController.xib in Resources */,
+				C74680BA13FE7512004076AB /* PasswordViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C723DE7F13F28AE200EF8088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C723DE9413F28AE200EF8088 /* main.m in Sources */,
+				C723DE9813F28AE200EF8088 /* AppDelegate.m in Sources */,
+				C723DE9B13F28AE200EF8088 /* MyStash.xcdatamodeld in Sources */,
+				C723DEA813F2931D00EF8088 /* NoteListViewController.m in Sources */,
+				C723DEB413F2972500EF8088 /* PasswordListViewController.m in Sources */,
+				C75C5A7213FE6541008CA740 /* NoteViewController.m in Sources */,
+				C74680B913FE7512004076AB /* PasswordViewController.m in Sources */,
+				C73BBEB013FFC6B900B26D15 /* NSData+Encryption.m in Sources */,
+				C73BBEB413FFCC0200B26D15 /* EncryptedStringTransformer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C723DE9013F28AE200EF8088 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C723DE9113F28AE200EF8088 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C723DE9C13F28AE200EF8088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C723DE9D13F28AE200EF8088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C723DE9F13F28AE200EF8088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyStash/MyStash-Prefix.pch";
+				INFOPLIST_FILE = "MyStash/MyStash-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C723DEA013F28AE200EF8088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyStash/MyStash-Prefix.pch";
+				INFOPLIST_FILE = "MyStash/MyStash-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C723DE7D13F28AE200EF8088 /* Build configuration list for PBXProject "MyStash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C723DE9C13F28AE200EF8088 /* Debug */,
+				C723DE9D13F28AE200EF8088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C723DE9E13F28AE200EF8088 /* Build configuration list for PBXNativeTarget "MyStash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C723DE9F13F28AE200EF8088 /* Debug */,
+				C723DEA013F28AE200EF8088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C723DE9913F28AE200EF8088 /* MyStash.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C723DE9A13F28AE200EF8088 /* MyStash.xcdatamodel */,
+			);
+			currentVersion = C723DE9A13F28AE200EF8088 /* MyStash.xcdatamodel */;
+			path = MyStash.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C723DE7A13F28AE200EF8088 /* Project object */;
+}

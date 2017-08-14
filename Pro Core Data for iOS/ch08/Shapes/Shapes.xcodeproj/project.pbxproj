@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* ShapesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ShapesAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* ShapesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* ShapesViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* ShapesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* ShapesViewController.m */; };
+		C78828DC12B639AD004D6444 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78828DB12B639AD004D6444 /* CoreData.framework */; };
+		C78828ED12B63F7A004D6444 /* BasicCanvasUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = C78828EC12B63F7A004D6444 /* BasicCanvasUIView.m */; };
+		C788293C12B8CC7B004D6444 /* Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = C788293112B8CC7B004D6444 /* Transform.m */; };
+		C788293D12B8CC7B004D6444 /* Canvas.m in Sources */ = {isa = PBXBuildFile; fileRef = C788293312B8CC7B004D6444 /* Canvas.m */; };
+		C788293E12B8CC7B004D6444 /* Polygon.m in Sources */ = {isa = PBXBuildFile; fileRef = C788293512B8CC7B004D6444 /* Polygon.m */; };
+		C788293F12B8CC7B004D6444 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = C788293712B8CC7B004D6444 /* Circle.m */; };
+		C788294012B8CC7B004D6444 /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = C788293912B8CC7B004D6444 /* Vertex.m */; };
+		C788294112B8CC7B004D6444 /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = C788293B12B8CC7B004D6444 /* Shape.m */; };
+		C78829AF12BA15FB004D6444 /* UIColorTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C78829AE12BA15FB004D6444 /* UIColorTransformer.m */; };
+		C7B2695112BB71D900E1017D /* Shapes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7B2695012BB71D900E1017D /* Shapes.xcdatamodeld */; };
+		C7B269DE12BBB7E900E1017D /* Ellipse.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B269DD12BBB7E900E1017D /* Ellipse.m */; };
+		C7B269EE12BBBE6300E1017D /* Model4to5.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = C7B269ED12BBBE6300E1017D /* Model4to5.xcmappingmodel */; };
+		C7B269F512BBC64700E1017D /* CircleToEllipseMigrationPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B269F412BBC64700E1017D /* CircleToEllipseMigrationPolicy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* ShapesAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapesAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* ShapesAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapesAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Shapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shapes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* ShapesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShapesViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* ShapesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapesViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* ShapesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapesViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Shapes_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shapes_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Shapes-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Shapes-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C78828DB12B639AD004D6444 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C78828E312B63A7F004D6444 /* Shapes.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Shapes.xcdatamodel; sourceTree = "<group>"; };
+		C78828EB12B63F7A004D6444 /* BasicCanvasUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicCanvasUIView.h; sourceTree = "<group>"; };
+		C78828EC12B63F7A004D6444 /* BasicCanvasUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicCanvasUIView.m; sourceTree = "<group>"; };
+		C788293012B8CC7B004D6444 /* Transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transform.h; sourceTree = "<group>"; };
+		C788293112B8CC7B004D6444 /* Transform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transform.m; sourceTree = "<group>"; };
+		C788293212B8CC7B004D6444 /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
+		C788293312B8CC7B004D6444 /* Canvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Canvas.m; sourceTree = "<group>"; };
+		C788293412B8CC7B004D6444 /* Polygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Polygon.h; sourceTree = "<group>"; };
+		C788293512B8CC7B004D6444 /* Polygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Polygon.m; sourceTree = "<group>"; };
+		C788293612B8CC7B004D6444 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		C788293712B8CC7B004D6444 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		C788293812B8CC7B004D6444 /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		C788293912B8CC7B004D6444 /* Vertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
+		C788293A12B8CC7B004D6444 /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		C788293B12B8CC7B004D6444 /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
+		C78829AD12BA15FB004D6444 /* UIColorTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorTransformer.h; sourceTree = "<group>"; };
+		C78829AE12BA15FB004D6444 /* UIColorTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorTransformer.m; sourceTree = "<group>"; };
+		C7B2695212BB71D900E1017D /* Shapes 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Shapes 2.xcdatamodel"; sourceTree = "<group>"; };
+		C7B269BF12BBAFF600E1017D /* Shapes 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Shapes 3.xcdatamodel"; sourceTree = "<group>"; };
+		C7B269C912BBB29D00E1017D /* Shapes 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Shapes 4.xcdatamodel"; sourceTree = "<group>"; };
+		C7B269D412BBB6DC00E1017D /* Shapes 5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Shapes 5.xcdatamodel"; sourceTree = "<group>"; };
+		C7B269DC12BBB7E900E1017D /* Ellipse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ellipse.h; sourceTree = "<group>"; };
+		C7B269DD12BBB7E900E1017D /* Ellipse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ellipse.m; sourceTree = "<group>"; };
+		C7B269ED12BBBE6300E1017D /* Model4to5.xcmappingmodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcmappingmodel; path = Model4to5.xcmappingmodel; sourceTree = "<group>"; };
+		C7B269F312BBC64700E1017D /* CircleToEllipseMigrationPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleToEllipseMigrationPolicy.h; sourceTree = "<group>"; };
+		C7B269F412BBC64700E1017D /* CircleToEllipseMigrationPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleToEllipseMigrationPolicy.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				C78828DC12B639AD004D6444 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C7B269F212BBC61E00E1017D /* Migration Mappings */,
+				C788292912B8C9E8004D6444 /* Managed Objects */,
+				1D3623240D0F684500981E51 /* ShapesAppDelegate.h */,
+				1D3623250D0F684500981E51 /* ShapesAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* ShapesViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* ShapesViewController.m */,
+				C78828EB12B63F7A004D6444 /* BasicCanvasUIView.h */,
+				C78828EC12B63F7A004D6444 /* BasicCanvasUIView.m */,
+				C78829AD12BA15FB004D6444 /* UIColorTransformer.h */,
+				C78829AE12BA15FB004D6444 /* UIColorTransformer.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Shapes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Shapes_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C7B269ED12BBBE6300E1017D /* Model4to5.xcmappingmodel */,
+				2899E5210DE3E06400AC0155 /* ShapesViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Shapes-Info.plist */,
+				C7B2695012BB71D900E1017D /* Shapes.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				C78828DB12B639AD004D6444 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C788292912B8C9E8004D6444 /* Managed Objects */ = {
+			isa = PBXGroup;
+			children = (
+				C7B269DC12BBB7E900E1017D /* Ellipse.h */,
+				C7B269DD12BBB7E900E1017D /* Ellipse.m */,
+				C788293012B8CC7B004D6444 /* Transform.h */,
+				C788293112B8CC7B004D6444 /* Transform.m */,
+				C788293212B8CC7B004D6444 /* Canvas.h */,
+				C788293312B8CC7B004D6444 /* Canvas.m */,
+				C788293412B8CC7B004D6444 /* Polygon.h */,
+				C788293512B8CC7B004D6444 /* Polygon.m */,
+				C788293612B8CC7B004D6444 /* Circle.h */,
+				C788293712B8CC7B004D6444 /* Circle.m */,
+				C788293812B8CC7B004D6444 /* Vertex.h */,
+				C788293912B8CC7B004D6444 /* Vertex.m */,
+				C788293A12B8CC7B004D6444 /* Shape.h */,
+				C788293B12B8CC7B004D6444 /* Shape.m */,
+			);
+			name = "Managed Objects";
+			sourceTree = "<group>";
+		};
+		C7B269F212BBC61E00E1017D /* Migration Mappings */ = {
+			isa = PBXGroup;
+			children = (
+				C7B269F312BBC64700E1017D /* CircleToEllipseMigrationPolicy.h */,
+				C7B269F412BBC64700E1017D /* CircleToEllipseMigrationPolicy.m */,
+			);
+			name = "Migration Mappings";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Shapes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Shapes" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shapes;
+			productName = Shapes;
+			productReference = 1D6058910D05DD3D006BFB54 /* Shapes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Shapes" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Shapes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* ShapesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* ShapesAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* ShapesViewController.m in Sources */,
+				C7B2695112BB71D900E1017D /* Shapes.xcdatamodeld in Sources */,
+				C78828ED12B63F7A004D6444 /* BasicCanvasUIView.m in Sources */,
+				C788293C12B8CC7B004D6444 /* Transform.m in Sources */,
+				C788293D12B8CC7B004D6444 /* Canvas.m in Sources */,
+				C788293E12B8CC7B004D6444 /* Polygon.m in Sources */,
+				C788293F12B8CC7B004D6444 /* Circle.m in Sources */,
+				C788294012B8CC7B004D6444 /* Vertex.m in Sources */,
+				C788294112B8CC7B004D6444 /* Shape.m in Sources */,
+				C78829AF12BA15FB004D6444 /* UIColorTransformer.m in Sources */,
+				C7B269DE12BBB7E900E1017D /* Ellipse.m in Sources */,
+				C7B269EE12BBBE6300E1017D /* Model4to5.xcmappingmodel in Sources */,
+				C7B269F512BBC64700E1017D /* CircleToEllipseMigrationPolicy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Shapes_Prefix.pch;
+				INFOPLIST_FILE = "Shapes-Info.plist";
+				PRODUCT_NAME = Shapes;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Shapes_Prefix.pch;
+				INFOPLIST_FILE = "Shapes-Info.plist";
+				PRODUCT_NAME = Shapes;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Shapes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Shapes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C7B2695012BB71D900E1017D /* Shapes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C78828E312B63A7F004D6444 /* Shapes.xcdatamodel */,
+				C7B2695212BB71D900E1017D /* Shapes 2.xcdatamodel */,
+				C7B269BF12BBAFF600E1017D /* Shapes 3.xcdatamodel */,
+				C7B269C912BBB29D00E1017D /* Shapes 4.xcdatamodel */,
+				C7B269D412BBB6DC00E1017D /* Shapes 5.xcdatamodel */,
+			);
+			currentVersion = C7B269D412BBB6DC00E1017D /* Shapes 5.xcdatamodel */;
+			path = Shapes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

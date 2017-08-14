@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/72/trunk/isgl3d/math/vfp
+END
+utility_impl.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/63/trunk/isgl3d/math/vfp/utility_impl.m
+END
+matrix_impl.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/63/trunk/isgl3d/math/vfp/matrix_impl.m
+END
+common_macros.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/72/trunk/isgl3d/math/vfp/common_macros.h
+END
+utility_impl.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/63/trunk/isgl3d/math/vfp/utility_impl.h
+END
+matrix_impl.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/63/trunk/isgl3d/math/vfp/matrix_impl.h
+END
+vfp_clobbers.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/63/trunk/isgl3d/math/vfp/vfp_clobbers.h
+END

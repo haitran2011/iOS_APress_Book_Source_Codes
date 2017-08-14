@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/OGLES2
+END
+PVRTContext.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/OGLES2/PVRTContext.h
+END
+PVRTTextureAPI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/OGLES2/PVRTTextureAPI.cpp
+END
+PVRTgles2Ext.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/OGLES2/PVRTgles2Ext.cpp
+END
+PVRTBackgroundShaders.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/OGLES2/PVRTBackgroundShaders.h
+END
+PVRTTextureAPI.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/OGLES2/PVRTTextureAPI.h
+END
+PVRTPrint3DPVRLogo.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/OGLES2/PVRTPrint3DPVRLogo.h
+END
+PVRTgles2Ext.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/OGLES2/PVRTgles2Ext.h
+END
+PVRTPrint3DShaders.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/OGLES2/PVRTPrint3DShaders.h
+END
+PVRTPFXParserAPI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/OGLES2/PVRTPFXParserAPI.cpp
+END
+OGLES2Tools.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/OGLES2/OGLES2Tools.h
+END
+PVRTShader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/OGLES2/PVRTShader.cpp
+END
+PVRTPrint3DIMGLogo.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/OGLES2/PVRTPrint3DIMGLogo.h
+END
+PVRTPFXParserAPI.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/OGLES2/PVRTPFXParserAPI.h
+END
+PVRTShader.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/OGLES2/PVRTShader.h
+END
+PVRTPrint3DAPI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/OGLES2/PVRTPrint3DAPI.cpp
+END
+PVRTBackground.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/106/trunk/external/PowerVR_SDK-2.0.8/OGLES2/PVRTBackground.cpp
+END

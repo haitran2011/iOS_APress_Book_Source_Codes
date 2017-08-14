@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 23
+/svn/!svn/ver/143/trunk
+END
+buildTemplatePlist.sh
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/106/trunk/buildTemplatePlist.sh
+END
+Donors
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/21/trunk/Donors
+END
+installTemplatesXcode3.sh
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/106/trunk/installTemplatesXcode3.sh
+END
+Version
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/143/trunk/Version
+END
+installTemplatesXcode4.sh
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/106/trunk/installTemplatesXcode4.sh
+END
+buildIsgl3dH.sh
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/128/trunk/buildIsgl3dH.sh
+END
+Resources.Credits
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/3/trunk/Resources.Credits
+END
+LICENSE.isgl3d
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/3/trunk/LICENSE.isgl3d
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/141/trunk/ChangeLog
+END
+LICENSE.bullet
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/20/trunk/LICENSE.bullet
+END
+LICENSE.IMGTEC
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/3/trunk/LICENSE.IMGTEC
+END

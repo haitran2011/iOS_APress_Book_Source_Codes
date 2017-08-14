@@ -1,0 +1,575 @@
+TLeague Manager
+v7
+r0
+t313768083.245740
+cCheck dependencies
+cProcessInfoPlistFile "/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/Info.plist" League_Manager-Info.plist
+cCompileXIB "/Users/rwarner/Development/League Manager/MainWindow.xib"
+cCompileXIB "/Users/rwarner/Development/League Manager/RootViewController.xib"
+cCompileXIB "/Users/rwarner/Development/League Manager/Classes/TeamViewController.xib"
+cCompileXIB "/Users/rwarner/Development/League Manager/Classes/PlayerViewController.xib"
+cProcessPCH /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/League_Manager_Prefix-dngsccplcfohspbpmdvafxptujzv/League_Manager_Prefix.pch.gch League_Manager_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cDataModelVersionCompile "/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/League_Manager.momd" "/Users/rwarner/Development/League Manager/League_Manager.xcdatamodeld"
+cCompileC "build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/main.o" "/Users/rwarner/Development/League Manager/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/League_ManagerAppDelegate.o" "/Users/rwarner/Development/League Manager/Classes/League_ManagerAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/RootViewController.o" "/Users/rwarner/Development/League Manager/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/TeamViewController.o" "/Users/rwarner/Development/League Manager/Classes/TeamViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/PlayerListViewController.o" "/Users/rwarner/Development/League Manager/Classes/PlayerListViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/PlayerViewController.o" "/Users/rwarner/Development/League Manager/Classes/PlayerViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/CustomStore.o" "/Users/rwarner/Development/League Manager/Classes/CustomStore.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/League Manager" normal i386
+cGenerateDSYMFile "/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app.dSYM" "/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/League Manager"
+cTouch "/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004CC122A000000000001D6CE0
+t1287725728
+s1928416
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004CC12294000000000000046B
+t1287725716
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Users/rwarner/Development/League Manager/Classes/CustomStore.h
+c000000004D03820800000000000001EC
+t1292075528
+s492
+i<Foundation/Foundation.h>
+
+N/Users/rwarner/Development/League Manager/Classes/CustomStore.m
+c000000004D03820F0000000000003011
+t1292075535
+s12305
+i"CustomStore.h"
+
+N/Users/rwarner/Development/League Manager/Classes/League_ManagerAppDelegate.h
+c000000004D0381DC00000000000004CE
+t1292075484
+s1230
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/rwarner/Development/League Manager/Classes/League_ManagerAppDelegate.m
+c000000004D0381E5000000000000220D
+t1292075493
+s8717
+i"League_ManagerAppDelegate.h"
+i"RootViewController.h"
+i"CustomStore.h"
+
+N/Users/rwarner/Development/League Manager/Classes/PlayerListViewController.h
+c000000004D0381EF0000000000000339
+t1292075503
+s825
+i<UIKit/UIKit.h>
+
+N/Users/rwarner/Development/League Manager/Classes/PlayerListViewController.m
+c000000004D0381F70000000000000F0E
+t1292075511
+s3854
+i"PlayerListViewController.h"
+i"RootViewController.h"
+i"PlayerViewController.h"
+
+N/Users/rwarner/Development/League Manager/Classes/PlayerListViewController.xib
+c000000004D0209CE0000000000001C93
+t1291979214
+s7315
+
+N/Users/rwarner/Development/League Manager/Classes/PlayerViewController.h
+c000000004D0381FD00000000000004ED
+t1292075517
+s1261
+i<UIKit/UIKit.h>
+
+N/Users/rwarner/Development/League Manager/Classes/PlayerViewController.m
+c000000004D0382020000000000000AAC
+t1292075522
+s2732
+i"PlayerViewController.h"
+i"RootViewController.h"
+
+N/Users/rwarner/Development/League Manager/Classes/PlayerViewController.xib
+c000000004D0211650000000000008308
+t1291981157
+s33544
+
+N/Users/rwarner/Development/League Manager/Classes/RootViewController.h
+c000000004D0381CE000000000000045E
+t1292075470
+s1118
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/rwarner/Development/League Manager/Classes/RootViewController.m
+c000000004D0381D600000000000034AE
+t1292075478
+s13486
+i"RootViewController.h"
+i"TeamViewController.h"
+i"PlayerListViewController.h"
+
+N/Users/rwarner/Development/League Manager/Classes/TeamViewController.h
+c000000004D0381BD00000000000003E5
+t1292075453
+s997
+i<UIKit/UIKit.h>
+
+N/Users/rwarner/Development/League Manager/Classes/TeamViewController.m
+c000000004D0381C70000000000000726
+t1292075463
+s1830
+i"TeamViewController.h"
+i"RootViewController.h"
+
+N/Users/rwarner/Development/League Manager/Classes/TeamViewController.xib
+c000000004D00C2DF00000000000070DF
+t1291895519
+s28895
+
+N/Users/rwarner/Development/League Manager/League_Manager.xcdatamodeld
+c000000004D00B6450000000000000088
+t1291892293
+s136
+
+N/Users/rwarner/Development/League Manager/League_Manager_Prefix.pch
+c000000004D00AFBA0000000000000171
+t1291890618
+s369
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/rwarner/Development/League Manager/MainWindow.xib
+c000000004D00AFBA0000000000006010
+t1291890618
+s24592
+
+N/Users/rwarner/Development/League Manager/RootViewController.xib
+c000000004D00AFBA0000000000004459
+t1291890618
+s17497
+
+N/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app
+t1292074826
+s340
+
+N/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app.dSYM
+t1292074826
+s102
+
+N/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/Info.plist
+t1292073699
+s619
+
+N/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/League Manager
+t1292074826
+s70808
+
+N/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/League_Manager.momd
+t1292073700
+s136
+
+N/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/MainWindow.nib
+t1292073700
+s1516
+
+N/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/PkgInfo
+t1292073699
+s8
+
+N/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/PlayerListViewController.nib
+t1291980048
+s979
+
+N/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/PlayerViewController.nib
+t1292073700
+s3002
+
+N/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/RootViewController.nib
+t1292073700
+s979
+
+N/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/TeamViewController.nib
+t1292073699
+s2529
+
+N/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/CustomStore.o
+t1292073701
+s42240
+
+N/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/League Manager.LinkFileList
+c000000004D037AE30000000000000429
+t1292073699
+s1065
+
+N/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/League_ManagerAppDelegate.o
+t1292074826
+s70288
+
+N/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/PlayerListViewController.o
+t1292073701
+s58992
+
+N/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/PlayerViewController.o
+t1292073701
+s66072
+
+N/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/RootViewController.o
+t1292073701
+s74484
+
+N/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/TeamViewController.o
+t1292073701
+s53264
+
+N/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/main.o
+t1292073700
+s6308
+
+N/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/StaticAnalyzer/normal/i386/CustomStore.plist
+t1292073704
+s276
+
+N/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/StaticAnalyzer/normal/i386/League_ManagerAppDelegate.plist
+t1292073701
+s276
+
+N/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/StaticAnalyzer/normal/i386/PlayerListViewController.plist
+t1292073701
+s276
+
+N/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/StaticAnalyzer/normal/i386/PlayerViewController.plist
+t1292073701
+s276
+
+N/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/StaticAnalyzer/normal/i386/RootViewController.plist
+t1292073701
+s276
+
+N/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/StaticAnalyzer/normal/i386/TeamViewController.plist
+t1292073701
+s276
+
+N/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/StaticAnalyzer/normal/i386/main.plist
+t1292073701
+s276
+
+N/Users/rwarner/Development/League Manager/main.m
+c000000004D03821B0000000000000257
+t1292075547
+s599
+i<UIKit/UIKit.h>
+
+N/var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/League_Manager_Prefix-dhfymnwlxxpckhcoowqsxoafmnly/League_Manager_Prefix.pch.pth
+t1292071780
+s2909536
+
+N/var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/League_Manager_Prefix-dngsccplcfohspbpmdvafxptujzv/League_Manager_Prefix.pch.gch
+t1292073700
+s16326640
+
+NLeague_Manager-Info.plist
+c000000004D00AFBA000000000000038D
+t1291890618
+s909
+
+CAnalyze "/Users/rwarner/Development/League Manager/Classes/CustomStore.m"
+s313766501.245013
+e313766504.348119
+r1
+xAnalyze
+x/Users/rwarner/Development/League Manager/Classes/CustomStore.m
+lSLF07#2@71"Analyze /Users/rwarner/Development/League Manager/Classes/CustomStore.m313766501#313766504#0(0"0(0#0#63"/Users/rwarner/Development/League Manager/Classes/CustomStore.m8636033952#2140"    cd "/Users/rwarner/Development/League Manager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-generated-files.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-own-target-headers.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-all-target-headers.hmap" -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-project-headers.hmap" "-F/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator" "-I/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/include" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources/i386" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources" -include /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/League_Manager_Prefix-dhfymnwlxxpckhcoowqsxoafmnly/League_Manager_Prefix.pch --analyze "/Users/rwarner/Development/League Manager/Classes/CustomStore.m" -o "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/StaticAnalyzer/normal/i386/CustomStore.plist"0#
+
+CAnalyze "/Users/rwarner/Development/League Manager/Classes/League_ManagerAppDelegate.m"
+s313766501.098441
+e313766501.172573
+r1
+xAnalyze
+x/Users/rwarner/Development/League Manager/Classes/League_ManagerAppDelegate.m
+lSLF07#2@85"Analyze /Users/rwarner/Development/League Manager/Classes/League_ManagerAppDelegate.m313766501#313766501#0(0"0(0#0#77"/Users/rwarner/Development/League Manager/Classes/League_ManagerAppDelegate.m8631424096#2168"    cd "/Users/rwarner/Development/League Manager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-generated-files.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-own-target-headers.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-all-target-headers.hmap" -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-project-headers.hmap" "-F/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator" "-I/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/include" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources/i386" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources" -include /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/League_Manager_Prefix-dhfymnwlxxpckhcoowqsxoafmnly/League_Manager_Prefix.pch --analyze "/Users/rwarner/Development/League Manager/Classes/League_ManagerAppDelegate.m" -o "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/StaticAnalyzer/normal/i386/League_ManagerAppDelegate.plist"0#
+
+CAnalyze "/Users/rwarner/Development/League Manager/Classes/PlayerListViewController.m"
+s313766501.201940
+e313766501.270325
+r1
+xAnalyze
+x/Users/rwarner/Development/League Manager/Classes/PlayerListViewController.m
+lSLF07#2@84"Analyze /Users/rwarner/Development/League Manager/Classes/PlayerListViewController.m313766501#313766501#0(0"0(0#0#76"/Users/rwarner/Development/League Manager/Classes/PlayerListViewController.m8642543392#2166"    cd "/Users/rwarner/Development/League Manager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-generated-files.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-own-target-headers.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-all-target-headers.hmap" -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-project-headers.hmap" "-F/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator" "-I/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/include" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources/i386" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources" -include /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/League_Manager_Prefix-dhfymnwlxxpckhcoowqsxoafmnly/League_Manager_Prefix.pch --analyze "/Users/rwarner/Development/League Manager/Classes/PlayerListViewController.m" -o "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/StaticAnalyzer/normal/i386/PlayerListViewController.plist"0#
+
+CAnalyze "/Users/rwarner/Development/League Manager/Classes/PlayerViewController.m"
+s313766501.219917
+e313766501.282555
+r1
+xAnalyze
+x/Users/rwarner/Development/League Manager/Classes/PlayerViewController.m
+lSLF07#2@80"Analyze /Users/rwarner/Development/League Manager/Classes/PlayerViewController.m313766501#313766501#0(0"0(0#0#72"/Users/rwarner/Development/League Manager/Classes/PlayerViewController.m8637092768#2158"    cd "/Users/rwarner/Development/League Manager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-generated-files.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-own-target-headers.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-all-target-headers.hmap" -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-project-headers.hmap" "-F/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator" "-I/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/include" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources/i386" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources" -include /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/League_Manager_Prefix-dhfymnwlxxpckhcoowqsxoafmnly/League_Manager_Prefix.pch --analyze "/Users/rwarner/Development/League Manager/Classes/PlayerViewController.m" -o "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/StaticAnalyzer/normal/i386/PlayerViewController.plist"0#
+
+CAnalyze "/Users/rwarner/Development/League Manager/Classes/RootViewController.m"
+s313766501.145043
+e313766501.219782
+r1
+xAnalyze
+x/Users/rwarner/Development/League Manager/Classes/RootViewController.m
+lSLF07#2@78"Analyze /Users/rwarner/Development/League Manager/Classes/RootViewController.m313766501#313766501#0(0"0(0#0#70"/Users/rwarner/Development/League Manager/Classes/RootViewController.m8617148480#2154"    cd "/Users/rwarner/Development/League Manager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-generated-files.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-own-target-headers.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-all-target-headers.hmap" -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-project-headers.hmap" "-F/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator" "-I/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/include" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources/i386" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources" -include /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/League_Manager_Prefix-dhfymnwlxxpckhcoowqsxoafmnly/League_Manager_Prefix.pch --analyze "/Users/rwarner/Development/League Manager/Classes/RootViewController.m" -o "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/StaticAnalyzer/normal/i386/RootViewController.plist"0#
+
+CAnalyze "/Users/rwarner/Development/League Manager/Classes/TeamViewController.m"
+s313766501.172710
+e313766501.244605
+r1
+xAnalyze
+x/Users/rwarner/Development/League Manager/Classes/TeamViewController.m
+lSLF07#2@78"Analyze /Users/rwarner/Development/League Manager/Classes/TeamViewController.m313766501#313766501#0(0"0(0#0#70"/Users/rwarner/Development/League Manager/Classes/TeamViewController.m8645131776#2154"    cd "/Users/rwarner/Development/League Manager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-generated-files.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-own-target-headers.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-all-target-headers.hmap" -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-project-headers.hmap" "-F/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator" "-I/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/include" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources/i386" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources" -include /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/League_Manager_Prefix-dhfymnwlxxpckhcoowqsxoafmnly/League_Manager_Prefix.pch --analyze "/Users/rwarner/Development/League Manager/Classes/TeamViewController.m" -o "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/StaticAnalyzer/normal/i386/TeamViewController.plist"0#
+
+CAnalyze "/Users/rwarner/Development/League Manager/main.m"
+s313766501.065429
+e313766501.144923
+r1
+xAnalyze
+x/Users/rwarner/Development/League Manager/main.m
+lSLF07#2@56"Analyze /Users/rwarner/Development/League Manager/main.m313766501#313766501#0(0"0(0#0#48"/Users/rwarner/Development/League Manager/main.m8634325504#2118"    cd "/Users/rwarner/Development/League Manager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-generated-files.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-own-target-headers.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-all-target-headers.hmap" -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-project-headers.hmap" "-F/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator" "-I/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/include" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources/i386" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources" -include /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/League_Manager_Prefix-dhfymnwlxxpckhcoowqsxoafmnly/League_Manager_Prefix.pch --analyze "/Users/rwarner/Development/League Manager/main.m" -o "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/StaticAnalyzer/normal/i386/main.plist"0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies313768083#313768083#0(0"0(0#1#0"8643636352#0"0#
+
+CCompileC "build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/CustomStore.o" "/Users/rwarner/Development/League Manager/Classes/CustomStore.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s313766501.058161
+e313766501.285837
+r1
+xCompileC
+xbuild/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/CustomStore.o
+x/Users/rwarner/Development/League Manager/Classes/CustomStore.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/rwarner/Development/League Manager/Classes/CustomStore.m313766501#313766501#0(0"0(0#0#63"/Users/rwarner/Development/League Manager/Classes/CustomStore.m8634995904#2131"    cd "/Users/rwarner/Development/League Manager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-generated-files.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-own-target-headers.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-all-target-headers.hmap" -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-project-headers.hmap" "-F/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator" "-I/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/include" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources/i386" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources" -include /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/League_Manager_Prefix-dngsccplcfohspbpmdvafxptujzv/League_Manager_Prefix.pch -c "/Users/rwarner/Development/League Manager/Classes/CustomStore.m" -o "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/CustomStore.o"0#
+
+CCompileC "build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/League_ManagerAppDelegate.o" "/Users/rwarner/Development/League Manager/Classes/League_ManagerAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s313767626.721610
+e313767626.836502
+r1
+xCompileC
+xbuild/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/League_ManagerAppDelegate.o
+x/Users/rwarner/Development/League Manager/Classes/League_ManagerAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/rwarner/Development/League Manager/Classes/League_ManagerAppDelegate.m313767626#313767626#0(0"0(0#0#77"/Users/rwarner/Development/League Manager/Classes/League_ManagerAppDelegate.m8635425152#2159"    cd "/Users/rwarner/Development/League Manager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-generated-files.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-own-target-headers.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-all-target-headers.hmap" -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-project-headers.hmap" "-F/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator" "-I/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/include" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources/i386" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources" -include /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/League_Manager_Prefix-dngsccplcfohspbpmdvafxptujzv/League_Manager_Prefix.pch -c "/Users/rwarner/Development/League Manager/Classes/League_ManagerAppDelegate.m" -o "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/League_ManagerAppDelegate.o"0#
+
+CCompileC "build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/PlayerListViewController.o" "/Users/rwarner/Development/League Manager/Classes/PlayerListViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s313766500.941679
+e313766501.098295
+r1
+xCompileC
+xbuild/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/PlayerListViewController.o
+x/Users/rwarner/Development/League Manager/Classes/PlayerListViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/rwarner/Development/League Manager/Classes/PlayerListViewController.m313766500#313766501#0(0"0(0#0#76"/Users/rwarner/Development/League Manager/Classes/PlayerListViewController.m8642868448#2157"    cd "/Users/rwarner/Development/League Manager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-generated-files.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-own-target-headers.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-all-target-headers.hmap" -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-project-headers.hmap" "-F/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator" "-I/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/include" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources/i386" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources" -include /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/League_Manager_Prefix-dngsccplcfohspbpmdvafxptujzv/League_Manager_Prefix.pch -c "/Users/rwarner/Development/League Manager/Classes/PlayerListViewController.m" -o "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/PlayerListViewController.o"0#
+
+CCompileC "build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/PlayerViewController.o" "/Users/rwarner/Development/League Manager/Classes/PlayerViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s313766501.025777
+e313766501.201808
+r1
+xCompileC
+xbuild/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/PlayerViewController.o
+x/Users/rwarner/Development/League Manager/Classes/PlayerViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/rwarner/Development/League Manager/Classes/PlayerViewController.m313766501#313766501#0(0"0(0#0#72"/Users/rwarner/Development/League Manager/Classes/PlayerViewController.m8636356160#2149"    cd "/Users/rwarner/Development/League Manager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-generated-files.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-own-target-headers.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-all-target-headers.hmap" -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-project-headers.hmap" "-F/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator" "-I/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/include" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources/i386" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources" -include /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/League_Manager_Prefix-dngsccplcfohspbpmdvafxptujzv/League_Manager_Prefix.pch -c "/Users/rwarner/Development/League Manager/Classes/PlayerViewController.m" -o "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/PlayerViewController.o"0#
+
+CCompileC "build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/RootViewController.o" "/Users/rwarner/Development/League Manager/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s313766500.872267
+e313766501.058016
+r1
+xCompileC
+xbuild/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/RootViewController.o
+x/Users/rwarner/Development/League Manager/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/rwarner/Development/League Manager/Classes/RootViewController.m313766500#313766501#0(0"0(0#0#70"/Users/rwarner/Development/League Manager/Classes/RootViewController.m8645352480#2145"    cd "/Users/rwarner/Development/League Manager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-generated-files.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-own-target-headers.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-all-target-headers.hmap" -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-project-headers.hmap" "-F/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator" "-I/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/include" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources/i386" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources" -include /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/League_Manager_Prefix-dngsccplcfohspbpmdvafxptujzv/League_Manager_Prefix.pch -c "/Users/rwarner/Development/League Manager/Classes/RootViewController.m" -o "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/RootViewController.o"0#
+
+CCompileC "build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/TeamViewController.o" "/Users/rwarner/Development/League Manager/Classes/TeamViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s313766500.939274
+e313766501.064157
+r1
+xCompileC
+xbuild/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/TeamViewController.o
+x/Users/rwarner/Development/League Manager/Classes/TeamViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/rwarner/Development/League Manager/Classes/TeamViewController.m313766500#313766501#0(0"0(0#0#70"/Users/rwarner/Development/League Manager/Classes/TeamViewController.m8643704256#2145"    cd "/Users/rwarner/Development/League Manager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-generated-files.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-own-target-headers.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-all-target-headers.hmap" -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-project-headers.hmap" "-F/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator" "-I/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/include" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources/i386" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources" -include /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/League_Manager_Prefix-dngsccplcfohspbpmdvafxptujzv/League_Manager_Prefix.pch -c "/Users/rwarner/Development/League Manager/Classes/TeamViewController.m" -o "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/TeamViewController.o"0#
+
+CCompileC "build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/main.o" "/Users/rwarner/Development/League Manager/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s313766500.869653
+e313766500.938963
+r1
+xCompileC
+xbuild/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/main.o
+x/Users/rwarner/Development/League Manager/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/rwarner/Development/League Manager/main.m313766500#313766500#0(0"0(0#0#48"/Users/rwarner/Development/League Manager/main.m8628063456#2109"    cd "/Users/rwarner/Development/League Manager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-generated-files.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-own-target-headers.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-all-target-headers.hmap" -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-project-headers.hmap" "-F/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator" "-I/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/include" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources/i386" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources" -include /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/League_Manager_Prefix-dngsccplcfohspbpmdvafxptujzv/League_Manager_Prefix.pch -c "/Users/rwarner/Development/League Manager/main.m" -o "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/rwarner/Development/League Manager/Classes/PlayerListViewController.xib"
+s313672848.343862
+e313672848.683907
+r1
+xCompileXIB
+x/Users/rwarner/Development/League Manager/Classes/PlayerListViewController.xib
+lSLF07#2@47"CompileXIB Classes/PlayerListViewController.xib313672848#313672848#0(0"0(0#0#78"/Users/rwarner/Development/League Manager/Classes/PlayerListViewController.xib8616920640#628"    cd "/Users/rwarner/Development/League Manager"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/PlayerListViewController.nib" "/Users/rwarner/Development/League Manager/Classes/PlayerListViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/rwarner/Development/League Manager/Classes/PlayerViewController.xib"
+s313766499.441630
+e313766500.088735
+r1
+xCompileXIB
+x/Users/rwarner/Development/League Manager/Classes/PlayerViewController.xib
+lSLF07#2@43"CompileXIB Classes/PlayerViewController.xib313766499#313766500#0(0"0(0#0#74"/Users/rwarner/Development/League Manager/Classes/PlayerViewController.xib8634341024#620"    cd "/Users/rwarner/Development/League Manager"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/PlayerViewController.nib" "/Users/rwarner/Development/League Manager/Classes/PlayerViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/rwarner/Development/League Manager/Classes/TeamViewController.xib"
+s313766499.440405
+e313766500.051289
+r1
+xCompileXIB
+x/Users/rwarner/Development/League Manager/Classes/TeamViewController.xib
+lSLF07#2@41"CompileXIB Classes/TeamViewController.xib313766499#313766500#0(0"0(0#0#72"/Users/rwarner/Development/League Manager/Classes/TeamViewController.xib8634450784#616"    cd "/Users/rwarner/Development/League Manager"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/TeamViewController.nib" "/Users/rwarner/Development/League Manager/Classes/TeamViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/rwarner/Development/League Manager/MainWindow.xib"
+s313766499.438691
+e313766500.039178
+r1
+xCompileXIB
+x/Users/rwarner/Development/League Manager/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib313766499#313766500#0(0"0(0#0#56"/Users/rwarner/Development/League Manager/MainWindow.xib8635402688#592"    cd "/Users/rwarner/Development/League Manager"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/MainWindow.nib" "/Users/rwarner/Development/League Manager/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/rwarner/Development/League Manager/RootViewController.xib"
+s313766499.439652
+e313766500.025656
+r1
+xCompileXIB
+x/Users/rwarner/Development/League Manager/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib313766499#313766500#0(0"0(0#0#64"/Users/rwarner/Development/League Manager/RootViewController.xib8635065600#608"    cd "/Users/rwarner/Development/League Manager"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/RootViewController.nib" "/Users/rwarner/Development/League Manager/RootViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CDataModelVersionCompile "/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/League_Manager.momd" "/Users/rwarner/Development/League Manager/League_Manager.xcdatamodeld"
+s313766500.868590
+e313766500.941541
+r1
+xDataModelVersionCompile
+x/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/League_Manager.momd
+x/Users/rwarner/Development/League Manager/League_Manager.xcdatamodeld
+lSLF07#2@120"DataModelVersionCompile "build/Debug-iphonesimulator/League Manager.app/League_Manager.momd" League_Manager.xcdatamodeld313766500#313766500#0(0"0(0#0#69"/Users/rwarner/Development/League Manager/League_Manager.xcdatamodeld8643501824#422"    cd "/Users/rwarner/Development/League Manager"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 "/Users/rwarner/Development/League Manager/League_Manager.xcdatamodeld" "/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/League_Manager.momd"0#
+
+CGenerateDSYMFile "/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app.dSYM" "/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/League Manager"
+s313767626.863144
+e313767626.884056
+r1
+xGenerateDSYMFile
+x/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app.dSYM
+x/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/League Manager
+lSLF07#2@134"GenerateDSYMFile "build/Debug-iphonesimulator/League Manager.app.dSYM" "build/Debug-iphonesimulator/League Manager.app/League Manager"313767626#313767626#0(0"0(0#0#103"/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/League Manager8637199392#419"    cd "/Users/rwarner/Development/League Manager"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/League Manager" -o "/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app.dSYM"0#
+
+CLd "/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/League Manager" normal i386
+s313767626.836592
+e313767626.863051
+r1
+xLd
+x/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/League Manager
+xnormal
+xi386
+lSLF07#2@108"Link /Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/League Manager313767626#313767626#0(0"0(0#0#0"8642086112#980"    cd "/Users/rwarner/Development/League Manager"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator" "-F/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator" -filelist "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/Objects-normal/i386/League Manager.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o "/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/League Manager"0#
+
+CProcessInfoPlistFile "/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/Info.plist" League_Manager-Info.plist
+s313766499.434426
+e313766499.438574
+r1
+xProcessInfoPlistFile
+x/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/Info.plist
+xLeague_Manager-Info.plist
+lSLF07#2@33"Process League_Manager-Info.plist313766499#313766499#0(0"0(0#0#67"/Users/rwarner/Development/League Manager/League_Manager-Info.plist8636331360#515"    cd "/Users/rwarner/Development/League Manager"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility League_Manager-Info.plist -genpkginfo "/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app/Info.plist"0#
+
+CProcessPCH /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/League_Manager_Prefix-dhfymnwlxxpckhcoowqsxoafmnly/League_Manager_Prefix.pch.pth League_Manager_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s313764579.809742
+e313764580.132698
+r1
+xProcessPCH
+x/var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/League_Manager_Prefix-dhfymnwlxxpckhcoowqsxoafmnly/League_Manager_Prefix.pch.pth
+xLeague_Manager_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@36"Precompile League_Manager_Prefix.pch313764579#313764580#0(0"0(0#0#67"/Users/rwarner/Development/League Manager/League_Manager_Prefix.pch8637054144#1980"    cd "/Users/rwarner/Development/League Manager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-generated-files.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-own-target-headers.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-all-target-headers.hmap" -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-project-headers.hmap" "-F/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator" "-I/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/include" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources/i386" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources" -c "/Users/rwarner/Development/League Manager/League_Manager_Prefix.pch" -o /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/League_Manager_Prefix-dhfymnwlxxpckhcoowqsxoafmnly/League_Manager_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/League_Manager_Prefix-dngsccplcfohspbpmdvafxptujzv/League_Manager_Prefix.pch.gch League_Manager_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s313766500.088899
+e313766500.868444
+r1
+xProcessPCH
+x/var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/League_Manager_Prefix-dngsccplcfohspbpmdvafxptujzv/League_Manager_Prefix.pch.gch
+xLeague_Manager_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile League_Manager_Prefix.pch313766500#313766500#0(0"0(0#0#67"/Users/rwarner/Development/League Manager/League_Manager_Prefix.pch8642814208#1989"    cd "/Users/rwarner/Development/League Manager"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-generated-files.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-own-target-headers.hmap" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-all-target-headers.hmap" -iquote "/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/League Manager-project-headers.hmap" "-F/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator" "-I/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/include" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources/i386" "-I/Users/rwarner/Development/League Manager/build/League Manager.build/Debug-iphonesimulator/League Manager.build/DerivedSources" -c "/Users/rwarner/Development/League Manager/League_Manager_Prefix.pch" -o /var/folders/BH/BH8WYjcEEe83WtmVA42-M++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/League_Manager_Prefix-dngsccplcfohspbpmdvafxptujzv/League_Manager_Prefix.pch.gch0#
+
+CTouch "/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app"
+s313767626.884152
+e313767626.886305
+r1
+xTouch
+x/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app
+lSLF07#2@94"Touch /Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app313767626#313767626#0(0"0(0#0#0"8635367264#295"    cd "/Users/rwarner/Development/League Manager"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/rwarner/Development/League Manager/build/Debug-iphonesimulator/League Manager.app"0#
+

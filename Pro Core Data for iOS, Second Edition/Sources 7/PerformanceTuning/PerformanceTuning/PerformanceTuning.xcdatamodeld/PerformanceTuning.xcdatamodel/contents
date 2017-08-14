@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="851" systemVersion="11C26" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Actor" representedClassName="Actor">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
+        <relationship name="movies" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Movie" inverseName="actors" inverseEntity="Movie"/>
+    </entity>
+    <entity name="Movie">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
+        <relationship name="actors" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Actor" inverseName="movies" inverseEntity="Actor"/>
+        <relationship name="studios" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Studio" inverseName="movies" inverseEntity="Studio"/>
+    </entity>
+    <entity name="Studio" representedClassName="NSManagedObject">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
+        <relationship name="movies" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Movie" inverseName="studios" inverseEntity="Movie"/>
+    </entity>
+    <elements>
+        <element name="Actor" positionX="99" positionY="216" width="128" height="90"/>
+        <element name="Movie" positionX="270" positionY="63" width="128" height="105"/>
+        <element name="Studio" positionX="430" positionY="225" width="128" height="90"/>
+    </elements>
+</model>

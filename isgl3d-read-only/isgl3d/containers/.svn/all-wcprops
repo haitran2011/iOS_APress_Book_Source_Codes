@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/126/trunk/isgl3d/containers
+END
+Isgl3dScene3D.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/88/trunk/isgl3d/containers/Isgl3dScene3D.h
+END
+Isgl3dBillboardNode.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/94/trunk/isgl3d/containers/Isgl3dBillboardNode.m
+END
+Isgl3dNode.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/126/trunk/isgl3d/containers/Isgl3dNode.h
+END
+Isgl3dMeshNode.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/124/trunk/isgl3d/containers/Isgl3dMeshNode.m
+END
+Isgl3dFollowNode.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/58/trunk/isgl3d/containers/Isgl3dFollowNode.h
+END
+Isgl3dParticleNode.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/58/trunk/isgl3d/containers/Isgl3dParticleNode.h
+END
+Isgl3dScene3D.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/58/trunk/isgl3d/containers/Isgl3dScene3D.m
+END
+Isgl3dNode.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/126/trunk/isgl3d/containers/Isgl3dNode.m
+END
+Isgl3dFollowNode.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/62/trunk/isgl3d/containers/Isgl3dFollowNode.m
+END
+Isgl3dParticleNode.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/124/trunk/isgl3d/containers/Isgl3dParticleNode.m
+END
+Isgl3dBillboardNode.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/77/trunk/isgl3d/containers/Isgl3dBillboardNode.h
+END
+Isgl3dMeshNode.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/62/trunk/isgl3d/containers/Isgl3dMeshNode.h
+END

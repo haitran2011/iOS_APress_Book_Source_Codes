@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C1C6EDA13E7787300C7D21A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1C6ED913E7787300C7D21A /* UIKit.framework */; };
+		4C1C6EDC13E7787300C7D21A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1C6EDB13E7787300C7D21A /* Foundation.framework */; };
+		4C1C6EDE13E7787300C7D21A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1C6EDD13E7787300C7D21A /* CoreGraphics.framework */; };
+		4C1C6EE413E7787300C7D21A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C1C6EE213E7787300C7D21A /* InfoPlist.strings */; };
+		4C1C6EE613E7787300C7D21A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1C6EE513E7787300C7D21A /* main.m */; };
+		4C1C6EEA13E7787300C7D21A /* PerformanceTuningAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1C6EE913E7787300C7D21A /* PerformanceTuningAppDelegate.m */; };
+		4C1C6EED13E7787300C7D21A /* PerformanceTuningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1C6EEC13E7787300C7D21A /* PerformanceTuningViewController.m */; };
+		4C1C6EF013E7787300C7D21A /* PerformanceTuningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C1C6EEE13E7787300C7D21A /* PerformanceTuningViewController.xib */; };
+		4C1C6EF713E7795C00C7D21A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1C6EF613E7795C00C7D21A /* CoreData.framework */; };
+		4C1C6EFA13E77A8000C7D21A /* PerformanceTuning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C1C6EF813E77A8000C7D21A /* PerformanceTuning.xcdatamodeld */; };
+		4C1C6EFE13E77EF400C7D21A /* FetchAllMoviesActorsAndStudiosTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1C6EFD13E77EF400C7D21A /* FetchAllMoviesActorsAndStudiosTest.m */; };
+		4C1C6F0413E780F700C7D21A /* Actor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1C6F0313E780F700C7D21A /* Actor.m */; };
+		4C1C6F0713E7815200C7D21A /* DidTurnIntoFaultTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1C6F0613E7815200C7D21A /* DidTurnIntoFaultTest.m */; };
+		4C1C6F0A13E782EF00C7D21A /* SinglyFiringFaultTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1C6F0913E782EF00C7D21A /* SinglyFiringFaultTest.m */; };
+		4C1C6F0D13E783AF00C7D21A /* PreFetchFaultingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1C6F0C13E783AF00C7D21A /* PreFetchFaultingTest.m */; };
+		4C1C6F1013E7843700C7D21A /* CacheTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1C6F0F13E7843700C7D21A /* CacheTest.m */; };
+		4C1C6F1313E784E500C7D21A /* UniquingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1C6F1213E784E500C7D21A /* UniquingTest.m */; };
+		4C29539713E787C600C757D5 /* PredicatePerformanceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C29539613E787C600C757D5 /* PredicatePerformanceTest.m */; };
+		4C29539B13E788A700C757D5 /* SubqueryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C29539A13E788A700C757D5 /* SubqueryTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C1C6ED513E7787300C7D21A /* PerformanceTuning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerformanceTuning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1C6ED913E7787300C7D21A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C1C6EDB13E7787300C7D21A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C1C6EDD13E7787300C7D21A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C1C6EE113E7787300C7D21A /* PerformanceTuning-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PerformanceTuning-Info.plist"; sourceTree = "<group>"; };
+		4C1C6EE313E7787300C7D21A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C1C6EE513E7787300C7D21A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C1C6EE713E7787300C7D21A /* PerformanceTuning-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PerformanceTuning-Prefix.pch"; sourceTree = "<group>"; };
+		4C1C6EE813E7787300C7D21A /* PerformanceTuningAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerformanceTuningAppDelegate.h; sourceTree = "<group>"; };
+		4C1C6EE913E7787300C7D21A /* PerformanceTuningAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerformanceTuningAppDelegate.m; sourceTree = "<group>"; };
+		4C1C6EEB13E7787300C7D21A /* PerformanceTuningViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerformanceTuningViewController.h; sourceTree = "<group>"; };
+		4C1C6EEC13E7787300C7D21A /* PerformanceTuningViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerformanceTuningViewController.m; sourceTree = "<group>"; };
+		4C1C6EEF13E7787300C7D21A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PerformanceTuningViewController.xib; sourceTree = "<group>"; };
+		4C1C6EF613E7795C00C7D21A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4C1C6EF913E77A8000C7D21A /* PerformanceTuning.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PerformanceTuning.xcdatamodel; sourceTree = "<group>"; };
+		4C1C6EFB13E77EB100C7D21A /* PerformanceTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceTest.h; sourceTree = "<group>"; };
+		4C1C6EFC13E77EF400C7D21A /* FetchAllMoviesActorsAndStudiosTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchAllMoviesActorsAndStudiosTest.h; sourceTree = "<group>"; };
+		4C1C6EFD13E77EF400C7D21A /* FetchAllMoviesActorsAndStudiosTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchAllMoviesActorsAndStudiosTest.m; sourceTree = "<group>"; };
+		4C1C6F0213E780F700C7D21A /* Actor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Actor.h; sourceTree = "<group>"; };
+		4C1C6F0313E780F700C7D21A /* Actor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Actor.m; sourceTree = "<group>"; };
+		4C1C6F0513E7815200C7D21A /* DidTurnIntoFaultTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DidTurnIntoFaultTest.h; sourceTree = "<group>"; };
+		4C1C6F0613E7815200C7D21A /* DidTurnIntoFaultTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DidTurnIntoFaultTest.m; sourceTree = "<group>"; };
+		4C1C6F0813E782EF00C7D21A /* SinglyFiringFaultTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglyFiringFaultTest.h; sourceTree = "<group>"; };
+		4C1C6F0913E782EF00C7D21A /* SinglyFiringFaultTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglyFiringFaultTest.m; sourceTree = "<group>"; };
+		4C1C6F0B13E783AF00C7D21A /* PreFetchFaultingTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreFetchFaultingTest.h; sourceTree = "<group>"; };
+		4C1C6F0C13E783AF00C7D21A /* PreFetchFaultingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreFetchFaultingTest.m; sourceTree = "<group>"; };
+		4C1C6F0E13E7843700C7D21A /* CacheTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheTest.h; sourceTree = "<group>"; };
+		4C1C6F0F13E7843700C7D21A /* CacheTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheTest.m; sourceTree = "<group>"; };
+		4C1C6F1113E784E500C7D21A /* UniquingTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniquingTest.h; sourceTree = "<group>"; };
+		4C1C6F1213E784E500C7D21A /* UniquingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniquingTest.m; sourceTree = "<group>"; };
+		4C29539513E787C600C757D5 /* PredicatePerformanceTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PredicatePerformanceTest.h; sourceTree = "<group>"; };
+		4C29539613E787C600C757D5 /* PredicatePerformanceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PredicatePerformanceTest.m; sourceTree = "<group>"; };
+		4C29539913E788A700C757D5 /* SubqueryTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubqueryTest.h; sourceTree = "<group>"; };
+		4C29539A13E788A700C757D5 /* SubqueryTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubqueryTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C1C6ED213E7787300C7D21A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1C6EF713E7795C00C7D21A /* CoreData.framework in Frameworks */,
+				4C1C6EDA13E7787300C7D21A /* UIKit.framework in Frameworks */,
+				4C1C6EDC13E7787300C7D21A /* Foundation.framework in Frameworks */,
+				4C1C6EDE13E7787300C7D21A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C1C6ECA13E7787300C7D21A = {
+			isa = PBXGroup;
+			children = (
+				4C1C6EF613E7795C00C7D21A /* CoreData.framework */,
+				4C1C6EDF13E7787300C7D21A /* PerformanceTuning */,
+				4C1C6ED813E7787300C7D21A /* Frameworks */,
+				4C1C6ED613E7787300C7D21A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C1C6ED613E7787300C7D21A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C1C6ED513E7787300C7D21A /* PerformanceTuning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C1C6ED813E7787300C7D21A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C1C6ED913E7787300C7D21A /* UIKit.framework */,
+				4C1C6EDB13E7787300C7D21A /* Foundation.framework */,
+				4C1C6EDD13E7787300C7D21A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C1C6EDF13E7787300C7D21A /* PerformanceTuning */ = {
+			isa = PBXGroup;
+			children = (
+				4C1C6EE813E7787300C7D21A /* PerformanceTuningAppDelegate.h */,
+				4C1C6EE913E7787300C7D21A /* PerformanceTuningAppDelegate.m */,
+				4C1C6EEB13E7787300C7D21A /* PerformanceTuningViewController.h */,
+				4C1C6EEC13E7787300C7D21A /* PerformanceTuningViewController.m */,
+				4C1C6EEE13E7787300C7D21A /* PerformanceTuningViewController.xib */,
+				4C1C6EFB13E77EB100C7D21A /* PerformanceTest.h */,
+				4C1C6EFC13E77EF400C7D21A /* FetchAllMoviesActorsAndStudiosTest.h */,
+				4C1C6EFD13E77EF400C7D21A /* FetchAllMoviesActorsAndStudiosTest.m */,
+				4C1C6EE013E7787300C7D21A /* Supporting Files */,
+				4C1C6EF813E77A8000C7D21A /* PerformanceTuning.xcdatamodeld */,
+				4C1C6F0213E780F700C7D21A /* Actor.h */,
+				4C1C6F0313E780F700C7D21A /* Actor.m */,
+				4C1C6F0513E7815200C7D21A /* DidTurnIntoFaultTest.h */,
+				4C1C6F0613E7815200C7D21A /* DidTurnIntoFaultTest.m */,
+				4C1C6F0813E782EF00C7D21A /* SinglyFiringFaultTest.h */,
+				4C1C6F0913E782EF00C7D21A /* SinglyFiringFaultTest.m */,
+				4C1C6F0B13E783AF00C7D21A /* PreFetchFaultingTest.h */,
+				4C1C6F0C13E783AF00C7D21A /* PreFetchFaultingTest.m */,
+				4C1C6F0E13E7843700C7D21A /* CacheTest.h */,
+				4C1C6F0F13E7843700C7D21A /* CacheTest.m */,
+				4C1C6F1113E784E500C7D21A /* UniquingTest.h */,
+				4C1C6F1213E784E500C7D21A /* UniquingTest.m */,
+				4C29539513E787C600C757D5 /* PredicatePerformanceTest.h */,
+				4C29539613E787C600C757D5 /* PredicatePerformanceTest.m */,
+				4C29539913E788A700C757D5 /* SubqueryTest.h */,
+				4C29539A13E788A700C757D5 /* SubqueryTest.m */,
+			);
+			path = PerformanceTuning;
+			sourceTree = "<group>";
+		};
+		4C1C6EE013E7787300C7D21A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C1C6EE113E7787300C7D21A /* PerformanceTuning-Info.plist */,
+				4C1C6EE213E7787300C7D21A /* InfoPlist.strings */,
+				4C1C6EE513E7787300C7D21A /* main.m */,
+				4C1C6EE713E7787300C7D21A /* PerformanceTuning-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C1C6ED413E7787300C7D21A /* PerformanceTuning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1C6EF313E7787300C7D21A /* Build configuration list for PBXNativeTarget "PerformanceTuning" */;
+			buildPhases = (
+				4C1C6ED113E7787300C7D21A /* Sources */,
+				4C1C6ED213E7787300C7D21A /* Frameworks */,
+				4C1C6ED313E7787300C7D21A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerformanceTuning;
+			productName = PerformanceTuning;
+			productReference = 4C1C6ED513E7787300C7D21A /* PerformanceTuning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C1C6ECC13E7787300C7D21A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Majorspot, Inc.";
+			};
+			buildConfigurationList = 4C1C6ECF13E7787300C7D21A /* Build configuration list for PBXProject "PerformanceTuning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C1C6ECA13E7787300C7D21A;
+			productRefGroup = 4C1C6ED613E7787300C7D21A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C1C6ED413E7787300C7D21A /* PerformanceTuning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C1C6ED313E7787300C7D21A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1C6EE413E7787300C7D21A /* InfoPlist.strings in Resources */,
+				4C1C6EF013E7787300C7D21A /* PerformanceTuningViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C1C6ED113E7787300C7D21A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1C6EE613E7787300C7D21A /* main.m in Sources */,
+				4C1C6EEA13E7787300C7D21A /* PerformanceTuningAppDelegate.m in Sources */,
+				4C1C6EED13E7787300C7D21A /* PerformanceTuningViewController.m in Sources */,
+				4C1C6EFA13E77A8000C7D21A /* PerformanceTuning.xcdatamodeld in Sources */,
+				4C1C6EFE13E77EF400C7D21A /* FetchAllMoviesActorsAndStudiosTest.m in Sources */,
+				4C1C6F0413E780F700C7D21A /* Actor.m in Sources */,
+				4C1C6F0713E7815200C7D21A /* DidTurnIntoFaultTest.m in Sources */,
+				4C1C6F0A13E782EF00C7D21A /* SinglyFiringFaultTest.m in Sources */,
+				4C1C6F0D13E783AF00C7D21A /* PreFetchFaultingTest.m in Sources */,
+				4C1C6F1013E7843700C7D21A /* CacheTest.m in Sources */,
+				4C1C6F1313E784E500C7D21A /* UniquingTest.m in Sources */,
+				4C29539713E787C600C757D5 /* PredicatePerformanceTest.m in Sources */,
+				4C29539B13E788A700C757D5 /* SubqueryTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C1C6EE213E7787300C7D21A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C1C6EE313E7787300C7D21A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C1C6EEE13E7787300C7D21A /* PerformanceTuningViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C1C6EEF13E7787300C7D21A /* en */,
+			);
+			name = PerformanceTuningViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C1C6EF113E7787300C7D21A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C1C6EF213E7787300C7D21A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C1C6EF413E7787300C7D21A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PerformanceTuning/PerformanceTuning-Prefix.pch";
+				INFOPLIST_FILE = "PerformanceTuning/PerformanceTuning-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C1C6EF513E7787300C7D21A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PerformanceTuning/PerformanceTuning-Prefix.pch";
+				INFOPLIST_FILE = "PerformanceTuning/PerformanceTuning-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C1C6ECF13E7787300C7D21A /* Build configuration list for PBXProject "PerformanceTuning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1C6EF113E7787300C7D21A /* Debug */,
+				4C1C6EF213E7787300C7D21A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1C6EF313E7787300C7D21A /* Build configuration list for PBXNativeTarget "PerformanceTuning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1C6EF413E7787300C7D21A /* Debug */,
+				4C1C6EF513E7787300C7D21A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4C1C6EF813E77A8000C7D21A /* PerformanceTuning.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C1C6EF913E77A8000C7D21A /* PerformanceTuning.xcdatamodel */,
+			);
+			currentVersion = 4C1C6EF913E77A8000C7D21A /* PerformanceTuning.xcdatamodel */;
+			path = PerformanceTuning.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4C1C6ECC13E7787300C7D21A /* Project object */;
+}

@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/94/trunk/isgl3d/primitives
+END
+Isgl3dCube.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/79/trunk/isgl3d/primitives/Isgl3dCube.m
+END
+Isgl3dCone.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/58/trunk/isgl3d/primitives/Isgl3dCone.h
+END
+Isgl3dEllipsoid.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/58/trunk/isgl3d/primitives/Isgl3dEllipsoid.h
+END
+Isgl3dOvoid.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/79/trunk/isgl3d/primitives/Isgl3dOvoid.m
+END
+Isgl3dCubeSphere.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/58/trunk/isgl3d/primitives/Isgl3dCubeSphere.h
+END
+Isgl3dTerrainMesh.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/79/trunk/isgl3d/primitives/Isgl3dTerrainMesh.m
+END
+Isgl3dSphere.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/58/trunk/isgl3d/primitives/Isgl3dSphere.h
+END
+Isgl3dEllipsoid.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/79/trunk/isgl3d/primitives/Isgl3dEllipsoid.m
+END
+Isgl3dCone.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/79/trunk/isgl3d/primitives/Isgl3dCone.m
+END
+Isgl3dArrow.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/58/trunk/isgl3d/primitives/Isgl3dArrow.h
+END
+Isgl3dCubeSphere.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/79/trunk/isgl3d/primitives/Isgl3dCubeSphere.m
+END
+Isgl3dSphere.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/79/trunk/isgl3d/primitives/Isgl3dSphere.m
+END
+Isgl3dGoursatSurface.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/58/trunk/isgl3d/primitives/Isgl3dGoursatSurface.h
+END
+Isgl3dPlane.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/58/trunk/isgl3d/primitives/Isgl3dPlane.h
+END
+Isgl3dArrow.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/79/trunk/isgl3d/primitives/Isgl3dArrow.m
+END
+Isgl3dPrimitiveFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/94/trunk/isgl3d/primitives/Isgl3dPrimitiveFactory.h
+END
+Isgl3dGoursatSurface.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/79/trunk/isgl3d/primitives/Isgl3dGoursatSurface.m
+END
+Isgl3dPlane.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/79/trunk/isgl3d/primitives/Isgl3dPlane.m
+END
+Isgl3dPrimitiveFactory.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/94/trunk/isgl3d/primitives/Isgl3dPrimitiveFactory.m
+END
+Isgl3dPrimitive.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/88/trunk/isgl3d/primitives/Isgl3dPrimitive.h
+END
+Isgl3dMultiMaterialCube.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/58/trunk/isgl3d/primitives/Isgl3dMultiMaterialCube.h
+END
+Isgl3dCylinder.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/88/trunk/isgl3d/primitives/Isgl3dCylinder.h
+END
+Isgl3dTorus.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/58/trunk/isgl3d/primitives/Isgl3dTorus.h
+END
+Isgl3dPrimitive.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/79/trunk/isgl3d/primitives/Isgl3dPrimitive.m
+END
+Isgl3dMultiMaterialCube.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/67/trunk/isgl3d/primitives/Isgl3dMultiMaterialCube.m
+END
+Isgl3dCylinder.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/58/trunk/isgl3d/primitives/Isgl3dCylinder.m
+END
+Isgl3dCube.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/58/trunk/isgl3d/primitives/Isgl3dCube.h
+END
+Isgl3dOvoid.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/58/trunk/isgl3d/primitives/Isgl3dOvoid.h
+END
+Isgl3dTorus.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/79/trunk/isgl3d/primitives/Isgl3dTorus.m
+END
+Isgl3dTerrainMesh.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/88/trunk/isgl3d/primitives/Isgl3dTerrainMesh.h
+END

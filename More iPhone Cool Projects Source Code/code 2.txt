@@ -1,0 +1,60 @@
+Sample code:
+------------
+
+- (void)applicationDidFinishLaunching:(UIApplication *)application { 
+	[[UIApplication sharedApplication] registerForRemoteNotificationTypes:UIRemoteNotificationTypeAlert|
+	UIRemoteNotificationTypeBadge|UIRemoteNotificationTypeSound];
+	
+	// other initialization code…
+}
+
+[[UIApplication sharedApplication] respondsToSelector: @selector(registerForRemoteNotificationTypes:)]
+
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken;
+
+- (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error;
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo;
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+	NSDictionary *remoteNotificationDictionary = [launchOptions objectForKey:@"UIApplicationLaunchOptionsRemoteNotificationKey"];
+	NSArray *infoArray = [remoteNotificationDictionary objectForKey:@"info"];
+	
+	// code to handle the push message information
+	
+	return TRUE;
+}
+
+JSON messages:
+--------------
+
+{
+	“action” : “push_settings”, 
+	“seq” : 12,
+	“parameters” : {
+		“push_destination” : “<DEVICE_TOKEN_HEX>”,
+		“push_type” : “iphone”,
+		“push_timeout” : “60”
+	}  
+}
+
+{
+	“aps” : {
+		“alert” : {
+			“action-loc-key” : “”,
+			“loc-key” : “AccountDisconnectedKey”,
+			“loc-args” : [ “MSN”, user@example.org ]
+		},
+		“sound” : “default”
+	}
+}
+
+{
+	“aps” : {
+		“alert” : {
+			“action-loc-key” : “”,
+			“loc-key” : “AllAccountsDisconnectedKey”,
+		},
+		“sound” : “default”
+	}
+}
